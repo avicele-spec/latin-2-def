@@ -5,7 +5,8 @@
     "capitoli_uno": "{{count}} chapter",
     "capitoli_altri": "{{count}} chapters",
     "continua": "Continue",
-    "inizia": "Start reading"
+    "inizia": "Start reading",
+    "impostazioni": "Settings"
   },
   "capitoli": {
     "capitolo": "Chapter {{numero}}",
@@ -15,7 +16,24 @@
   "lettura": {
     "riferimento": "Book {{libro}} · Ch. {{capitolo}} · §{{paragrafo}}",
     "paragrafo_precedente": "Previous paragraph",
-    "paragrafo_successivo": "Next paragraph"
+    "paragrafo_successivo": "Next paragraph",
+    "traduzione_bottone": "Translation"
+  },
+  "traduzione": {
+    "titolo": "Translation",
+    "a_fronte": "Side by side",
+    "solo_traduzione": "Translation only",
+    "paragrafo": "§ {{numero}}"
+  },
+  "impostazioni": {
+    "titolo": "Settings",
+    "lingua": "Language",
+    "dimensione_testo": "Text size",
+    "piccolo": "Small",
+    "medio": "Medium",
+    "grande": "Large",
+    "mostra_parole_consultate": "Mark already-checked words",
+    "mostra_parole_consultate_nota": "A small discreet dot next to words you've already tapped."
   },
   "popup": {
     "categoria_sostantivo": "Noun",

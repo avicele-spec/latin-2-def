@@ -12,21 +12,29 @@ modificare struttura dati, contenuti o interfaccia, leggilo.
 
 Il documento di specifica originale (visione completa, fasi 1-6) resta il
 riferimento di lungo periodo; qui sotto sono registrate le decisioni prese
-nel primo checkpoint (Fase 1 + Fase 2) e ciò che ancora manca.
+nei checkpoint completati finora e ciò che ancora manca.
 
 ## Stato del progetto
 
-Costruito finora: Fase 1 (fondamenta) e Fase 2 (esperienza di lettura),
-insieme in un unico checkpoint. Libreria → Capitoli → Lettura funzionano,
-con parole tappabili e popup completo sulle prime 5 frasi del capitolo 1 del
-*De Brevitate Vitae* di Seneca (84 lemmi, 94 forme, 110 occorrenze, IT/EN/ES).
+Costruito finora:
+- **Fase 1+2** (fondamenta + esperienza di lettura). Libreria → Capitoli →
+  Lettura, parole tappabili, popup completo, sulle prime 5 frasi del
+  capitolo 1 del *De Brevitate Vitae* di Seneca (84 lemmi, 94 forme, 110
+  occorrenze, IT/EN/ES).
+- **Fase 3** (traduzione e impostazioni). `TranslationScreen` con modalità
+  "a fronte" e "solo traduzione", si apre posizionata sul paragrafo che si
+  stava leggendo, toccare un paragrafo torna al testo latino corrispondente.
+  `SettingsScreen` con lingua (cambia interfaccia e contenuti insieme, come
+  richiesto) e dimensione del testo, entrambe realmente funzionanti; toggle
+  "segna le parole consultate". **Il selettore di tema (chiaro/scuro/
+  seppia) non è incluso**: il documento originale elenca "temi" sotto Fase 6
+  (rifinitura), non Fase 3 ("impostazioni con cambio *lingua* funzionante"),
+  e ogni componente oggi importa `TEMI.chiaro` come costante di modulo — per
+  renderlo davvero cambiabile serve prima il refactor a tema reattivo
+  descritto sotto "Prossimi passi". Aggiungere un selettore che non cambia
+  nulla sarebbe stato peggio che non aggiungerlo.
 
 Non ancora costruito (fasi successive, da riprendere una alla volta):
-- **Fase 3** — vista di traduzione integrale (a fronte / solo traduzione,
-  posizionata sul paragrafo corrente), schermata Impostazioni con cambio
-  lingua/tema/dimensione testo *funzionante* (i dati sono già letti/scritti
-  in SQLite e il tema scuro/seppia è già definito in `src/theme/tokens.ts`,
-  ma l'interfaccia per cambiarli non esiste ancora).
 - **Fase 4** — editor delle personalizzazioni (override su lemma/forma/
   occorrenza), indicatori "modificato", ripristino, import/export JSON. Le
   tabelle SQLite (`overrides`) e le funzioni di lettura/scrittura
@@ -38,7 +46,12 @@ Non ancora costruito (fasi successive, da riprendere una alla volta):
   capitoli lunghi, **auto-corsivo delle citazioni tra apici** nel testo di
   etimologia/discendenti (vedi sezione apposita più sotto), icona app e
   splash artwork dedicati (per ora solo i colori sono personalizzati, le
-  immagini sono ancora il placeholder di default di Expo).
+  immagini sono ancora il placeholder di default di Expo), e il
+  **refactor a tema reattivo** (`useTema()` al posto di `TEMI.chiaro`
+  importato come costante in ogni schermata/componente — tocca circa 9
+  file: tutte le schermate, `ParagraphNav`, `WordToken`, `ParagraphLine`,
+  `WordPopupSheet`, `PopupSection`, `RootNavigator`) prima di poter
+  collegare il selettore scuro/seppia già presente in `SettingsScreen`.
 
 ## Decisioni tecniche prese (e perché)
 
@@ -102,6 +115,20 @@ Non ancora costruito (fasi successive, da riprendere una alla volta):
    implementato: se in una fase successiva serve, va costruito un backdrop
    "parziale" fatto a mano (solo sotto la parola visibile), non quello di
    libreria.
+9. **Una scrittura SQLite non deve mai bloccare un effetto già visibile.**
+   Bug reale trovato verificando la Fase 3: `impostaLingua` faceva
+   `set({lingua}); await scriviImpostazione(...); await
+   i18n.changeLanguage(...)` — sul target web, dove `expo-sqlite` non
+   c'è, `scriviImpostazione` rifiuta e `i18n.changeLanguage` non veniva mai
+   chiamato: lo stato interno cambiava (la spunta si spostava) ma
+   l'interfaccia restava nella lingua sbagliata. Stesso pattern nel
+   pulsante "salva nel vocabolario". Regola per ogni azione futura che
+   scrive in SQLite: prima applica tutto ciò che ha effetto visibile
+   (`set(...)`, `i18n.changeLanguage(...)`, ecc.), *poi* prova a
+   persistere in un `try/catch` che al massimo logga un avviso — mai
+   `await` diretto su una scrittura DB prima di un effetto che l'utente
+   deve vedere subito. Vedi `salvaSenzaBloccare` in
+   `src/store/useSettingsStore.ts`.
 
 ## Modello dati
 
@@ -183,7 +210,8 @@ corretta da qui in avanti in `src/data/content/dizionario.json`,
 ```
 src/
   navigation/     RootNavigator (native-stack) + tipi delle route
-  screens/        LibraryScreen, ChaptersScreen, ReadingScreen
+  screens/        LibraryScreen, ChaptersScreen, ReadingScreen,
+                  TranslationScreen, SettingsScreen
   components/
     reading/      WordToken, ParagraphLine, ParagraphNav
     popup/        WordPopupSheet (bottom sheet), PopupSection
@@ -218,3 +246,8 @@ diverse. Aggiungi una riga breve ad ogni richiesta importante, con la data.
 - 2026-09-07 — Generazione iniziale dell'app (Fase 1+2) a partire dal
   documento di specifica, ricostruendo da zero in Expo/React Native al posto
   dell'app web precedente. Vedi le decisioni tecniche sopra.
+- 2026-09-07 — "Continua con le cose che mancano": costruita la Fase 3
+  (traduzione integrale + impostazioni con lingua e dimensione testo
+  funzionanti). Tema scuro/seppia rimandato a Fase 6 per il motivo spiegato
+  sopra. Trovato e corretto un bug reale (scrittura SQLite che bloccava un
+  cambio lingua) — vedi decisione tecnica 9.

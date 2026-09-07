@@ -5,7 +5,8 @@
     "capitoli_uno": "{{count}} capítulo",
     "capitoli_altri": "{{count}} capítulos",
     "continua": "Continuar",
-    "inizia": "Empezar a leer"
+    "inizia": "Empezar a leer",
+    "impostazioni": "Ajustes"
   },
   "capitoli": {
     "capitolo": "Capítulo {{numero}}",
@@ -15,7 +16,24 @@
   "lettura": {
     "riferimento": "Libro {{libro}} · Cap. {{capitolo}} · § {{paragrafo}}",
     "paragrafo_precedente": "Párrafo anterior",
-    "paragrafo_successivo": "Párrafo siguiente"
+    "paragrafo_successivo": "Párrafo siguiente",
+    "traduzione_bottone": "Traducción"
+  },
+  "traduzione": {
+    "titolo": "Traducción",
+    "a_fronte": "En paralelo",
+    "solo_traduzione": "Solo traducción",
+    "paragrafo": "§ {{numero}}"
+  },
+  "impostazioni": {
+    "titolo": "Ajustes",
+    "lingua": "Idioma",
+    "dimensione_testo": "Tamaño del texto",
+    "piccolo": "Pequeño",
+    "medio": "Mediano",
+    "grande": "Grande",
+    "mostra_parole_consultate": "Marcar las palabras ya consultadas",
+    "mostra_parole_consultate_nota": "Un pequeño punto discreto junto a las palabras que ya has tocado."
   },
   "popup": {
     "categoria_sostantivo": "Sustantivo",

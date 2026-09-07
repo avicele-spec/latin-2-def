@@ -14,7 +14,7 @@ import { MisuraParola } from '../components/reading/WordToken';
 import ParagraphNav from '../components/reading/ParagraphNav';
 import WordPopupSheet, { WordPopupSheetRef, ALTEZZA_MASSIMA_POPUP } from '../components/popup/WordPopupSheet';
 import { Occorrenza } from '../types/content';
-import { TEMI, FONT, SCALA_TESTO, SPAZIATURA } from '../theme/tokens';
+import { TEMI, FONT, SCALA_TESTO, SPAZIATURA, RAGGIO } from '../theme/tokens';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Lettura'>;
 
@@ -57,7 +57,7 @@ export default function ReadingScreen({ route, navigation }: Props) {
       }
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [operaSlug, libro, capitolo]);
+  }, [operaSlug, libro, capitolo, paragrafo]);
 
   useEffect(() => {
     const paragrafoCorrente = paragrafi[indice];
@@ -94,9 +94,26 @@ export default function ReadingScreen({ route, navigation }: Props) {
   return (
     <View style={styles.contenitore}>
       <View style={[styles.intestazione, { paddingTop: insets.top + SPAZIATURA.sm }]}>
-        <Pressable onPress={() => navigation.goBack()} style={styles.pulsanteIndietro}>
-          <Text style={styles.testoIndietro}>‹ {testoConFallback(opera.titolo, lingua)}</Text>
-        </Pressable>
+        <View style={styles.intestazioneRiga}>
+          <Pressable onPress={() => navigation.goBack()} style={styles.pulsanteIndietro}>
+            <Text style={styles.testoIndietro} numberOfLines={1}>
+              ‹ {testoConFallback(opera.titolo, lingua)}
+            </Text>
+          </Pressable>
+          <Pressable
+            onPress={() =>
+              navigation.navigate('Traduzione', {
+                operaSlug,
+                libro,
+                capitolo,
+                paragrafoIniziale: paragrafoCorrente?.numero ?? 1,
+              })
+            }
+            style={styles.pulsanteTraduzione}
+          >
+            <Text style={styles.testoTraduzione}>{t('lettura.traduzione_bottone')}</Text>
+          </Pressable>
+        </View>
         <Text style={styles.riferimento}>
           {t('lettura.riferimento', { libro, capitolo, paragrafo: paragrafoCorrente?.numero ?? '' })}
         </Text>
@@ -145,8 +162,17 @@ const styles = StyleSheet.create({
     borderBottomColor: tema.bordo,
     backgroundColor: tema.sfondo,
   },
-  pulsanteIndietro: { alignSelf: 'flex-start', marginBottom: 6 },
+  intestazioneRiga: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 6 },
+  pulsanteIndietro: { flexShrink: 1, marginRight: SPAZIATURA.sm },
   testoIndietro: { fontFamily: FONT.sans, fontSize: 14, color: tema.accento },
+  pulsanteTraduzione: {
+    paddingVertical: 4,
+    paddingHorizontal: SPAZIATURA.sm,
+    borderRadius: RAGGIO.pillola,
+    borderWidth: 1,
+    borderColor: tema.bordo,
+  },
+  testoTraduzione: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue },
   riferimento: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue, letterSpacing: 0.4 },
   corpo: { flex: 1 },
   corpoContenuto: { paddingHorizontal: SPAZIATURA.lg, paddingVertical: SPAZIATURA.lg, paddingBottom: SPAZIATURA.xxl },
