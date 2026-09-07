@@ -1,0 +1,2385 @@
+{
+  "slug": "de-brevitate-vitae",
+  "titolo": {
+    "it": "De Brevitate Vitae (Della brevità della vita)",
+    "en": "De Brevitate Vitae (On the Shortness of Life)",
+    "es": "De Brevitate Vitae (Sobre la brevedad de la vida)"
+  },
+  "autore": {
+    "it": "Lucio Anneo Seneca",
+    "en": "Seneca (Lucius Annaeus Seneca)",
+    "es": "Lucio Anneo Séneca"
+  },
+  "libri": [
+    {
+      "numero": 1,
+      "capitoli": [
+        {
+          "numero": 1,
+          "paragrafi": [
+            {
+              "numero": 1,
+              "testo": [
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w1",
+                  "forma_id": "maior_maior",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "maggiore (concorda con \"pars\": \"la maggior parte\").",
+                    "en": "greater (agrees with \"pars\": \"the greater part\").",
+                    "es": "mayor (concuerda con \"pars\": \"la mayor parte\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 1
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w2",
+                  "forma_id": "pars_pars",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "la parte, soggetto di \"conqueritur\".",
+                    "en": "the part, subject of \"conqueritur\".",
+                    "es": "la parte, sujeto de \"conqueritur\"."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 2
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w3",
+                  "forma_id": "mortalis_mortalium",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "dei mortali (\"maior pars mortalium\": \"la maggior parte dei mortali\").",
+                    "en": "of mortals (\"maior pars mortalium\": \"the greater part of mortals\").",
+                    "es": "de los mortales (\"maior pars mortalium\": \"la mayor parte de los mortales\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 3
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w4",
+                  "forma_id": "paulinus_pauline",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "o Paolino (il destinatario dell'opera, a cui Seneca si rivolge direttamente).",
+                    "en": "Paulinus (the dedicatee of the work, whom Seneca addresses directly).",
+                    "es": "Paulino (el destinatario de la obra, a quien Séneca se dirige directamente)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 4
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w5",
+                  "forma_id": "de_de",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "riguardo a, della.",
+                    "en": "about, concerning.",
+                    "es": "acerca de, sobre."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 5
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w6",
+                  "forma_id": "natura_naturae",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "della natura.",
+                    "en": "of nature.",
+                    "es": "de la naturaleza."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 6
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w7",
+                  "forma_id": "malignitas_malignitate",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "della malvagità (\"de naturae malignitate\": \"della malvagità della natura\").",
+                    "en": "the stinginess (\"de naturae malignitate\": \"about the stinginess of nature\").",
+                    "es": "la mezquindad (\"de naturae malignitate\": \"sobre la mezquindad de la naturaleza\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 7
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w8",
+                  "forma_id": "conqueror_conqueritur",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "si lamenta (apre il trattato).",
+                    "en": "complains (opens the treatise).",
+                    "es": "se queja (abre el tratado)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 8
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w9",
+                  "forma_id": "qui_quod",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "perché, del fatto che (introduce il contenuto della lamentela).",
+                    "en": "that, because (introduces the content of the complaint).",
+                    "es": "de que, porque (introduce el contenido de la queja)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 9
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w10",
+                  "forma_id": "in_in",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "per, entro.",
+                    "en": "for, within.",
+                    "es": "para, dentro de."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 10
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w11",
+                  "forma_id": "exiguus_exiguum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "una porzione scarsa (\"in exiguum aevi\": \"per un breve arco di vita\", con genitivo partitivo).",
+                    "en": "a scanty portion (\"in exiguum aevi\": \"for a brief span of life\", with partitive genitive).",
+                    "es": "una porción escasa (\"in exiguum aevi\": \"por un breve lapso de vida\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 11
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w12",
+                  "forma_id": "aevum_aevi",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "di vita, di tempo di vita (genitivo partitivo retto da \"exiguum\").",
+                    "en": "of life, of lifespan (partitive genitive governed by \"exiguum\").",
+                    "es": "de vida (genitivo partitivo regido por \"exiguum\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 12
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w13",
+                  "forma_id": "gigno_gignimur",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "nasciamo (lett. \"siamo generati\").",
+                    "en": "we are born (lit. \"we are begotten\").",
+                    "es": "nacemos (lit. \"somos engendrados\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 13
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w14",
+                  "forma_id": "qui_quod",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "perché (seconda causale, coordinata alla precedente).",
+                    "en": "because (second causal clause, coordinated with the previous one).",
+                    "es": "porque (segunda causal, coordinada con la anterior)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 14
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w15",
+                  "forma_id": "hic_haec",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "questi (concorda con \"spatia\").",
+                    "en": "these (agrees with \"spatia\").",
+                    "es": "estos (concuerda con \"spatia\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 15
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w16",
+                  "forma_id": "tam_tam",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "così, tanto (correlato con il secondo \"tam\" poco dopo).",
+                    "en": "so, as (correlated with the second \"tam\" shortly after).",
+                    "es": "tan (correlacionado con el segundo \"tam\" poco después)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 16
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w17",
+                  "forma_id": "velox_velociter",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "velocemente.",
+                    "en": "swiftly.",
+                    "es": "velozmente."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 17
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w18",
+                  "forma_id": "tam_tam",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "così, tanto.",
+                    "en": "so.",
+                    "es": "tan."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 18
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w19",
+                  "forma_id": "rapidus_rapide",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "rapidamente.",
+                    "en": "rapidly.",
+                    "es": "rápidamente."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 19
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w20",
+                  "forma_id": "do_dati",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "dati, concessi (concorda con \"spatia\").",
+                    "en": "given, granted (agrees with \"spatia\").",
+                    "es": "dados, concedidos (concuerda con \"spatia\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 20
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w21",
+                  "forma_id": "nos_nobis",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "a noi.",
+                    "en": "to us.",
+                    "es": "a nosotros."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 21
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w22",
+                  "forma_id": "tempus_temporis",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "del tempo.",
+                    "en": "of time.",
+                    "es": "de tiempo."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 22
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w23",
+                  "forma_id": "spatium_spatia",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "gli spazi, gli intervalli (soggetto di \"decurrant\").",
+                    "en": "the spans, the intervals (subject of \"decurrant\").",
+                    "es": "los espacios, los intervalos (sujeto de \"decurrant\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 23
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w24",
+                  "forma_id": "decurro_decurrant",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "trascorrano, scorrano via.",
+                    "en": "run out, slip away.",
+                    "es": "transcurran, se escapen."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 24
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w25",
+                  "forma_id": "adeo_adeo",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "a tal punto (introduce la conseguenza con \"ut\").",
+                    "en": "to such a degree (introduces the result clause with \"ut\").",
+                    "es": "hasta tal punto (introduce la consecutiva con \"ut\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 25
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w26",
+                  "forma_id": "ut_ut",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "che (introduce la proposizione consecutiva).",
+                    "en": "that (introduces the result clause).",
+                    "es": "que (introduce la oración consecutiva)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 26
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w27",
+                  "forma_id": "excipio_exceptis",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "eccettuati, esclusi.",
+                    "en": "except, excluded.",
+                    "es": "exceptuados, excluidos."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 27
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w28",
+                  "forma_id": "admodum_admodum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "del tutto, veramente (rafforza \"paucis\").",
+                    "en": "quite, truly (reinforces \"paucis\").",
+                    "es": "del todo, realmente (refuerza \"paucis\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 28
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w29",
+                  "forma_id": "paucus_paucis",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "pochi (\"exceptis admodum paucis\": \"salvo pochissime eccezioni\").",
+                    "en": "few (\"exceptis admodum paucis\": \"save for very few exceptions\").",
+                    "es": "pocos (\"exceptis admodum paucis\": \"salvo poquísimas excepciones\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 29
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w30",
+                  "forma_id": "ceteri_ceteros",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "gli altri, i restanti (oggetto di \"destituat\").",
+                    "en": "the rest, the others (object of \"destituat\").",
+                    "es": "los demás, los restantes (objeto de \"destituat\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 30
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w31",
+                  "forma_id": "in_in",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "in, durante.",
+                    "en": "in, during.",
+                    "es": "en, durante."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 31
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w32",
+                  "forma_id": "ipse_ipso",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "proprio, stesso (rafforza \"apparatu\").",
+                    "en": "very, itself (reinforces \"apparatu\").",
+                    "es": "propio, mismo (refuerza \"apparatu\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 32
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w33",
+                  "forma_id": "vita_vitae",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "della vita.",
+                    "en": "of life.",
+                    "es": "de la vida."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 33
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w34",
+                  "forma_id": "apparatus_apparatu",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "nell'allestimento, nei preparativi (\"in ipso vitae apparatu\": \"proprio nei preparativi per vivere\").",
+                    "en": "in the preparation (\"in ipso vitae apparatu\": \"in the very preparations for living\").",
+                    "es": "en el preparativo (\"in ipso vitae apparatu\": \"justo en los preparativos para vivir\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 34
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w35",
+                  "forma_id": "vita_vita",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "la vita (soggetto di \"destituat\").",
+                    "en": "life (subject of \"destituat\").",
+                    "es": "la vida (sujeto de \"destituat\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 35
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_1_w36",
+                  "forma_id": "destituo_destituat",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "abbandona (chiude il periodo iniziale).",
+                    "en": "abandons (closes the opening period).",
+                    "es": "abandona (cierra el periodo inicial)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 1,
+                    "indice_parola": 36
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": "."
+                }
+              ],
+              "traduzione_integrale": {
+                "it": "La maggior parte dei mortali, o Paolino, si lamenta della malvagità della natura, perché nasciamo per un breve tratto di vita, perché questi spazi di tempo a noi concessi trascorrono così velocemente, così rapidamente, al punto che, salvo pochissime eccezioni, la vita abbandona gli altri proprio mentre si preparano a vivere.",
+                "en": "The greater part of mortals, Paulinus, complain of the spitefulness of nature, because we are born for a brief span of life, because these spans of time granted to us pass by so swiftly, so rapidly, that — save for very few exceptions — life abandons the rest of us just as we are preparing to live.",
+                "es": "La mayor parte de los mortales, Paulino, se queja de la mezquindad de la naturaleza, porque nacemos para un breve lapso de vida, porque estos espacios de tiempo que se nos han concedido transcurren tan veloz, tan rápidamente, que, salvo poquísimas excepciones, la vida abandona a los demás justo en los preparativos mismos para vivir."
+              }
+            },
+            {
+              "numero": 2,
+              "testo": [
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w37",
+                  "forma_id": "nec_nec",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "e non.",
+                    "en": "and not.",
+                    "es": "y no."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 37
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w38",
+                  "forma_id": "hic_huic",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "di questo (concorda con \"malo\").",
+                    "en": "of this (agrees with \"malo\").",
+                    "es": "de este (concuerda con \"malo\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 38
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w39",
+                  "forma_id": "publicus_publico",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "pubblico (\"huic publico... malo\": \"di questo male pubblico\").",
+                    "en": "public (\"huic publico... malo\": \"of this public evil\").",
+                    "es": "público (\"huic publico... malo\": \"de este mal público\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 39
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w40",
+                  "forma_id": "ut_ut",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "come.",
+                    "en": "as.",
+                    "es": "como."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 40
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w41",
+                  "forma_id": "opinor_opinantur",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "credono, sono del parere.",
+                    "en": "they believe, they are of the opinion.",
+                    "es": "creen, son de la opinión."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 41
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w42",
+                  "forma_id": "malum_malo",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "male (retto da \"ingemuit\": \"si è lamentato di questo male\").",
+                    "en": "evil (governed by \"ingemuit\": \"lamented over this evil\").",
+                    "es": "mal (regido por \"ingemuit\": \"se lamentó de este mal\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 42
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w43",
+                  "forma_id": "turba_turba",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "la folla (primo soggetto di \"ingemuit\").",
+                    "en": "the crowd (first subject of \"ingemuit\").",
+                    "es": "la muchedumbre (primer sujeto de \"ingemuit\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 43
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w44",
+                  "forma_id": "tantum_tantum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "soltanto.",
+                    "en": "only.",
+                    "es": "solamente."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 44
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w45",
+                  "forma_id": "et_et",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "e.",
+                    "en": "and.",
+                    "es": "y."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 45
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w46",
+                  "forma_id": "imprudens_imprudens",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "sconsiderato (concorda con \"vulgus\").",
+                    "en": "unwitting (agrees with \"vulgus\").",
+                    "es": "inconsciente (concuerda con \"vulgus\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 46
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w47",
+                  "forma_id": "vulgus_vulgus",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "il volgo (secondo soggetto di \"ingemuit\").",
+                    "en": "the common people (second subject of \"ingemuit\").",
+                    "es": "el vulgo (segundo sujeto de \"ingemuit\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 47
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w48",
+                  "forma_id": "ingemo_ingemuit",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "si è lamentato (concorda al singolare col soggetto più vicino, \"vulgus\").",
+                    "en": "lamented (agrees in the singular with the nearer subject, \"vulgus\").",
+                    "es": "se lamentó (concuerda en singular con el sujeto más cercano, \"vulgus\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 48
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": "; "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w49",
+                  "forma_id": "clarus_clarorum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "illustri, famosi (concorda con \"virorum\").",
+                    "en": "illustrious, famous (agrees with \"virorum\").",
+                    "es": "ilustres, famosos (concuerda con \"virorum\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 49
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w50",
+                  "forma_id": "quoque_quoque",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "anche.",
+                    "en": "also.",
+                    "es": "también."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 50
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w51",
+                  "forma_id": "vir_virorum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "di uomini (\"clarorum... virorum\": \"di uomini illustri\").",
+                    "en": "of men (\"clarorum... virorum\": \"of illustrious men\").",
+                    "es": "de hombres (\"clarorum... virorum\": \"de hombres ilustres\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 51
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w52",
+                  "forma_id": "hic_hic",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "questo (concorda con \"affectus\").",
+                    "en": "this (agrees with \"affectus\").",
+                    "es": "este (concuerda con \"affectus\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 52
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w53",
+                  "forma_id": "affectus_affectus",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "il sentimento (soggetto di \"evocavit\").",
+                    "en": "the feeling (subject of \"evocavit\").",
+                    "es": "el sentimiento (sujeto de \"evocavit\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 53
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w54",
+                  "forma_id": "querella_querellas",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "lamentele (oggetto di \"evocavit\").",
+                    "en": "complaints (object of \"evocavit\").",
+                    "es": "quejas (objeto de \"evocavit\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 54
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_2_w55",
+                  "forma_id": "evoco_evocavit",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "ha provocato, ha suscitato (chiude la frase: anche i saggi si sono lamentati).",
+                    "en": "has provoked, has stirred up (closes the sentence: even wise men have complained).",
+                    "es": "ha provocado, ha suscitado (cierra la frase: hasta los sabios se han quejado)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 2,
+                    "indice_parola": 55
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": "."
+                }
+              ],
+              "traduzione_integrale": {
+                "it": "E di questo male comune, come credono, non si è lamentata soltanto la folla, il volgo sconsiderato: questo stesso sentimento ha suscitato lamentele anche in uomini illustri.",
+                "en": "And it is not only the crowd, the unthinking common people, who have lamented over this public evil, as they believe; this same feeling has provoked complaints even from illustrious men.",
+                "es": "Y de este mal público, como creen, no se ha lamentado solo la muchedumbre, el vulgo inconsciente: este mismo sentimiento ha suscitado quejas también en hombres ilustres."
+              }
+            },
+            {
+              "numero": 3,
+              "testo": [
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w56",
+                  "forma_id": "inde_inde",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "da qui, quindi.",
+                    "en": "hence, from this.",
+                    "es": "de ahí."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 56
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w57",
+                  "forma_id": "sum_est",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "è, viene (\"inde est\": \"da qui viene\").",
+                    "en": "comes, is (\"inde est\": \"hence comes\").",
+                    "es": "viene, es (\"inde est\": \"de ahí viene\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 57
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w58",
+                  "forma_id": "magnus_maximi",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "del più grande.",
+                    "en": "of the greatest.",
+                    "es": "del más grande."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 58
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w59",
+                  "forma_id": "medicus_medicorum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "dei medici (\"maximi medicorum\": \"del più grande dei medici\", allusione a Ippocrate).",
+                    "en": "of physicians (\"maximi medicorum\": \"of the greatest of physicians\", an allusion to Hippocrates).",
+                    "es": "de los médicos (\"maximi medicorum\": \"del más grande de los médicos\", alusión a Hipócrates)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 59
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w60",
+                  "forma_id": "ille_illa",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "quella, celebre (concorda con \"exclamatio\").",
+                    "en": "that famous (agrees with \"exclamatio\").",
+                    "es": "aquella, célebre (concuerda con \"exclamatio\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 60
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w61",
+                  "forma_id": "exclamatio_exclamatio",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "l'esclamazione (soggetto di \"est\").",
+                    "en": "the exclamation (subject of \"est\").",
+                    "es": "la exclamación (sujeto de \"est\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 61
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ": '"
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w62",
+                  "forma_id": "vita_vitam",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "la vita (soggetto dell'infinitiva \"vitam... esse\").",
+                    "en": "life (subject of the infinitive clause \"vitam... esse\").",
+                    "es": "la vida (sujeto de la infinitiva \"vitam... esse\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 62
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w63",
+                  "forma_id": "brevis_brevem",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "breve (predicativo di \"vitam\").",
+                    "en": "short (predicate of \"vitam\").",
+                    "es": "breve (predicativo de \"vitam\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 63
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w64",
+                  "forma_id": "sum_esse",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "essere (\"vitam brevem esse\": \"che la vita è breve\").",
+                    "en": "to be (\"vitam brevem esse\": \"that life is short\").",
+                    "es": "ser (\"vitam brevem esse\": \"que la vida es breve\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 64
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w65",
+                  "forma_id": "longus_longam",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "lunga (predicativo di \"artem\", con \"esse\" sottinteso).",
+                    "en": "long (predicate of \"artem\", with \"esse\" implied).",
+                    "es": "larga (predicativo de \"artem\", con \"esse\" sobrentendido)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 65
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_3_w66",
+                  "forma_id": "ars_artem",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "l'arte, la tecnica (medica): \"longam artem\", \"che l'arte è lunga\".",
+                    "en": "art, (medical) skill: \"longam artem\", \"that art is long\".",
+                    "es": "el arte, la técnica (médica): \"longam artem\", \"que el arte es largo\"."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 3,
+                    "indice_parola": 66
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ".'"
+                }
+              ],
+              "traduzione_integrale": {
+                "it": "Da qui viene quella celebre esclamazione del più grande dei medici: «la vita è breve, l'arte è lunga».",
+                "en": "Hence comes that famous exclamation of the greatest of physicians: 'life is short, art is long.'",
+                "es": "De ahí viene aquella célebre exclamación del más grande de los médicos: «la vida es breve, el arte es largo»."
+              }
+            },
+            {
+              "numero": 4,
+              "testo": [
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w67",
+                  "forma_id": "inde_inde",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "da qui (introduce un secondo esempio celebre).",
+                    "en": "hence (introduces a second famous example).",
+                    "es": "de ahí (introduce un segundo ejemplo célebre)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 67
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w68",
+                  "forma_id": "aristoteles_aristotelis",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "di Aristotele.",
+                    "en": "of Aristotle.",
+                    "es": "de Aristóteles."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 68
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w69",
+                  "forma_id": "cum_cum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "con.",
+                    "en": "with.",
+                    "es": "con."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 69
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w70",
+                  "forma_id": "res_rerum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "delle cose (\"rerum natura\": \"la natura\", cioè la natura nel suo complesso).",
+                    "en": "of things (\"rerum natura\": \"nature\", i.e. nature as a whole).",
+                    "es": "de las cosas (\"rerum natura\": \"la naturaleza\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 70
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w71",
+                  "forma_id": "natura_natura",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "la natura (\"cum rerum natura\": \"con la natura\").",
+                    "en": "nature (\"cum rerum natura\": \"with nature\").",
+                    "es": "la naturaleza (\"cum rerum natura\": \"con la naturaleza\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 71
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w72",
+                  "forma_id": "exigens_exigentissima",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "durissima, esigentissima (concorda con \"lis\").",
+                    "en": "most exacting, harshest (agrees with \"lis\").",
+                    "es": "durísima, exigentísima (concuerda con \"lis\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 72
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w73",
+                  "forma_id": "lis_lis",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "la lite, la controversia (di Aristotele con la natura).",
+                    "en": "the dispute, the quarrel (Aristotle's, with nature).",
+                    "es": "el litigio, la disputa (de Aristóteles con la naturaleza)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 73
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w74",
+                  "forma_id": "indignus_indignissima",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "indegnissima (concorda con \"lis\").",
+                    "en": "most unworthy (agrees with \"lis\").",
+                    "es": "indignísima (concuerda con \"lis\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 74
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w75",
+                  "forma_id": "sapiens_sapienti",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "per un sapiente, per un saggio.",
+                    "en": "for a wise man.",
+                    "es": "para un sabio."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 75
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w76",
+                  "forma_id": "vir_viro",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "uomo (\"sapienti viro\": \"per un uomo saggio\", riferito ad Aristotele).",
+                    "en": "man (\"sapienti viro\": \"for a wise man\", referring to Aristotle).",
+                    "es": "hombre (\"sapienti viro\": \"para un hombre sabio\", referido a Aristóteles)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 76
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ": "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w77",
+                  "forma_id": "nego_negat",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "nega (soggetto sottinteso: Aristotele).",
+                    "en": "denies (implied subject: Aristotle).",
+                    "es": "niega (sujeto sobrentendido: Aristóteles)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 77
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w78",
+                  "forma_id": "aequus_aequum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "giusto, equo (predicativo dell'infinitiva).",
+                    "en": "fair, just (predicate of the infinitive clause).",
+                    "es": "justo, equo (predicativo de la infinitiva)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 78
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w79",
+                  "forma_id": "sum_esse",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "essere (\"negat aequum esse\": \"nega che sia giusto\").",
+                    "en": "to be (\"negat aequum esse\": \"denies that it is fair\").",
+                    "es": "ser (\"negat aequum esse\": \"niega que sea justo\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 79
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w80",
+                  "forma_id": "qui_quod",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "che (introduce il contenuto dell'ingiustizia lamentata).",
+                    "en": "that (introduces the content of the perceived injustice).",
+                    "es": "que (introduce el contenido de la injusticia denunciada)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 80
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w81",
+                  "forma_id": "animal_animalibus",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "agli animali (dativo di vantaggio, retto da \"concesserit\").",
+                    "en": "to animals (dative of advantage, governed by \"concesserit\").",
+                    "es": "a los animales (dativo de ventaja, regido por \"concesserit\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 81
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w82",
+                  "forma_id": "tam_tam",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "così.",
+                    "en": "so.",
+                    "es": "tan."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 82
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w83",
+                  "forma_id": "longus_longa",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "lunghi (concorda con \"spatia\").",
+                    "en": "long (agrees with \"spatia\").",
+                    "es": "largos (concuerda con \"spatia\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 83
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w84",
+                  "forma_id": "in_in",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "per, fino a.",
+                    "en": "for, up to.",
+                    "es": "para, hasta."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 84
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w85",
+                  "forma_id": "aevum_aevum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "la durata della vita (\"in aevum\": \"per la vita\").",
+                    "en": "a lifespan (\"in aevum\": \"for a lifetime\").",
+                    "es": "la duración de la vida (\"in aevum\": \"para toda la vida\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 85
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w86",
+                  "forma_id": "spatium_spatia",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "spazi, intervalli (oggetto di \"concesserit\").",
+                    "en": "spans, intervals (object of \"concesserit\").",
+                    "es": "espacios, intervalos (objeto de \"concesserit\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 86
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w87",
+                  "forma_id": "natura_natura",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "la natura (soggetto di \"concesserit\").",
+                    "en": "nature (subject of \"concesserit\").",
+                    "es": "la naturaleza (sujeto de \"concesserit\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 87
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w88",
+                  "forma_id": "concedo_concesserit",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "abbia concesso.",
+                    "en": "should have granted.",
+                    "es": "haya concedido."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 88
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w89",
+                  "forma_id": "ut_ut",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "tanto da, così che.",
+                    "en": "so as to, such that.",
+                    "es": "tanto como para, de modo que."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 89
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w90",
+                  "forma_id": "quini_quina",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "cinque ciascuno (concorda con \"saecula\").",
+                    "en": "five each (agrees with \"saecula\").",
+                    "es": "cinco cada uno (concuerda con \"saecula\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 90
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w91",
+                  "forma_id": "aut_aut",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "o.",
+                    "en": "or.",
+                    "es": "o."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 91
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w92",
+                  "forma_id": "deni_dena",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "dieci ciascuno (concorda con \"saecula\").",
+                    "en": "ten each (agrees with \"saecula\").",
+                    "es": "diez cada uno (concuerda con \"saecula\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 92
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w93",
+                  "forma_id": "saeculum_saecula",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "secoli, generazioni (oggetto di \"educerent\").",
+                    "en": "centuries, generations (object of \"educerent\").",
+                    "es": "siglos, generaciones (objeto de \"educerent\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 93
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w94",
+                  "forma_id": "educo_educerent",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "arrivassero a vivere, portassero a compimento quella durata.",
+                    "en": "should live out, should bring to completion that span.",
+                    "es": "llegaran a vivir, llevaran a término esa duración."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 94
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w95",
+                  "forma_id": "homo_homini",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "all'uomo (dativo di svantaggio, contrapposto ad \"animalibus\").",
+                    "en": "to man (dative of disadvantage, contrasted with \"animalibus\").",
+                    "es": "al hombre (dativo de desventaja, contrapuesto a \"animalibus\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 95
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w96",
+                  "forma_id": "tantus_tanto",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "tanto (rafforza il comparativo \"plura\": \"tanto più\").",
+                    "en": "so much (reinforces the comparative \"plura\": \"so much more\").",
+                    "es": "tanto (refuerza el comparativo \"plura\": \"tanto más\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 96
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w97",
+                  "forma_id": "plus_plura",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "più cose (oggetto di \"generanti\").",
+                    "en": "more things (object of \"generanti\").",
+                    "es": "más cosas (objeto de \"generanti\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 97
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w98",
+                  "forma_id": "genero_generanti",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "che genera, che produce (concorda con \"homini\").",
+                    "en": "who produces, who generates (agrees with \"homini\").",
+                    "es": "que engendra, que produce (concuerda con \"homini\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 98
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w99",
+                  "forma_id": "tam_tam",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "così.",
+                    "en": "so.",
+                    "es": "tan."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 99
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w100",
+                  "forma_id": "brevis_breves",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "brevi (concorda con \"fines\").",
+                    "en": "short (agrees with \"fines\").",
+                    "es": "breves (concuerda con \"fines\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 100
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w101",
+                  "forma_id": "ille_illa",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "essa (la natura, soggetto di \"figeret\").",
+                    "en": "she, it (nature, subject of \"figeret\").",
+                    "es": "ella (la naturaleza, sujeto de \"figeret\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 101
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w102",
+                  "forma_id": "finis_fines",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "confini, limiti (oggetto di \"figeret\").",
+                    "en": "boundaries, limits (object of \"figeret\").",
+                    "es": "confines, límites (objeto de \"figeret\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 102
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_4_w103",
+                  "forma_id": "figo_figeret",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "fissasse, ponesse (chiude il periodo su Aristotele).",
+                    "en": "should fix, should set (closes the period on Aristotle).",
+                    "es": "fijara, estableciera (cierra el periodo sobre Aristóteles)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 4,
+                    "indice_parola": 103
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": "."
+                }
+              ],
+              "traduzione_integrale": {
+                "it": "Da qui la controversia durissima di Aristotele con la natura, del tutto indegna per un uomo saggio: egli nega che sia giusto che la natura abbia concesso agli animali spazi di vita così lunghi da farli arrivare a vivere cinque o dieci secoli, mentre a un uomo, che genera tante più cose, essa fissa limiti così brevi.",
+                "en": "Hence Aristotle's most exacting quarrel with nature, one most unworthy of a wise man: he denies that it is fair that nature should have granted animals such long spans of life that they live out five or ten centuries, while to man, who produces so much more, she sets such brief limits.",
+                "es": "De ahí el litigio durísimo de Aristóteles con la naturaleza, indignísimo para un hombre sabio: niega que sea justo que la naturaleza haya concedido a los animales espacios de vida tan largos que lleguen a vivir cinco o diez siglos, mientras que al hombre, que engendra tantas más cosas, le fija límites tan breves."
+              }
+            },
+            {
+              "numero": 5,
+              "testo": [
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_5_w104",
+                  "forma_id": "non_non",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "non.",
+                    "en": "not.",
+                    "es": "no."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 5,
+                    "indice_parola": 104
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_5_w105",
+                  "forma_id": "exiguus_exiguum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "poco, scarso (\"non exiguum temporis\": \"non poco tempo\").",
+                    "en": "little, scanty (\"non exiguum temporis\": \"no small amount of time\").",
+                    "es": "poco, escaso (\"non exiguum temporis\": \"no poco tiempo\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 5,
+                    "indice_parola": 105
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_5_w106",
+                  "forma_id": "tempus_temporis",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "di tempo (genitivo partitivo retto da \"exiguum\").",
+                    "en": "of time (partitive genitive governed by \"exiguum\").",
+                    "es": "de tiempo (genitivo partitivo regido por \"exiguum\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 5,
+                    "indice_parola": 106
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_5_w107",
+                  "forma_id": "habeo_habemus",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "abbiamo.",
+                    "en": "we have.",
+                    "es": "tenemos."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 5,
+                    "indice_parola": 107
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": ", "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_5_w108",
+                  "forma_id": "sed_sed",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "ma.",
+                    "en": "but.",
+                    "es": "pero."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 5,
+                    "indice_parola": 108
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_5_w109",
+                  "forma_id": "multus_multum",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "molto (oggetto di \"perdidimus\").",
+                    "en": "much (object of \"perdidimus\").",
+                    "es": "mucho (objeto de \"perdidimus\")."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 5,
+                    "indice_parola": 109
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": " "
+                },
+                {
+                  "tipo": "parola",
+                  "occorrenza_id": "debrev_1_1_5_w110",
+                  "forma_id": "perdo_perdidimus",
+                  "analisi_scelta": 0,
+                  "traduzione_contestuale": {
+                    "it": "abbiamo perduto (chiude il capitolo con la tesi centrale dell'opera: non è il tempo a essere poco, siamo noi a sprecarlo).",
+                    "en": "we have lost (closes the chapter with the treatise's central thesis: it is not time that is short, it is we who waste it).",
+                    "es": "hemos perdido (cierra el capítulo con la tesis central de la obra: no es el tiempo el que es poco, somos nosotros quienes lo malgastamos)."
+                  },
+                  "posizione": {
+                    "libro": 1,
+                    "capitolo": 1,
+                    "paragrafo": 5,
+                    "indice_parola": 110
+                  }
+                },
+                {
+                  "tipo": "separatore",
+                  "testo": "."
+                }
+              ],
+              "traduzione_integrale": {
+                "it": "Non abbiamo poco tempo, ma ne abbiamo perduto molto.",
+                "en": "We do not have a short amount of time, but we have wasted much of it.",
+                "es": "No tenemos poco tiempo, sino que hemos perdido mucho."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

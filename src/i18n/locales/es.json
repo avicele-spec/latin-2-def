@@ -1,0 +1,47 @@
+{
+  "libreria": {
+    "titolo": "Lector",
+    "sottotitolo": "Textos latinos con apoyo interactivo a la lectura",
+    "capitoli_uno": "{{count}} capítulo",
+    "capitoli_altri": "{{count}} capítulos",
+    "continua": "Continuar",
+    "inizia": "Empezar a leer"
+  },
+  "capitoli": {
+    "capitolo": "Capítulo {{numero}}",
+    "paragrafi_uno": "{{count}} párrafo",
+    "paragrafi_altri": "{{count}} párrafos"
+  },
+  "lettura": {
+    "riferimento": "Libro {{libro}} · Cap. {{capitolo}} · § {{paragrafo}}",
+    "paragrafo_precedente": "Párrafo anterior",
+    "paragrafo_successivo": "Párrafo siguiente"
+  },
+  "popup": {
+    "categoria_sostantivo": "Sustantivo",
+    "categoria_aggettivo": "Adjetivo",
+    "categoria_verbo": "Verbo",
+    "categoria_verbo_deponente": "Verbo deponente",
+    "categoria_verbo_difettivo": "Verbo defectivo",
+    "categoria_avverbio": "Adverbio",
+    "categoria_preposizione": "Preposición",
+    "categoria_congiunzione": "Conjunción",
+    "categoria_pronome": "Pronombre",
+    "categoria_numerale": "Numeral",
+    "categoria_interiezione": "Interjección",
+    "categoria_nome_proprio": "Nombre propio",
+    "paradigma": "Paradigma",
+    "analisi_morfologica": "Análisis morfológico",
+    "traduzione": "Traducción",
+    "nota_sintattica": "Nota sintáctica",
+    "etimologia": "Etimología",
+    "discendenti": "Descendientes españoles",
+    "imparentate": "Palabras emparentadas en {{lingua}}",
+    "salva_vocabolario": "Guardar en el vocabulario",
+    "salvata": "Guardada",
+    "chiudi": "Cerrar"
+  },
+  "comune": {
+    "carica_errore": "No se pudo cargar el contenido."
+  }
+}

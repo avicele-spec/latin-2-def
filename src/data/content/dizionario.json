@@ -1,0 +1,4370 @@
+{
+  "adeo": {
+    "lemma_id": "adeo",
+    "lemma": "adeo",
+    "paradigma": "adeo",
+    "categoria": "avverbio",
+    "frequenza": 45,
+    "significati_base": {
+      "it": [
+        "a tal punto",
+        "così tanto",
+        "fino a questo punto"
+      ],
+      "en": [
+        "to such a degree",
+        "so much (that)"
+      ],
+      "es": [
+        "hasta tal punto",
+        "tanto (que)"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Avverbio 'a tal punto, così tanto', da ad- ('verso, fino a') + eo (nel senso di 'fino a quel punto', un uso avverbializzato del verbo 'andare'): letteralmente 'arrivando fino a questo punto'.",
+        "en": "Adverb 'to such a degree, so much', from ad- ('toward, up to') + eo (an adverbialized use of the verb 'to go'): literally 'going as far as this point'.",
+        "es": "Adverbio 'hasta tal punto, tanto', de ad- ('hacia, hasta') + eo (uso adverbializado del verbo 'ir'): literalmente 'llegando hasta este punto'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto in italiano."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [],
+        "nota": ""
+      }
+    }
+  },
+  "admodum": {
+    "lemma_id": "admodum",
+    "lemma": "admodum",
+    "paradigma": "admodum",
+    "categoria": "avverbio",
+    "frequenza": 60,
+    "significati_base": {
+      "it": [
+        "del tutto",
+        "veramente",
+        "molto"
+      ],
+      "en": [
+        "quite",
+        "altogether",
+        "very much"
+      ],
+      "es": [
+        "del todo",
+        "enteramente",
+        "muy"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Avverbio 'del tutto, veramente, molto', da ad- ('verso, secondo') + 'modum' (accusativo di 'modus', misura): letteralmente 'secondo la (giusta) misura', quindi 'pienamente, adeguatamente'.",
+        "en": "Adverb 'entirely, truly, very', from ad- ('according to') + 'modum' (accusative of 'modus', measure): literally 'according to the (right) measure', hence 'fully, adequately'.",
+        "es": "Adverbio 'del todo, realmente, muy', de ad- ('según') + 'modum' (acusativo de 'modus', medida): literalmente 'según la (justa) medida'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto in italiano."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [],
+        "nota": ""
+      }
+    }
+  },
+  "aequus": {
+    "lemma_id": "aequus",
+    "lemma": "aequus, -a, -um",
+    "paradigma": "aequus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 220,
+    "significati_base": {
+      "it": [
+        "uguale",
+        "pari",
+        "giusto",
+        "equo"
+      ],
+      "en": [
+        "equal",
+        "level",
+        "fair",
+        "just"
+      ],
+      "es": [
+        "igual",
+        "llano",
+        "justo",
+        "equitativo"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'uguale, pari, giusto, equo'. Etimologia ultima incerta.",
+        "en": "Adjective 'equal, level, fair, just'. Ultimate origin uncertain.",
+        "es": "Adjetivo 'igual, llano, justo, equitativo'. Etimología última incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "equo",
+          "equità",
+          "equanime",
+          "uguale"
+        ],
+        "nota": "'Equanime' è un composto, 'aequus' + 'animus', 'che ha l’animo in equilibrio'."
+      },
+      "en": {
+        "voci": [
+          "equity",
+          "equable",
+          "equanimous"
+        ],
+        "nota": "Inglese per prestito dotto, non per eredità diretta: l'inglese non ha una parola nativa che continua 'aequus'."
+      },
+      "es": {
+        "voci": [
+          "equidad",
+          "ecuánime"
+        ],
+        "nota": "'Igual' non discende direttamente da 'aequus' ma dal derivato 'aequalis' (stessa radice + suffisso -alis)."
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "aevum": {
+    "lemma_id": "aevum",
+    "lemma": "aevum, -i",
+    "paradigma": "aevum, -i",
+    "categoria": "sostantivo",
+    "frequenza": 90,
+    "significati_base": {
+      "it": [
+        "età",
+        "epoca",
+        "eternità"
+      ],
+      "en": [
+        "age",
+        "era",
+        "eternity"
+      ],
+      "es": [
+        "edad",
+        "época",
+        "eternidad"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'età, epoca, durata della vita, eternità'. Etimologia probabilmente legata a una radice indicante 'forza vitale, lunga durata' (la stessa area semantica di 'aetas', età, che ne è una forma abbreviata).",
+        "en": "Noun 'age, era, lifespan, eternity'. Probably related to a root indicating 'vital force, long duration' (the same semantic area as 'aetas', age, which is a shortened form of it).",
+        "es": "Sustantivo 'edad, época, duración de la vida, eternidad'. Probablemente ligado a una raíz que indica 'fuerza vital, larga duración' (la misma área semántica de 'aetas', edad, que es una forma abreviada de esta)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "evo"
+        ],
+        "nota": "Sopravvive per vie dotte in 'evo' (il Medioevo) e come suffisso in 'longevo' (vedi voce 'longus')."
+      },
+      "en": {
+        "voci": [
+          "medieval (via \"medium aevum\")"
+        ],
+        "nota": "L'inglese non eredita 'aevum' come parola autonoma, ma lo conserva dentro il composto dotto 'medi(a)eval'."
+      },
+      "es": {
+        "voci": [
+          "medieval (vía \"medium aevum\")"
+        ],
+        "nota": "Igual que en inglés, sobrevive sobre todo dentro del compuesto culto 'medieval'."
+      }
+    },
+    "coniugazione_declinazione": "2a declinazione (neutro)"
+  },
+  "affectus": {
+    "lemma_id": "affectus",
+    "lemma": "affectus, -us",
+    "paradigma": "affectus, -us",
+    "categoria": "sostantivo",
+    "frequenza": 130,
+    "significati_base": {
+      "it": [
+        "sentimento",
+        "passione",
+        "stato d’animo"
+      ],
+      "en": [
+        "feeling",
+        "passion",
+        "emotional state"
+      ],
+      "es": [
+        "sentimiento",
+        "pasión",
+        "estado de ánimo"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'sentimento, passione, stato d’animo', dal participio perfetto di 'afficio' (ad- + facio): un 'affectus' è, letteralmente, 'ciò che si prova quando si è stati colpiti' da qualcosa.",
+        "en": "Noun 'feeling, passion, state of mind', from the perfect participle of 'afficio' (ad- + facio): an 'affectus' is, literally, 'what one feels when affected' by something.",
+        "es": "Sustantivo 'sentimiento, pasión, estado de ánimo', del participio perfecto de 'afficio' (ad- + facio): un 'affectus' es, literalmente, 'lo que se siente al ser afectado' por algo."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "affetto"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "affect",
+          "affection"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "afecto"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "4a declinazione (maschile)"
+  },
+  "animal": {
+    "lemma_id": "animal",
+    "lemma": "animal, animalis",
+    "paradigma": "animal, animalis",
+    "categoria": "sostantivo",
+    "frequenza": 110,
+    "significati_base": {
+      "it": [
+        "animale",
+        "essere vivente"
+      ],
+      "en": [
+        "animal",
+        "living creature"
+      ],
+      "es": [
+        "animal",
+        "ser vivo"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'animale, essere vivente', da 'anima' (soffio vitale, imparentato con 'animus'): un 'animal' è, letteralmente, 'ciò che ha un’anima', cioè è vivo e senziente, in opposizione a ciò che è inanimato.",
+        "en": "Noun 'animal, living being', from 'anima' (vital breath, related to 'animus'): an 'animal' is, literally, 'that which has a soul (anima)', i.e. is alive and sentient, as opposed to what is inanimate.",
+        "es": "Sustantivo 'animal, ser vivo', de 'anima' (soplo vital, emparentado con 'animus'): un 'animal' es, literalmente, 'lo que tiene un alma', es decir, está vivo y es sensible, en oposición a lo inanimado."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "animale"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "animal"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "animal"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (neutro)"
+  },
+  "apparatus": {
+    "lemma_id": "apparatus",
+    "lemma": "apparatus, -us",
+    "paradigma": "apparatus, -us",
+    "categoria": "sostantivo",
+    "frequenza": 70,
+    "significati_base": {
+      "it": [
+        "preparativo",
+        "allestimento",
+        "apparato"
+      ],
+      "en": [
+        "preparation",
+        "equipment",
+        "display"
+      ],
+      "es": [
+        "preparativo",
+        "aparato",
+        "ostentación"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'preparativo, allestimento, apparato (anche militare)', da 'apparo' (ad- + paro, 'preparare') con il suffisso -tus: un 'apparatus' è, letteralmente, 'ciò che è stato preparato per' qualcosa, spesso con un’idea di sfarzo o complessità.",
+        "en": "Noun 'preparation, equipment, display (also military)', from 'apparo' (ad- + paro, 'to prepare') with the suffix -tus: an 'apparatus' is, literally, 'what has been prepared for' something, often with a sense of splendour or complexity.",
+        "es": "Sustantivo 'preparativo, equipamiento, aparato (también militar)', de 'apparo' (ad- + paro, 'preparar') con el sufijo -tus: un 'apparatus' es, literalmente, 'lo que se ha preparado para' algo, a menudo con una idea de esplendor o complejidad."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "apparato"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "apparatus"
+        ],
+        "nota": "Prestito dotto diretto, non un'evoluzione fonetica."
+      },
+      "es": {
+        "voci": [
+          "aparato"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "4a declinazione (maschile)"
+  },
+  "aristoteles": {
+    "lemma_id": "aristoteles",
+    "lemma": "Aristoteles, -is",
+    "paradigma": "Aristoteles, -is",
+    "categoria": "nome_proprio",
+    "frequenza": 15,
+    "significati_base": {
+      "it": [
+        "Aristotele"
+      ],
+      "en": [
+        "Aristotle"
+      ],
+      "es": [
+        "Aristóteles"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Nome proprio greco del celebre filosofo Aristotele (384-322 a.C. circa), allievo di Platone e poi precettore di Alessandro Magno, qui citato da Seneca come esempio di sapiente che si è lamentato della brevità della vita rispetto alla natura.",
+        "en": "Greek proper name of the celebrated philosopher Aristotle (c. 384-322 BC), a pupil of Plato and later tutor to Alexander the Great, cited here by Seneca as an example of a wise man who complained of nature's stinginess toward the length of life.",
+        "es": "Nombre propio griego del célebre filósofo Aristóteles (c. 384-322 a.C.), discípulo de Platón y después preceptor de Alejandro Magno, citado aquí por Séneca como ejemplo de sabio que se quejó de la brevedad de la vida frente a la naturaleza."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "Aristotele",
+          "aristotelico"
+        ],
+        "nota": "L’italiano 'Aristotele' è un prestito diretto dal greco, non un’evoluzione fonetica del latino."
+      },
+      "en": {
+        "voci": [
+          "Aristotle",
+          "Aristotelian"
+        ],
+        "nota": "'Aristotle' è un prestito diretto dal greco (attraverso il latino), non un'evoluzione fonetica regolare."
+      },
+      "es": {
+        "voci": [
+          "Aristóteles",
+          "aristotélico"
+        ],
+        "nota": "Igual que en italiano, préstamo directo del griego, no evolución fonética regular."
+      }
+    }
+  },
+  "ars": {
+    "lemma_id": "ars",
+    "lemma": "ars, artis",
+    "paradigma": "ars, artis",
+    "categoria": "sostantivo",
+    "frequenza": 260,
+    "significati_base": {
+      "it": [
+        "arte",
+        "tecnica",
+        "abilità"
+      ],
+      "en": [
+        "art",
+        "skill",
+        "craft"
+      ],
+      "es": [
+        "arte",
+        "técnica",
+        "habilidad"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'arte, tecnica, abilità, mestiere', imparentato con la stessa radice di 'artus' (giuntura, articolazione) nel senso di 'saper mettere insieme le cose secondo una tecnica'. Qui, nella celebre massima medica citata da Seneca, indica non l’arte in senso estetico ma la tecnica/scienza medica.",
+        "en": "Noun 'art, technique, skill, craft', related to the same root as 'artus' (joint, articulation), in the sense of 'knowing how to put things together according to a technique'. Here, in the famous medical maxim Seneca quotes, it indicates not art in the aesthetic sense but medical technique/science.",
+        "es": "Sustantivo 'arte, técnica, habilidad, oficio', emparentado con la misma raíz de 'artus' (articulación) en el sentido de 'saber ensamblar las cosas según una técnica'. Aquí, en la célebre máxima médica citada por Séneca, indica no el arte en sentido estético sino la técnica/ciencia médica."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "arte",
+          "artista",
+          "artigiano"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "art",
+          "artist",
+          "artisan"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "arte",
+          "artista",
+          "artesano"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (femminile)"
+  },
+  "aut": {
+    "lemma_id": "aut",
+    "lemma": "aut",
+    "paradigma": "aut",
+    "categoria": "congiunzione",
+    "frequenza": 700,
+    "significati_base": {
+      "it": [
+        "o",
+        "oppure"
+      ],
+      "en": [
+        "or"
+      ],
+      "es": [
+        "o"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Congiunzione disgiuntiva 'o, oppure'. Etimologia incerta.",
+        "en": "Disjunctive conjunction 'or'. Origin uncertain.",
+        "es": "Conjunción disyuntiva 'o'. Etimología incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "o"
+        ],
+        "nota": "Una delle evoluzioni fonetiche più drastiche del latino sopravvissuto in italiano: l’intera sillaba si è ridotta alla sola vocale 'o', pur mantenendo intatta la funzione grammaticale."
+      },
+      "en": {
+        "voci": [
+          "or (imparentato per via indoeuropea, non un prestito)"
+        ],
+        "nota": "L'inglese 'or' non discende da 'aut': è un cognato indoeuropeo indipendente, non un prestito latino."
+      },
+      "es": {
+        "voci": [
+          "o"
+        ],
+        "nota": "Come in italiano, l'intera sillaba si è ridotta alla sola vocale."
+      }
+    }
+  },
+  "brevis": {
+    "lemma_id": "brevis",
+    "lemma": "brevis, -e",
+    "paradigma": "brevis, -e",
+    "categoria": "aggettivo",
+    "frequenza": 240,
+    "significati_base": {
+      "it": [
+        "breve",
+        "corto"
+      ],
+      "en": [
+        "brief",
+        "short"
+      ],
+      "es": [
+        "breve",
+        "corto"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'breve, corto', sia nello spazio sia nel tempo. Etimologia ultima incerta, forse imparentata con una radice indicante 'leggero, di poco peso'.",
+        "en": "Adjective 'short, brief', both in space and in time. Ultimate origin uncertain, perhaps related to a root meaning 'light, of little weight'.",
+        "es": "Adjetivo 'breve, corto', tanto en el espacio como en el tiempo. Etimología última incierta, quizá emparentada con una raíz que indica 'ligero, de poco peso'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "breve",
+          "brevità",
+          "abbreviare"
+        ],
+        "nota": "'Brevità' è la parola chiave dell’intero trattato di Seneca ('De brevitate vitae', 'sulla brevità della vita')."
+      },
+      "en": {
+        "voci": [
+          "brief",
+          "abbreviate",
+          "abridge"
+        ],
+        "nota": "Tutti prestiti dotti (spesso via francese), non eredità dirette."
+      },
+      "es": {
+        "voci": [
+          "breve",
+          "brevedad",
+          "abreviar"
+        ],
+        "nota": "'Brevedad' es la palabra clave de todo el tratado de Séneca."
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (2 uscite)"
+  },
+  "ceteri": {
+    "lemma_id": "ceteri",
+    "lemma": "ceteri, -ae, -a",
+    "paradigma": "ceteri, -ae, -a",
+    "categoria": "pronome",
+    "frequenza": 140,
+    "significati_base": {
+      "it": [
+        "gli altri",
+        "i restanti"
+      ],
+      "en": [
+        "the rest",
+        "the others"
+      ],
+      "es": [
+        "los demás",
+        "los restantes"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo/pronome plurale 'gli altri, i restanti' (tutti quelli non ancora menzionati), imparentato con la stessa radice di 'citra' e di altri termini indicanti un resto o un’esclusione.",
+        "en": "Plural adjective/pronoun 'the others, the rest' (all those not yet mentioned), related to the same root as 'citra' and other terms indicating a remainder or exclusion.",
+        "es": "Adjetivo/pronombre plural 'los demás, los restantes' (todos los no mencionados aún), emparentado con la misma raíz de 'citra' y otros términos que indican un resto o una exclusión."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "eccetera"
+        ],
+        "nota": "Sopravvive nel latinismo dotto 'eccetera' (et cetera, 'e le altre cose')."
+      },
+      "en": {
+        "voci": [
+          "et cetera / etc."
+        ],
+        "nota": "Sopravvive solo nella locuzione latina di prestito 'et cetera', non come parola autonoma."
+      },
+      "es": {
+        "voci": [
+          "etcétera"
+        ],
+        "nota": "Sobrevive en el latinismo culto 'etcétera' (et cetera, 'y las demás cosas')."
+      }
+    }
+  },
+  "clarus": {
+    "lemma_id": "clarus",
+    "lemma": "clarus, -a, -um",
+    "paradigma": "clarus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 200,
+    "significati_base": {
+      "it": [
+        "chiaro",
+        "luminoso",
+        "illustre",
+        "famoso"
+      ],
+      "en": [
+        "clear",
+        "bright",
+        "famous",
+        "illustrious"
+      ],
+      "es": [
+        "claro",
+        "luminoso",
+        "ilustre",
+        "famoso"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'chiaro, luminoso' e, per estensione, 'illustre, famoso, celebre' (chi risalta, si fa notare, come una luce in mezzo al buio).",
+        "en": "Adjective 'clear, bright' and, by extension, 'illustrious, famous, celebrated' (one who stands out, catching the eye, like a light in the dark).",
+        "es": "Adjetivo 'claro, luminoso' y, por extensión, 'ilustre, famoso, célebre' (quien destaca, se hace notar, como una luz en la oscuridad)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "chiaro",
+          "chiarezza",
+          "chiarire"
+        ],
+        "nota": "Il senso di 'illustre' sopravvive in espressioni come 'chiara fama'."
+      },
+      "en": {
+        "voci": [
+          "clear",
+          "clarity",
+          "declare"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "claro",
+          "claridad",
+          "aclarar"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "concedo": {
+    "lemma_id": "concedo",
+    "lemma": "concedo, concedis, concessi, concessum, concedere",
+    "paradigma": "concedo, concedis, concessi, concessum, concedere",
+    "categoria": "verbo",
+    "frequenza": 260,
+    "significati_base": {
+      "it": [
+        "concedere",
+        "accordare",
+        "ammettere"
+      ],
+      "en": [
+        "to grant",
+        "to concede",
+        "to allow"
+      ],
+      "es": [
+        "conceder",
+        "otorgar",
+        "admitir"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'concedere, accordare, ammettere', da con- (qui con valore rafforzativo) + cedo ('andare, cedere') — letteralmente 'cedere completamente' qualcosa a qualcuno, quindi accordarglielo.",
+        "en": "Verb 'to concede, grant, admit', from con- (here intensive) + cedo ('to go, yield') — literally 'to yield completely' something to someone, hence to grant it.",
+        "es": "Verbo 'conceder, otorgar, admitir', de con- (aquí con valor intensivo) + cedo ('ir, ceder') — literalmente 'ceder por completo' algo a alguien."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "concedere"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "concede",
+          "concession"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "conceder",
+          "concesión"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione"
+  },
+  "conqueror": {
+    "lemma_id": "conqueror",
+    "lemma": "conqueror, conquereris, conquestus sum, conqueri",
+    "paradigma": "conqueror, conquereris, conquestus sum, conqueri",
+    "categoria": "verbo_deponente",
+    "frequenza": 40,
+    "significati_base": {
+      "it": [
+        "lamentarsi",
+        "dolersi pubblicamente"
+      ],
+      "en": [
+        "to complain bitterly",
+        "to lament"
+      ],
+      "es": [
+        "quejarse (amargamente)",
+        "lamentarse"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo deponente 'lamentarsi (a fondo), dolersi pubblicamente', da con- (qui con valore intensivo) + queror ('lamentarsi'): un lamento non isolato ma continuo, condiviso o espresso con insistenza.",
+        "en": "Deponent verb 'to complain bitterly, lament publicly', from con- (here intensive) + queror ('to complain'): not an isolated complaint but a continuous, shared, or insistently voiced one.",
+        "es": "Verbo deponente 'quejarse profundamente, lamentarse públicamente', de con- (aquí con valor intensivo) + queror ('quejarse'): un lamento no aislado sino continuo o expresado con insistencia."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune; il verbo semplice 'queror' ha dato invece 'querela' (vedi voce 'querella')."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune."
+      },
+      "es": {
+        "voci": [],
+        "nota": "Sin descendiente directo común; el verbo simple 'queror' dio 'querella' (véase la voz correlata)."
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione"
+  },
+  "cum": {
+    "lemma_id": "cum",
+    "lemma": "cum",
+    "paradigma": "cum",
+    "categoria": "preposizione",
+    "frequenza": 900,
+    "significati_base": {
+      "it": [
+        "con"
+      ],
+      "en": [
+        "with"
+      ],
+      "es": [
+        "con"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Preposizione 'con' e, con forma identica, congiunzione temporale/causale 'quando, dal momento che': un caso raro in cui un’unica forma latina copre due funzioni oggi ben distinte in italiano.",
+        "en": "Preposition 'with', and, in the identical form, a temporal/causal conjunction 'when, since': a rare case where a single Latin form covers two functions that are today clearly distinct in the modern Romance languages.",
+        "es": "Preposición 'con', y, con forma idéntica, conjunción temporal/causal 'cuando, ya que': un caso raro en el que una única forma latina cubre dos funciones hoy bien distintas."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "con"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "com- (prefisso in prestiti dotti, es. \"combine\")"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "con"
+        ],
+        "nota": ""
+      }
+    }
+  },
+  "de": {
+    "lemma_id": "de",
+    "lemma": "de",
+    "paradigma": "de",
+    "categoria": "preposizione",
+    "frequenza": 950,
+    "significati_base": {
+      "it": [
+        "da",
+        "giù da",
+        "riguardo a"
+      ],
+      "en": [
+        "from",
+        "down from",
+        "about"
+      ],
+      "es": [
+        "de",
+        "desde",
+        "acerca de"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Preposizione 'da, giù da, riguardo a', una delle preposizioni più antiche e semplici del latino, di origine ultima incerta: indica in origine un movimento dall’alto verso il basso, poi esteso al senso più astratto di provenienza o argomento.",
+        "en": "Preposition 'from, down from, concerning', one of the oldest and simplest Latin prepositions, of uncertain ultimate origin: it originally indicates movement from above downward, later extended to the more abstract sense of origin or subject matter.",
+        "es": "Preposición 'de, desde, acerca de', una de las preposiciones más antiguas y sencillas del latín, de origen último incierto: indica en origen un movimiento de arriba hacia abajo, luego extendido al sentido más abstracto de procedencia o tema."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "di"
+        ],
+        "nota": "Sopravvive sia come preposizione ('di') sia come prefisso ('de-'), con il valore originario di allontanamento: 'derivare' è letteralmente 'scorrere via da', 'decidere' è 'tagliare via' un’alternativa."
+      },
+      "en": {
+        "voci": [
+          "de- (prefisso, es. \"derive\", \"decide\")"
+        ],
+        "nota": "Sopravvive come prefisso dotto col valore originario di allontanamento: 'derive' è letteralmente 'scorrere via da'."
+      },
+      "es": {
+        "voci": [
+          "de"
+        ],
+        "nota": "Sobrevive tanto como preposición ('de') como prefijo ('de-'), con el valor original de alejamiento."
+      }
+    }
+  },
+  "decurro": {
+    "lemma_id": "decurro",
+    "lemma": "decurro, decurris, decurri, decursum, decurrere",
+    "paradigma": "decurro, decurris, decurri, decursum, decurrere",
+    "categoria": "verbo",
+    "frequenza": 30,
+    "significati_base": {
+      "it": [
+        "correre giù",
+        "scorrere via",
+        "trascorrere"
+      ],
+      "en": [
+        "to run down",
+        "to flow away",
+        "to pass (of time)"
+      ],
+      "es": [
+        "correr hacia abajo",
+        "transcurrir"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'correre giù, scorrere via, trascorrere (del tempo)', da de- ('giù, dall’alto') + curro ('correre') — il tempo immaginato come un corso d’acqua che scorre via rapidamente, un’immagine che Seneca sfrutta spesso per parlare della vita che 'scorre' senza che ce ne accorgiamo.",
+        "en": "Verb 'to run down, flow away, pass by (of time)', from de- ('down, from above') + curro ('to run') — time imagined as a stream flowing rapidly away, an image Seneca often uses to describe life 'running out' unnoticed.",
+        "es": "Verbo 'correr hacia abajo, fluir, transcurrir (del tiempo)', de de- ('hacia abajo') + curro ('correr') — el tiempo imaginado como una corriente que se escapa, imagen que Séneca usa a menudo para describir la vida que 'transcurre' sin que nos demos cuenta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune; 'correre' continua invece direttamente il verbo semplice 'curro'."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune."
+      },
+      "es": {
+        "voci": [],
+        "nota": "Sin descendiente directo común; 'correr' continúa en cambio directamente el verbo simple 'curro'."
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione"
+  },
+  "deni": {
+    "lemma_id": "deni",
+    "lemma": "deni, -ae, -a",
+    "paradigma": "deni, -ae, -a",
+    "categoria": "numerale",
+    "frequenza": 15,
+    "significati_base": {
+      "it": [
+        "dieci ciascuno",
+        "a gruppi di dieci"
+      ],
+      "en": [
+        "ten each",
+        "ten at a time"
+      ],
+      "es": [
+        "de diez en diez"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Numerale distributivo 'dieci ciascuno, a gruppi di dieci', da 'decem' (dieci) con il suffisso distributivo -ni, che nei numerali indica una ripartizione in gruppi uguali (lo stesso schema di 'bini', 'a due a due').",
+        "en": "Distributive numeral 'ten each, in groups of ten', from 'decem' (ten) with the distributive suffix -ni, which in numerals marks a division into equal groups (the same pattern as 'bini', 'two by two').",
+        "es": "Numeral distributivo 'de diez en diez', de 'decem' (diez) con el sufijo distributivo -ni, que en los numerales indica un reparto en grupos iguales (el mismo esquema de 'bini', 'de dos en dos')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "I numerali distributivi latini non sono sopravvissuti come categoria autonoma in italiano: 'dieci' continua semplicemente il cardinale 'decem'."
+      },
+      "en": {
+        "voci": [],
+        "nota": "I numerali distributivi latini non sono sopravvissuti come categoria in inglese."
+      },
+      "es": {
+        "voci": [],
+        "nota": "Los numerales distributivos latinos no sobreviven como categoría autónoma en español."
+      }
+    }
+  },
+  "destituo": {
+    "lemma_id": "destituo",
+    "lemma": "destituo, destituis, destitui, destitutum, destituere",
+    "paradigma": "destituo, destituis, destitui, destitutum, destituere",
+    "categoria": "verbo",
+    "frequenza": 25,
+    "significati_base": {
+      "it": [
+        "staccare da una posizione",
+        "abbandonare"
+      ],
+      "en": [
+        "to remove from a position",
+        "to abandon"
+      ],
+      "es": [
+        "apartar de una posición",
+        "abandonar"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'staccare da una posizione, abbandonare', da de- ('via da') + statuo ('porre, stabilire', da 'sto', stare) — letteralmente 'togliere da dove era stato posto'.",
+        "en": "Verb 'to remove from a position, abandon', from de- ('away from') + statuo ('to place, set', from 'sto', to stand) — literally 'to take away from where it had been placed'.",
+        "es": "Verbo 'apartar de una posición, abandonar', de de- ('lejos de') + statuo ('colocar, establecer', de 'sto', estar de pie) — literalmente 'quitar de donde había sido colocado'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "destituire"
+        ],
+        "nota": "L’italiano ha preso il senso più specifico di 'togliere qualcuno da una carica'."
+      },
+      "en": {
+        "voci": [
+          "destitute"
+        ],
+        "nota": "L'inglese 'destitute' viene dal participio 'destitutus' e ha ristretto il senso a 'privo di mezzi, povero'."
+      },
+      "es": {
+        "voci": [
+          "destituir"
+        ],
+        "nota": "Come in italiano, ha preso il senso più specifico di 'rimuovere qualcuno da una carica'."
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione"
+  },
+  "do": {
+    "lemma_id": "do",
+    "lemma": "do, das, dedi, datum, dare",
+    "paradigma": "do, das, dedi, datum, dare",
+    "categoria": "verbo",
+    "frequenza": 400,
+    "significati_base": {
+      "it": [
+        "dare"
+      ],
+      "en": [
+        "to give"
+      ],
+      "es": [
+        "dar"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'dare', uno dei verbi più antichi e irregolari del latino (perfetto 'dedi', con raddoppiamento arcaico).",
+        "en": "Verb 'to give', one of the oldest and most irregular Latin verbs (perfect 'dedi', with archaic reduplication).",
+        "es": "Verbo 'dar', uno de los verbos más antiguos e irregulares del latín (perfecto 'dedi', con reduplicación arcaica)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "dare",
+          "dato",
+          "dono"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "date",
+          "donor",
+          "donate"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "dar",
+          "dato",
+          "don"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a coniugazione (irregolare)"
+  },
+  "educo": {
+    "lemma_id": "educo",
+    "lemma": "educo, educis, eduxi, eductum, educere",
+    "paradigma": "educo, educis, eduxi, eductum, educere",
+    "categoria": "verbo",
+    "frequenza": 20,
+    "significati_base": {
+      "it": [
+        "condurre fuori",
+        "portare avanti",
+        "far arrivare (a un’età)"
+      ],
+      "en": [
+        "to lead out",
+        "to bring forth",
+        "to bring (to an age)"
+      ],
+      "es": [
+        "conducir afuera",
+        "llevar (hasta una edad)"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'condurre fuori, portare avanti, far arrivare (a una certa età)', da e- ('fuori') + duco ('condurre').",
+        "en": "Verb 'to lead out, bring forward, bring (to a given age)', from e- ('out') + duco ('to lead').",
+        "es": "Verbo 'conducir afuera, llevar adelante, hacer llegar (a una edad)', de e- ('fuera') + duco ('conducir')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto autonomo distinto da 'educare' (che continua invece l’altro verbo, 'educo, educare')."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente autonomo distinto da 'to educate' (che continua invece l'altro verbo, 'educo, educare')."
+      },
+      "es": {
+        "voci": [],
+        "nota": "Sin descendiente autónomo distinto de 'educar' (que continúa el otro verbo, 'educo, educare')."
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione"
+  },
+  "et": {
+    "lemma_id": "et",
+    "lemma": "et",
+    "paradigma": "et",
+    "categoria": "congiunzione",
+    "frequenza": 2000,
+    "significati_base": {
+      "it": [
+        "e"
+      ],
+      "en": [
+        "and"
+      ],
+      "es": [
+        "y"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Congiunzione 'e', tra le parole più stabili e antiche della lingua: una congiunzione così basilare cambia pochissimo nel tempo.",
+        "en": "Conjunction 'and', among the most stable and ancient words of the language: so basic a conjunction changes very little over time.",
+        "es": "Conjunción 'y', entre las palabras más estables y antiguas de la lengua: una conjunción tan básica cambia muy poco con el tiempo."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "e",
+          "ed"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "et cetera / etc."
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "etcétera"
+        ],
+        "nota": ""
+      }
+    }
+  },
+  "evoco": {
+    "lemma_id": "evoco",
+    "lemma": "evoco, evocas, evocavi, evocatum, evocare",
+    "paradigma": "evoco, evocas, evocavi, evocatum, evocare",
+    "categoria": "verbo",
+    "frequenza": 35,
+    "significati_base": {
+      "it": [
+        "chiamare fuori",
+        "suscitare",
+        "richiamare (un ricordo)"
+      ],
+      "en": [
+        "to call forth",
+        "to evoke",
+        "to summon up"
+      ],
+      "es": [
+        "llamar afuera",
+        "evocar",
+        "suscitar"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'chiamare fuori, far uscire, suscitare, richiamare (un ricordo)', da ex- ('fuori') + voco ('chiamare') — un’emozione o un ricordo che viene 'chiamato fuori' da chi lo prova o lo racconta.",
+        "en": "Verb 'to call forth, bring out, evoke, call back (a memory)', from ex- ('out') + voco ('to call') — an emotion or memory that is 'called out' from the one who feels or recounts it.",
+        "es": "Verbo 'llamar afuera, hacer salir, suscitar, evocar (un recuerdo)', de ex- ('fuera') + voco ('llamar') — una emoción o un recuerdo que se 'llama afuera' de quien lo siente o lo cuenta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "evocare"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "evoke",
+          "evocative"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "evocar"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a coniugazione"
+  },
+  "excipio": {
+    "lemma_id": "excipio",
+    "lemma": "excipio, excipis, excepi, exceptum, excipere",
+    "paradigma": "excipio, excipis, excepi, exceptum, excipere",
+    "categoria": "verbo",
+    "frequenza": 60,
+    "significati_base": {
+      "it": [
+        "prendere fuori",
+        "eccettuare",
+        "accogliere"
+      ],
+      "en": [
+        "to take out",
+        "to except",
+        "to receive"
+      ],
+      "es": [
+        "sacar",
+        "exceptuar",
+        "acoger"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'prendere fuori, eccettuare, accogliere', da ex- ('fuori') + capio ('prendere') — letteralmente 'tirare fuori da un insieme' qualcosa per trattarlo diversamente dal resto, o 'accogliere' chi arriva da fuori.",
+        "en": "Verb 'to take out, except, receive', from ex- ('out') + capio ('to take') — literally 'to pull out of a set' something to treat it differently from the rest, or 'to welcome' someone arriving from outside.",
+        "es": "Verbo 'sacar, exceptuar, acoger', de ex- ('fuera') + capio ('tomar') — literalmente 'sacar de un conjunto' algo para tratarlo de forma distinta, o 'acoger' a quien llega de fuera."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "eccettuare",
+          "eccezione",
+          "eccetto"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "except",
+          "exception"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "exceptuar",
+          "excepción",
+          "excepto"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione (in -io)"
+  },
+  "exclamatio": {
+    "lemma_id": "exclamatio",
+    "lemma": "exclamatio, -onis",
+    "paradigma": "exclamatio, -onis",
+    "categoria": "sostantivo",
+    "frequenza": 15,
+    "significati_base": {
+      "it": [
+        "esclamazione"
+      ],
+      "en": [
+        "exclamation"
+      ],
+      "es": [
+        "exclamación"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'esclamazione', da 'exclamo' (ex- + clamo, 'gridare fuori') con il suffisso -tio, che forma sostantivi astratti d’azione: un’esclamazione è, letteralmente, 'un grido che esce fuori'.",
+        "en": "Noun 'exclamation', from 'exclamo' (ex- + clamo, 'to cry out') with the suffix -tio, which forms abstract nouns of action (cf. 'oratio', speech, from 'oro', to speak): an exclamation is, literally, 'a cry that comes out'.",
+        "es": "Sustantivo 'exclamación', de 'exclamo' (ex- + clamo, 'gritar') con el sufijo -tio, que forma sustantivos abstractos de acción: una exclamación es, literalmente, 'un grito que sale afuera'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "esclamazione"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "exclamation"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "exclamación"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (femminile)"
+  },
+  "exigens": {
+    "lemma_id": "exigens",
+    "lemma": "exigens, exigentis",
+    "paradigma": "exigens, exigentis",
+    "categoria": "aggettivo",
+    "frequenza": 20,
+    "significati_base": {
+      "it": [
+        "esigente",
+        "che pretende con rigore"
+      ],
+      "en": [
+        "demanding",
+        "exacting"
+      ],
+      "es": [
+        "exigente"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'esigente, che pretende con rigore, che misura con precisione', participio presente sostantivato di 'exigo' (la stessa radice di 'exiguus').",
+        "en": "Adjective 'demanding, exacting, precisely measuring', substantivized present participle of 'exigo' (the same root as 'exiguus').",
+        "es": "Adjetivo 'exigente, que pretende con rigor, que mide con precisión', participio presente sustantivado de 'exigo' (la misma raíz de 'exiguus')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "esigente"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "exigent",
+          "exigency"
+        ],
+        "nota": "Prestito dotto raro in inglese."
+      },
+      "es": {
+        "voci": [
+          "exigente"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (participio sostantivato)"
+  },
+  "exiguus": {
+    "lemma_id": "exiguus",
+    "lemma": "exiguus, -a, -um",
+    "paradigma": "exiguus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 55,
+    "significati_base": {
+      "it": [
+        "scarso",
+        "piccolo",
+        "breve"
+      ],
+      "en": [
+        "scanty",
+        "small",
+        "meagre"
+      ],
+      "es": [
+        "escaso",
+        "pequeño",
+        "exiguo"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'scarso, piccolo, breve', da 'exigo' (spingere fuori, misurare con precisione, da ex- + ago): ciò che è 'exiguus' è, letteralmente, ciò che resta dopo essere stato 'misurato con rigore' e trovato scarso.",
+        "en": "Adjective 'scanty, small, short', from 'exigo' (to drive out, measure precisely, from ex- + ago): what is 'exiguus' is, literally, what remains after being 'measured with rigour' and found wanting.",
+        "es": "Adjetivo 'escaso, pequeño, breve', de 'exigo' (medir con precisión, de ex- + ago): lo que es 'exiguus' es, literalmente, lo que queda tras ser 'medido con rigor' y hallado insuficiente."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune in italiano; il participio dello stesso verbo dà invece 'esigente' (vedi voce 'exigens')."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune; il participio dello stesso verbo dà invece 'exigent' (vedi voce 'exigens')."
+      },
+      "es": {
+        "voci": [
+          "exiguo"
+        ],
+        "nota": "Prestito dotto diretto, poco comune nel parlato."
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "figo": {
+    "lemma_id": "figo",
+    "lemma": "figo, figis, fixi, fixum, figere",
+    "paradigma": "figo, figis, fixi, fixum, figere",
+    "categoria": "verbo",
+    "frequenza": 45,
+    "significati_base": {
+      "it": [
+        "conficcare",
+        "fissare",
+        "piantare"
+      ],
+      "en": [
+        "to fix",
+        "to fasten",
+        "to drive in"
+      ],
+      "es": [
+        "clavar",
+        "fijar",
+        "hincar"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'conficcare, fissare, piantare (in profondità)'. Etimologia ultima incerta.",
+        "en": "Verb 'to drive in, fix, plant (deeply)'. Ultimate origin uncertain.",
+        "es": "Verbo 'clavar, fijar, hincar (profundamente)'. Etimología última incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "figgere",
+          "fisso",
+          "fissare",
+          "conficcare",
+          "affiggere"
+        ],
+        "nota": "Tramite il participio 'fixus'."
+      },
+      "en": {
+        "voci": [
+          "fix",
+          "fixed",
+          "affix"
+        ],
+        "nota": "Tramite il participio 'fixus'."
+      },
+      "es": {
+        "voci": [
+          "fijar",
+          "fijo",
+          "afijo"
+        ],
+        "nota": "A través del participio 'fixus'."
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione"
+  },
+  "finis": {
+    "lemma_id": "finis",
+    "lemma": "finis, -is",
+    "paradigma": "finis, -is",
+    "categoria": "sostantivo",
+    "frequenza": 190,
+    "significati_base": {
+      "it": [
+        "confine",
+        "limite",
+        "fine"
+      ],
+      "en": [
+        "boundary",
+        "limit",
+        "end"
+      ],
+      "es": [
+        "límite",
+        "confín",
+        "fin"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'confine, limite, fine'. Etimologia ultima incerta.",
+        "en": "Noun 'boundary, limit, end'. Ultimate origin uncertain.",
+        "es": "Sustantivo 'límite, confín, fin'. Etimología última incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "fine",
+          "finire",
+          "confine",
+          "finale"
+        ],
+        "nota": "'Confine' è un composto (con- + finis, 'ciò che sta insieme al limite')."
+      },
+      "en": {
+        "voci": [
+          "final",
+          "finish",
+          "finite"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "fin",
+          "finar",
+          "confín",
+          "final"
+        ],
+        "nota": "'Confín' es un compuesto (con- + finis, 'lo que está junto al límite')."
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (maschile)"
+  },
+  "genero": {
+    "lemma_id": "genero",
+    "lemma": "genero, generas, generavi, generatum, generare",
+    "paradigma": "genero, generas, generavi, generatum, generare",
+    "categoria": "verbo",
+    "frequenza": 30,
+    "significati_base": {
+      "it": [
+        "generare",
+        "produrre",
+        "dare origine a"
+      ],
+      "en": [
+        "to generate",
+        "to produce",
+        "to give rise to"
+      ],
+      "es": [
+        "generar",
+        "producir",
+        "dar origen a"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo denominale 'generare, produrre, dare origine a', da 'genus' (stirpe, origine, tipo): generare qualcosa è, letteralmente, 'darle un genere/un’origine'.",
+        "en": "Denominal verb 'to generate, produce, give rise to', from 'genus' (stock, origin, kind): to generate something is, literally, 'to give it a genus/an origin'.",
+        "es": "Verbo denominal 'generar, producir, dar origen a', de 'genus' (estirpe, origen, tipo): generar algo es, literalmente, 'darle un género/un origen'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "generare",
+          "generazione"
+        ],
+        "nota": "Dallo stesso 'genus' derivano anche 'genere' e 'genio'."
+      },
+      "en": {
+        "voci": [
+          "generate",
+          "generation"
+        ],
+        "nota": "Dalla stessa radice 'genus' derivano anche 'genus' e 'genius'."
+      },
+      "es": {
+        "voci": [
+          "generar",
+          "generación"
+        ],
+        "nota": "De la misma raíz 'genus' derivan también 'género' y 'genio'."
+      }
+    },
+    "coniugazione_declinazione": "1a coniugazione"
+  },
+  "gigno": {
+    "lemma_id": "gigno",
+    "lemma": "gigno, gignis, genui, genitum, gignere",
+    "paradigma": "gigno, gignis, genui, genitum, gignere",
+    "categoria": "verbo",
+    "frequenza": 40,
+    "significati_base": {
+      "it": [
+        "generare",
+        "dare alla luce",
+        "produrre"
+      ],
+      "en": [
+        "to beget",
+        "to give birth to",
+        "to produce"
+      ],
+      "es": [
+        "engendrar",
+        "dar a luz",
+        "producir"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'generare, dare alla luce, produrre', forma con raddoppiamento nasale su una radice imparentata con 'genus' (stirpe) e 'gens' (famiglia, popolo): la stessa radice di 'generare' che ricorre in tante parole del vocabolario di parentela latino.",
+        "en": "Verb 'to beget, give birth to, produce', a nasal-reduplicated form on a root related to 'genus' (stock) and 'gens' (family, people): the same root as 'generare' that recurs throughout the Latin vocabulary of kinship.",
+        "es": "Verbo 'engendrar, dar a luz, producir', forma con reduplicación nasal sobre una raíz emparentada con 'genus' (estirpe) y 'gens' (familia, pueblo): la misma raíz de 'generare' presente en buena parte del vocabulario de parentesco latino."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "genitore",
+          "genere",
+          "gene"
+        ],
+        "nota": "Tramite il participio 'genitus' e altri derivati della stessa radice."
+      },
+      "en": {
+        "voci": [
+          "genitor (raro, dotto)",
+          "progenitor"
+        ],
+        "nota": "Tramite il participio 'genitus'."
+      },
+      "es": {
+        "voci": [
+          "progenitor"
+        ],
+        "nota": "A través del participio 'genitus'; 'engendrar' viene de otro compuesto de la stessa radice."
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione"
+  },
+  "habeo": {
+    "lemma_id": "habeo",
+    "lemma": "habeo, habes, habui, habitum, habere",
+    "paradigma": "habeo, habes, habui, habitum, habere",
+    "categoria": "verbo",
+    "frequenza": 900,
+    "significati_base": {
+      "it": [
+        "avere",
+        "tenere",
+        "possedere"
+      ],
+      "en": [
+        "to have",
+        "to hold",
+        "to possess"
+      ],
+      "es": [
+        "tener",
+        "sostener",
+        "poseer"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'avere, tenere, possedere', dalla stessa radice di 'prohibeo' (pro- + habeo, 'tenere davanti, impedire') e di 'debeo' (de- + habeo, 'tenere via da sé', cioè 'dovere qualcosa a qualcuno').",
+        "en": "Verb 'to have, hold, possess', from the same root as 'prohibeo' (pro- + habeo, 'to hold in front, prevent') and 'debeo' (de- + habeo, 'to hold away from oneself', i.e. 'to owe').",
+        "es": "Verbo 'tener, sostener, poseer', de la misma raíz que 'prohibeo' (pro- + habeo, 'tener delante, impedir') y 'debeo' (de- + habeo, 'tener apartado de sí', es decir, 'deber')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "avere",
+          "abitare",
+          "abito"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "habit",
+          "inhabit",
+          "exhibit"
+        ],
+        "nota": "L'inglese 'to have' non discende da 'habeo' (è un cognato germanico indipendente): i derivati inglesi di 'habeo' arrivano solo per via dotta."
+      },
+      "es": {
+        "voci": [
+          "haber",
+          "habitar",
+          "hábito"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "2a coniugazione"
+  },
+  "hic": {
+    "lemma_id": "hic",
+    "lemma": "hic, haec, hoc",
+    "paradigma": "hic, haec, hoc",
+    "categoria": "pronome",
+    "frequenza": 800,
+    "significati_base": {
+      "it": [
+        "questo"
+      ],
+      "en": [
+        "this"
+      ],
+      "es": [
+        "este"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Pronome/aggettivo dimostrativo 'questo', formato da un tema dimostrativo rafforzato dalla particella enclitica -ce (visibile ancora in forme arcaiche come 'hicce'): un dimostrativo 'semplice' a cui si è attaccata, in epoca preistorica, una particella di rafforzamento — un procedimento simile a quello che in italiano crea 'questo' da 'eccum istum'.",
+        "en": "Demonstrative pronoun/adjective 'this', formed from a demonstrative stem reinforced by the enclitic particle -ce (still visible in archaic forms like 'hicce'): a 'plain' demonstrative to which, in prehistoric times, a reinforcing particle was attached.",
+        "es": "Pronombre/adjetivo demostrativo 'este', formado por un tema demostrativo reforzado por la partícula enclítica -ce (aún visible en formas arcaicas como 'hicce')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "ci"
+        ],
+        "nota": "Il legame con la particella italiana 'ci' (locativa: 'ci sono') è proposto da alcuni etimologisti ma resta discusso; nessun pronome dimostrativo italiano continua direttamente 'hic'."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [],
+        "nota": ""
+      }
+    }
+  },
+  "homo": {
+    "lemma_id": "homo",
+    "lemma": "homo, hominis",
+    "paradigma": "homo, hominis",
+    "categoria": "sostantivo",
+    "frequenza": 420,
+    "significati_base": {
+      "it": [
+        "uomo",
+        "essere umano"
+      ],
+      "en": [
+        "human being",
+        "man",
+        "person"
+      ],
+      "es": [
+        "ser humano",
+        "hombre",
+        "persona"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'uomo, essere umano', dalla stessa radice di 'humanus' (propriamente 'essere terrestre'): l’uomo definito, letteralmente, come 'creatura della terra' — forse in opposizione agli dèi del cielo.",
+        "en": "Noun 'man, human being', from the same root as 'humanus' (properly 'earthly being'): man defined, literally, as a 'creature of the earth' — perhaps as opposed to the gods of the sky.",
+        "es": "Sustantivo 'hombre, ser humano', de la misma raíz que 'humanus' (propiamente 'ser terrestre'): el hombre definido, literalmente, como 'criatura de la tierra'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "uomo"
+        ],
+        "nota": "Imparentato con 'umano/umanità', già visti sotto 'humanitas'."
+      },
+      "en": {
+        "voci": [
+          "human",
+          "homage",
+          "homicide"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "hombre",
+          "humano",
+          "homicidio"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (maschile)"
+  },
+  "ille": {
+    "lemma_id": "ille",
+    "lemma": "ille, illa, illud",
+    "paradigma": "ille, illa, illud",
+    "categoria": "pronome",
+    "frequenza": 700,
+    "significati_base": {
+      "it": [
+        "quello"
+      ],
+      "en": [
+        "that"
+      ],
+      "es": [
+        "aquel"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Pronome dimostrativo 'quello'. Etimologia ultima incerta.",
+        "en": "Demonstrative pronoun 'that'. Ultimate origin uncertain.",
+        "es": "Pronombre demostrativo 'aquel'. Etimología última incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "il",
+          "lo",
+          "la",
+          "egli",
+          "lui",
+          "lei"
+        ],
+        "nota": "Fonte principale del sistema di articoli e pronomi di terza persona dell’italiano."
+      },
+      "en": {
+        "voci": [
+          "the (indirettamente, via il francese \"le/la\")"
+        ],
+        "nota": "L'articolo inglese 'the' non discende da 'ille': è germanico. I discendenti diretti di 'ille' sono nelle lingue romanze."
+      },
+      "es": {
+        "voci": [
+          "el",
+          "lo",
+          "la",
+          "él",
+          "ella"
+        ],
+        "nota": "Fonte principale del sistema di articoli e pronomi di terza persona dello spagnolo, come in italiano."
+      }
+    }
+  },
+  "imprudens": {
+    "lemma_id": "imprudens",
+    "lemma": "imprudens, imprudentis",
+    "paradigma": "imprudens, imprudentis",
+    "categoria": "aggettivo",
+    "frequenza": 25,
+    "significati_base": {
+      "it": [
+        "sconsiderato",
+        "privo di accorgimento",
+        "ignaro"
+      ],
+      "en": [
+        "unwary",
+        "reckless",
+        "unwitting"
+      ],
+      "es": [
+        "imprudente",
+        "incauto"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'sconsiderato, privo di accorgimento, ignaro', da in- (negazione) + 'prudens' (previdente, accorto, da 'providens', participio di 'provideo', 'vedere in anticipo'): un 'imprudens' è, letteralmente, 'chi non vede in anticipo' le conseguenze.",
+        "en": "Adjective 'reckless, unwary, unwitting', from in- (negation) + 'prudens' (foreseeing, prudent, from 'providens', participle of 'provideo', 'to see ahead'): an 'imprudens' is, literally, 'one who does not see ahead' to the consequences.",
+        "es": "Adjetivo 'imprudente, incauto, ignorante', de in- (negación) + 'prudens' (previsor, prudente, de 'providens', participio de 'provideo', 'ver con antelación')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "imprudente"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "imprudent"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "imprudente"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione"
+  },
+  "in": {
+    "lemma_id": "in",
+    "lemma": "in",
+    "paradigma": "in",
+    "categoria": "preposizione",
+    "frequenza": 1800,
+    "significati_base": {
+      "it": [
+        "in",
+        "dentro",
+        "su"
+      ],
+      "en": [
+        "in",
+        "into",
+        "on"
+      ],
+      "es": [
+        "en",
+        "dentro de"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Preposizione 'in, dentro, su' (di luogo o direzione), tra le più antiche e stabili della lingua: si ritrova, quasi identica nella forma e nel significato, in gran parte delle lingue indoeuropee (inglese 'in', tedesco 'in', greco 'en').",
+        "en": "Preposition 'in, inside, on' (of place or direction), among the oldest and most stable in the language: it is found, almost identical in form and meaning, across most Indo-European languages (English 'in', German 'in', Greek 'en').",
+        "es": "Preposición 'en, dentro de, sobre' (de lugar o dirección), una de las más antiguas y estables de la lengua: se encuentra, casi idéntica en forma y significado, en gran parte de las lenguas indoeuropeas."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "in"
+        ],
+        "nota": "Sopravvive invariata come preposizione e come prefisso ('in-')."
+      },
+      "en": {
+        "voci": [
+          "in"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "en"
+        ],
+        "nota": ""
+      }
+    }
+  },
+  "inde": {
+    "lemma_id": "inde",
+    "lemma": "inde",
+    "paradigma": "inde",
+    "categoria": "avverbio",
+    "frequenza": 90,
+    "significati_base": {
+      "it": [
+        "da qui",
+        "quindi",
+        "di conseguenza"
+      ],
+      "en": [
+        "from there",
+        "hence",
+        "thereupon"
+      ],
+      "es": [
+        "de ahí",
+        "por eso",
+        "a continuación"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Avverbio 'da qui, di qui, quindi, di conseguenza', dalla stessa radice pronominale dimostrativa che compare in 'is, ea, id' (quello).",
+        "en": "Adverb 'from here, hence, consequently', from the same demonstrative-pronominal root that appears in 'is, ea, id' (that one).",
+        "es": "Adverbio 'de aquí, de ahí, por consiguiente', de la misma raíz pronominal demostrativa que aparece en 'is, ea, id'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto autonomo in italiano; il concetto è coperto da 'quindi' o 'perciò', di formazione diversa."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [],
+        "nota": ""
+      }
+    }
+  },
+  "indignus": {
+    "lemma_id": "indignus",
+    "lemma": "indignus, -a, -um",
+    "paradigma": "indignus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 40,
+    "significati_base": {
+      "it": [
+        "indegno",
+        "che non merita"
+      ],
+      "en": [
+        "unworthy",
+        "undeserving"
+      ],
+      "es": [
+        "indigno"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'indegno, che non merita', da in- (negazione) + 'dignus' (degno, meritevole, a sua volta imparentato con 'decet', 'conviene, sta bene').",
+        "en": "Adjective 'unworthy, undeserving', from in- (negation) + 'dignus' (worthy, deserving, related to 'decet', 'it is fitting').",
+        "es": "Adjetivo 'indigno, que no merece', de in- (negación) + 'dignus' (digno, merecedor, emparentado con 'decet', 'conviene')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "indegno"
+        ],
+        "nota": "L’aggettivo positivo 'dignus' ha dato 'degno' e 'dignità'."
+      },
+      "en": {
+        "voci": [
+          "indignant",
+          "indignity"
+        ],
+        "nota": "L'inglese ha spostato il senso verso 'indignato, sdegnato'."
+      },
+      "es": {
+        "voci": [
+          "indigno"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "ingemo": {
+    "lemma_id": "ingemo",
+    "lemma": "ingemo, ingemis, ingemui, ingemere",
+    "paradigma": "ingemo, ingemis, ingemui, ingemere",
+    "categoria": "verbo",
+    "frequenza": 15,
+    "significati_base": {
+      "it": [
+        "lamentarsi profondamente",
+        "gemere per qualcosa"
+      ],
+      "en": [
+        "to groan deeply over",
+        "to lament"
+      ],
+      "es": [
+        "gemir (profundamente) por"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'lamentarsi profondamente, gemere per qualcosa', da in- (intensivo) + gemo ('gemere').",
+        "en": "Verb 'to groan deeply, lament over something', from in- (intensive) + gemo ('to groan').",
+        "es": "Verbo 'lamentarse profundamente, gemir por algo', de in- (intensivo) + gemo ('gemir')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune; il verbo semplice 'gemo' ha dato 'gemere'."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune."
+      },
+      "es": {
+        "voci": [],
+        "nota": "Sin descendiente directo común; el verbo simple 'gemo' dio 'gemir'."
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione"
+  },
+  "ipse": {
+    "lemma_id": "ipse",
+    "lemma": "ipse, ipsa, ipsum",
+    "paradigma": "ipse, ipsa, ipsum",
+    "categoria": "pronome",
+    "frequenza": 320,
+    "significati_base": {
+      "it": [
+        "stesso",
+        "in persona"
+      ],
+      "en": [
+        "himself/itself",
+        "the very"
+      ],
+      "es": [
+        "mismo",
+        "en persona"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Pronome dimostrativo-intensivo 'stesso, in persona', formazione interna al latino (is + la particella enclitica -pse, di rinforzo): un rafforzativo costruito 'in casa' aggiungendo un suffisso enfatico a un pronome già esistente, non ereditato da una parola più antica.",
+        "en": "Demonstrative-intensive pronoun 'self, in person', a formation internal to Latin (is + the reinforcing enclitic particle -pse): an intensifier built 'at home' by adding an emphatic suffix to an existing pronoun, not inherited from an older word.",
+        "es": "Pronombre demostrativo-intensivo 'mismo, en persona', formación interna del latín (is + la partícula enclítica de refuerzo -pse)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "stesso",
+          "medesimo"
+        ],
+        "nota": "Il legame con l’italiano 'stesso' è dibattuto: molte proposte lo fanno derivare da una fusione tardo-latina di 'iste' + 'ipse'/'ipsum', ma la questione non è del tutto risolta."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente inglese diretto e comune."
+      },
+      "es": {
+        "voci": [
+          "mismo"
+        ],
+        "nota": "Lo spagnolo 'mismo' discende con relativa certezza dal composto tardo-latino 'metipsimus' (met- + ipse + -issimus), che contiene 'ipse' al suo interno."
+      }
+    }
+  },
+  "lis": {
+    "lemma_id": "lis",
+    "lemma": "lis, litis",
+    "paradigma": "lis, litis",
+    "categoria": "sostantivo",
+    "frequenza": 20,
+    "significati_base": {
+      "it": [
+        "lite",
+        "controversia"
+      ],
+      "en": [
+        "lawsuit",
+        "dispute"
+      ],
+      "es": [
+        "litigio",
+        "disputa"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Sostantivo 'lite, controversia (anche giudiziaria), contesa'. Etimologia ultima incerta.",
+        "en": "Noun 'lawsuit, dispute (also legal), quarrel'. Ultimate origin uncertain.",
+        "es": "Sustantivo 'litigio, disputa (también judicial), contienda'. Etimología última incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune in italiano; 'lite' viene da questa stessa radice ma per una via meno diretta."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune."
+      },
+      "es": {
+        "voci": [
+          "litigio"
+        ],
+        "nota": "Prestito dotto, non evoluzione fonetica diretta."
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (femminile)"
+  },
+  "longus": {
+    "lemma_id": "longus",
+    "lemma": "longus, -a, -um",
+    "paradigma": "longus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 260,
+    "significati_base": {
+      "it": [
+        "lungo"
+      ],
+      "en": [
+        "long"
+      ],
+      "es": [
+        "largo (falso amico storico)"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'lungo', uno dei termini spaziali di base del latino, di etimologia ultima incerta: una radice antica e semplice, priva di un prefisso o suffisso riconoscibile, comune a più rami delle lingue indoeuropee (cfr. l’inglese 'long', il tedesco 'lang').",
+        "en": "Adjective 'long', one of the basic Latin spatial terms, of uncertain ultimate origin: an ancient, simple root, without a recognizable prefix or suffix, shared across several branches of the Indo-European family (cf. English 'long', German 'lang' — true cognates, not loans).",
+        "es": "Adjetivo 'largo (en el sentido de longitud)', una de las palabras espaciales básicas del latín, de etimología última incierta, compartida (como cognado, no préstamo) por varias lenguas indoeuropeas, entre ellas el inglés 'long' y el alemán 'lang'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "lungo",
+          "lunghezza",
+          "longevo"
+        ],
+        "nota": "'Longevo' è un composto con 'aevum' (età): due destini diversi della stessa radice, uno popolare ('lungo') e uno dotto ('longevo')."
+      },
+      "en": {
+        "voci": [
+          "long",
+          "longevity",
+          "elongate"
+        ],
+        "nota": "'Long' è un cognato germanico ereditario, non un prestito dal latino: la parola esisteva già in inglese antico con la stessa radice indoeuropea. 'Longevity'/'elongate' sono invece prestiti dotti."
+      },
+      "es": {
+        "voci": [
+          "luengo (arcaico/letterario)",
+          "longevo",
+          "elongar"
+        ],
+        "nota": "Il comune spagnolo 'largo' (lungo) NON discende da 'longus' ma da 'largus' (abbondante): un falso amico storico. Il vero erede diretto di 'longus' è l'arcaico/letterario 'luengo'."
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "magnus": {
+    "lemma_id": "magnus",
+    "lemma": "magnus, -a, -um",
+    "paradigma": "magnus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 480,
+    "significati_base": {
+      "it": [
+        "grande"
+      ],
+      "en": [
+        "great",
+        "large"
+      ],
+      "es": [
+        "grande"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'grande', da un’antica radice indoeuropea per la grandezza che si ritrova nel greco 'megas' (da cui 'mega-') e nell’inglese arcaico 'mickle': uno dei tanti aggettivi di base che il latino condivide, quasi immutato nel senso, con le lingue sorelle.",
+        "en": "Adjective 'great, large', from an ancient Indo-European root for greatness found in Greek 'megas' (whence 'mega-') and in archaic English 'mickle': one of the many basic adjectives Latin shares, almost unchanged in meaning, with its sister languages.",
+        "es": "Adjetivo 'grande', de una antigua raíz indoeuropea para la grandeza presente en el griego 'megas' (de donde 'mega-') y en el inglés arcaico 'mickle'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "magno",
+          "magnitudine",
+          "maggiore"
+        ],
+        "nota": "'Maggiore' continua il comparativo 'maior'."
+      },
+      "en": {
+        "voci": [
+          "magnify",
+          "magnitude",
+          "magnate"
+        ],
+        "nota": "Tutti prestiti dotti; l'inglese 'great' non discende da 'magnus'."
+      },
+      "es": {
+        "voci": [
+          "magno",
+          "magnitud",
+          "magnate"
+        ],
+        "nota": "'Mayor' continua invece il comparativo 'maior'."
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "maior": {
+    "lemma_id": "maior",
+    "lemma": "maior, maius",
+    "paradigma": "maior, maius",
+    "categoria": "aggettivo",
+    "frequenza": 260,
+    "significati_base": {
+      "it": [
+        "maggiore",
+        "più grande"
+      ],
+      "en": [
+        "greater",
+        "larger"
+      ],
+      "es": [
+        "mayor"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Comparativo irregolare di 'magnus' (grande): 'maggiore, più grande'. Come per altri comparativi e superlativi molto comuni e antichi, anche qui il latino usa una forma irregolare invece del normale schema con -ior aggiunto alla radice piena.",
+        "en": "Irregular comparative of 'magnus' (great): 'greater, larger'. As with other very common and ancient comparatives and superlatives, Latin here uses an irregular (suppletive) form instead of the normal -ior pattern.",
+        "es": "Comparativo irregular de 'magnus' (grande): 'mayor, más grande'. Como otros comparativos y superlativos muy comunes y antiguos, el latín usa aquí una forma irregular en lugar del esquema regular con -ior."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "maggiore",
+          "maggioranza"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "major",
+          "majority"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "mayor",
+          "mayoría"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "comparativo irregolare"
+  },
+  "malignitas": {
+    "lemma_id": "malignitas",
+    "lemma": "malignitas, -atis",
+    "paradigma": "malignitas, -atis",
+    "categoria": "sostantivo",
+    "frequenza": 15,
+    "significati_base": {
+      "it": [
+        "malvagità",
+        "invidia",
+        "avarizia"
+      ],
+      "en": [
+        "spitefulness",
+        "malice",
+        "stinginess"
+      ],
+      "es": [
+        "malignidad",
+        "maldad",
+        "tacañería"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'malvagità, invidia, avarizia', da 'malignus' (cattivo, avaro, meschino) con il suffisso -tas (qualità astratta): 'malignus' è composto da 'malus' (cattivo) + un elemento che indica origine o natura, quindi letteralmente 'di natura cattiva'.",
+        "en": "Noun 'malice, envy, stinginess', from 'malignus' (evil, stingy, mean) with the suffix -tas (abstract quality): 'malignus' is composed of 'malus' (bad) + an element indicating origin or nature, hence literally 'of a bad nature'.",
+        "es": "Sustantivo 'maldad, envidia, tacañería', de 'malignus' (malo, avaro, mezquino) con el sufijo -tas (cualidad abstracta): 'malignus' se compone de 'malus' (malo) + un elemento que indica origen o naturaleza."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "malignità"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "malignity",
+          "malignant"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "malignidad"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (femminile)"
+  },
+  "malum": {
+    "lemma_id": "malum",
+    "lemma": "malum, -i",
+    "paradigma": "malum, -i",
+    "categoria": "sostantivo",
+    "frequenza": 130,
+    "significati_base": {
+      "it": [
+        "male",
+        "danno",
+        "sventura"
+      ],
+      "en": [
+        "evil",
+        "harm",
+        "misfortune"
+      ],
+      "es": [
+        "mal",
+        "daño",
+        "desgracia"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'male, danno, sventura', forma neutra sostantivata dell’aggettivo 'malus' (cattivo): un 'malum' è, letteralmente, 'una cosa cattiva'.",
+        "en": "Noun 'evil, harm, misfortune', a substantivized neuter form of the adjective 'malus' (bad): a 'malum' is, literally, 'a bad thing'.",
+        "es": "Sustantivo 'mal, daño, desgracia', forma neutra sustantivada del adjetivo 'malus' (malo): un 'malum' es, literalmente, 'una cosa mala'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "male",
+          "malanno"
+        ],
+        "nota": "L’aggettivo 'malus' stesso ha dato 'malvagio'."
+      },
+      "en": {
+        "voci": [
+          "malady (via francese)"
+        ],
+        "nota": "L'aggettivo 'malus' ha dato invece 'malicious', 'malign'."
+      },
+      "es": {
+        "voci": [
+          "mal",
+          "malo"
+        ],
+        "nota": "El adjetivo 'malus' ha dado además 'malvado'."
+      }
+    },
+    "coniugazione_declinazione": "2a declinazione (neutro)"
+  },
+  "medicus": {
+    "lemma_id": "medicus",
+    "lemma": "medicus, -i",
+    "paradigma": "medicus, -i",
+    "categoria": "sostantivo",
+    "frequenza": 60,
+    "significati_base": {
+      "it": [
+        "medico"
+      ],
+      "en": [
+        "doctor",
+        "physician"
+      ],
+      "es": [
+        "médico"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo/aggettivo 'medico', da 'medeor' (curare, guarire), forse imparentato con una radice indicante 'misurare, prendere provvedimenti adeguati' (lo stesso concetto di 'rimedio' come misura giusta contro un male).",
+        "en": "Noun/adjective 'physician, medical', from 'medeor' (to heal), perhaps related to a root meaning 'to measure, take fitting measures' (the same concept behind 'remedy' as the right measure against an ill).",
+        "es": "Sustantivo/adjetivo 'médico', de 'medeor' (curar), quizá emparentado con una raíz que indica 'medir, tomar las medidas adecuadas'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "medico",
+          "medicina",
+          "medicare"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "medic",
+          "medicine",
+          "medical"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "médico",
+          "medicina",
+          "medicar"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "2a declinazione (maschile)"
+  },
+  "mortalis": {
+    "lemma_id": "mortalis",
+    "lemma": "mortalis, -e",
+    "paradigma": "mortalis, -e",
+    "categoria": "aggettivo",
+    "frequenza": 170,
+    "significati_base": {
+      "it": [
+        "mortale"
+      ],
+      "en": [
+        "mortal"
+      ],
+      "es": [
+        "mortal"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo/sostantivo 'mortale', da 'mors, mortis' (morte) con il suffisso -alis, che forma aggettivi di relazione (lo stesso di 'annalis', 'annuale'): un mortale è, letteralmente, 'chi ha a che fare con la morte', in opposizione agli dèi 'immortales'.",
+        "en": "Adjective/noun 'mortal', from 'mors, mortis' (death) with the suffix -alis, which forms adjectives of relation (the same suffix as in 'annalis', 'annual'): a mortal is, literally, 'one who has to do with death', as opposed to the immortal gods.",
+        "es": "Adjetivo/sustantivo 'mortal', de 'mors, mortis' (muerte) con el sufijo -alis, que forma adjetivos de relación: un mortal es, literalmente, 'quien tiene que ver con la muerte'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "mortale",
+          "mortalità"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "mortal",
+          "mortality"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "mortal",
+          "mortalidad"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (sostantivato qui)"
+  },
+  "multus": {
+    "lemma_id": "multus",
+    "lemma": "multus, -a, -um",
+    "paradigma": "multus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 620,
+    "significati_base": {
+      "it": [
+        "molto",
+        "numeroso",
+        "abbondante"
+      ],
+      "en": [
+        "much",
+        "many"
+      ],
+      "es": [
+        "mucho"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'molto, numeroso, abbondante'. Etimologia ultima incerta, senza un collegamento sicuro con altre famiglie lessicali latine.",
+        "en": "Adjective 'much, numerous, abundant'. Ultimate origin uncertain, with no secure link to other Latin lexical families.",
+        "es": "Adjetivo 'mucho, numeroso, abundante'. Etimología última incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "molto"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "multitude",
+          "multiple",
+          "multiply"
+        ],
+        "nota": "Tutti prestiti dotti; l'inglese 'much' non discende da 'multus'."
+      },
+      "es": {
+        "voci": [
+          "mucho"
+        ],
+        "nota": "Con normale evoluzione fonetica, a differenza dell'inglese che non ha un erede popolare diretto."
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "natura": {
+    "lemma_id": "natura",
+    "lemma": "natura, -ae",
+    "paradigma": "natura, -ae",
+    "categoria": "sostantivo",
+    "frequenza": 340,
+    "significati_base": {
+      "it": [
+        "natura"
+      ],
+      "en": [
+        "nature"
+      ],
+      "es": [
+        "naturaleza"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'natura', da 'nascor' (nascere) con il suffisso -tura, che forma sostantivi indicanti il risultato di un’azione (cfr. 'pictura', la pittura, da 'pingo', dipingere): 'natura' è, letteralmente, 'ciò che è nato', tutto ciò che esiste per nascita e non per fabbricazione umana.",
+        "en": "Noun 'nature', from 'nascor' (to be born) with the suffix -tura, which forms nouns indicating the result of an action (cf. 'pictura', painting, from 'pingo', to paint): 'natura' is, literally, 'that which has been born', everything that exists by birth and not by human making.",
+        "es": "Sustantivo 'naturaleza', de 'nascor' (nacer) con el sufijo -tura, que forma sustantivos que indican el resultado de una acción: 'natura' es, literalmente, 'lo que ha nacido'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "natura",
+          "naturale"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "nature",
+          "natural"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "naturaleza",
+          "natural"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a declinazione (femminile)"
+  },
+  "nec": {
+    "lemma_id": "nec",
+    "lemma": "nec",
+    "paradigma": "nec",
+    "categoria": "congiunzione",
+    "frequenza": 380,
+    "significati_base": {
+      "it": [
+        "e non",
+        "né"
+      ],
+      "en": [
+        "and not",
+        "nor"
+      ],
+      "es": [
+        "y no",
+        "ni"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Congiunzione 'e non, né', da ne- (negazione) + -que ('e') fusi insieme: letteralmente 'e non'. È la forma negativa corrispondente al positivo 'et', usata per negare in coordinazione senza dover ripetere 'non... et'.",
+        "en": "Conjunction 'and not, nor', from ne- (negation) + -que ('and') fused together: literally 'and not'. It is the negative counterpart to positive 'et', used to negate in coordination without repeating 'non... et'.",
+        "es": "Conjunción 'y no, ni', de ne- (negación) + -que ('y') fusionados: literalmente 'y no'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "né"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "ni"
+        ],
+        "nota": ""
+      }
+    }
+  },
+  "nego": {
+    "lemma_id": "nego",
+    "lemma": "nego, negas, negavi, negatum, negare",
+    "paradigma": "nego, negas, negavi, negatum, negare",
+    "categoria": "verbo",
+    "frequenza": 160,
+    "significati_base": {
+      "it": [
+        "negare",
+        "dire di no",
+        "rifiutare"
+      ],
+      "en": [
+        "to deny",
+        "to refuse"
+      ],
+      "es": [
+        "negar",
+        "rehusar"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'negare, dire di no, rifiutare', da ne- (negazione) + un elemento imparentato con 'aio' (dire): letteralmente 'dire di no'.",
+        "en": "Verb 'to deny, say no, refuse', from ne- (negation) + an element related to 'aio' (to say): literally 'to say no'.",
+        "es": "Verbo 'negar, decir que no, rehusar', de ne- (negación) + un elemento emparentado con 'aio' (decir): literalmente 'decir que no'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "negare"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "deny",
+          "negate",
+          "negative"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "negar"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a coniugazione"
+  },
+  "non": {
+    "lemma_id": "non",
+    "lemma": "non",
+    "paradigma": "non",
+    "categoria": "avverbio",
+    "frequenza": 2200,
+    "significati_base": {
+      "it": [
+        "non"
+      ],
+      "en": [
+        "not"
+      ],
+      "es": [
+        "no"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Avverbio negativo 'non', da un’antica fusione di 'ne' (negazione) + 'oenum' (forma arcaica di 'unum', 'uno': letteralmente 'neppure uno', poi generalizzato a semplice negazione).",
+        "en": "Negative adverb 'not', from an ancient fusion of 'ne' (negation) + 'oenum' (archaic form of 'unum', 'one'): literally 'not even one', later generalized to a plain negation.",
+        "es": "Adverbio negativo 'no', de una antigua fusión de 'ne' (negación) + 'oenum' (forma arcaica de 'unum', 'uno'): literalmente 'ni siquiera uno'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "non"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "no"
+        ],
+        "nota": ""
+      }
+    }
+  },
+  "nos": {
+    "lemma_id": "nos",
+    "lemma": "nos",
+    "paradigma": "nos",
+    "categoria": "pronome",
+    "frequenza": 480,
+    "significati_base": {
+      "it": [
+        "noi"
+      ],
+      "en": [
+        "we",
+        "us"
+      ],
+      "es": [
+        "nosotros"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Pronome personale di prima persona plurale 'noi', dalla stessa radice pronominale che in latino distingue le persone del discorso (cfr. 'vos', 'voi').",
+        "en": "First person plural personal pronoun 'we', from the same pronominal root that distinguishes persons of discourse in Latin (cf. 'vos', 'you [plural]').",
+        "es": "Pronombre personal de primera persona plural 'nosotros', de la misma raíz pronominal que distingue las personas del discurso en latín."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "noi"
+        ],
+        "nota": "Con il suffisso possessivo -ter (vedi voce 'noster') dà anche 'nostro'."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "nos",
+          "nosotros"
+        ],
+        "nota": "Con il suffisso -otros (da 'alteros', 'gli altri'), un rafforzativo tipico dello spagnolo assente in italiano."
+      }
+    }
+  },
+  "opinor": {
+    "lemma_id": "opinor",
+    "lemma": "opinor, opinaris, opinatus sum, opinari",
+    "paradigma": "opinor, opinaris, opinatus sum, opinari",
+    "categoria": "verbo_deponente",
+    "frequenza": 45,
+    "significati_base": {
+      "it": [
+        "credere",
+        "pensare",
+        "essere del parere"
+      ],
+      "en": [
+        "to think",
+        "to be of the opinion"
+      ],
+      "es": [
+        "creer",
+        "opinar",
+        "ser de la opinión"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo deponente 'credere, pensare, essere del parere', dalla stessa area di 'opinio' (opinione), un giudizio personale non certo, contrapposto alla conoscenza sicura.",
+        "en": "Deponent verb 'to believe, think, be of the opinion', from the same area as 'opinio' (opinion), a personal, uncertain judgement, as opposed to sure knowledge.",
+        "es": "Verbo deponente 'creer, pensar, ser de la opinión', del mismo campo que 'opinio' (opinión), un juicio personal incierto, frente al conocimiento seguro."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "opinione",
+          "opinabile"
+        ],
+        "nota": "Tramite il sostantivo 'opinio'."
+      },
+      "en": {
+        "voci": [
+          "opinion",
+          "opine"
+        ],
+        "nota": "Tramite il sostantivo 'opinio'."
+      },
+      "es": {
+        "voci": [
+          "opinar",
+          "opinión"
+        ],
+        "nota": "A través del sustantivo 'opinio'."
+      }
+    },
+    "coniugazione_declinazione": "1a coniugazione"
+  },
+  "pars": {
+    "lemma_id": "pars",
+    "lemma": "pars, partis",
+    "paradigma": "pars, partis",
+    "categoria": "sostantivo",
+    "frequenza": 480,
+    "significati_base": {
+      "it": [
+        "parte",
+        "porzione"
+      ],
+      "en": [
+        "part",
+        "portion"
+      ],
+      "es": [
+        "parte",
+        "porción"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'parte, porzione', dalla stessa radice di 'parere' (nel senso più antico di 'produrre, procurare', non quello moderno di 'sembrare') e di 'portio' (da cui l’italiano 'porzione'): l’idea di fondo è quella di una quota che viene 'assegnata, distribuita'.",
+        "en": "Noun 'part, portion', from the same root as 'parere' (in its older sense of 'to produce, procure', not the modern 'to seem') and 'portio' (whence Italian/Spanish 'porzione/porción'): the underlying idea is that of a share that is 'allotted, distributed'.",
+        "es": "Sustantivo 'parte, porción', de la misma raíz que 'parere' (en su sentido más antiguo de 'producir, procurar') y 'portio' (de donde 'porción'): la idea de fondo es la de una cuota que se 'asigna, distribuye'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "parte",
+          "partire",
+          "particella",
+          "partita",
+          "partenza",
+          "porzione"
+        ],
+        "nota": "'Parte' e 'porzione' sono in realtà due rami dello stesso albero genealogico latino, arrivati in italiano per due strade diverse pur sembrando oggi sinonimi."
+      },
+      "en": {
+        "voci": [
+          "part",
+          "party",
+          "partial",
+          "portion"
+        ],
+        "nota": "'Part' e 'portion' sono in realtà due rami dello stesso albero genealogico latino, arrivati in inglese per due strade diverse."
+      },
+      "es": {
+        "voci": [
+          "parte",
+          "partir",
+          "porción"
+        ],
+        "nota": "Come in italiano, 'parte' e 'porción' sono due rami dello stesso albero genealogico latino."
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (femminile)"
+  },
+  "paucus": {
+    "lemma_id": "paucus",
+    "lemma": "paucus, -a, -um",
+    "paradigma": "paucus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 120,
+    "significati_base": {
+      "it": [
+        "poco",
+        "scarso"
+      ],
+      "en": [
+        "few",
+        "little"
+      ],
+      "es": [
+        "poco"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'poco, scarso', usato di solito al plurale ('pauci', 'pochi'), imparentato con la stessa radice di 'parvus' (piccolo) e 'paulus' (poco, un poco).",
+        "en": "Adjective 'little, scarce' (usually plural, 'pauci', 'few'), related to the same root as 'parvus' (small) and 'paulus' (a little).",
+        "es": "Adjetivo 'poco, escaso' (usado sobre todo en plural, 'pauci', 'pocos'), emparentado con la misma raíz de 'parvus' (pequeño) y 'paulus' (un poco)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "poco",
+          "paucità",
+          "pochino"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "paucity"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "poco"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl., quasi solo plur.)"
+  },
+  "paulinus": {
+    "lemma_id": "paulinus",
+    "lemma": "Paulinus, -i",
+    "paradigma": "Paulinus, -i",
+    "categoria": "nome_proprio",
+    "frequenza": 5,
+    "significati_base": {
+      "it": [
+        "Paolino"
+      ],
+      "en": [
+        "Paulinus"
+      ],
+      "es": [
+        "Paulino"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Nome proprio romano (cognome della gens Pompeia), portato da Pompeo Paolino, il destinatario a cui Seneca dedica l’intero trattato (suo suocero, ex prefetto dell’annona a Roma). Etimologia incerta, forse un diminutivo affettivo legato a 'paulus' (poco, piccolo), comune come cognome nelle famiglie romane.",
+        "en": "Roman proper name (a cognomen of the gens Pompeia), borne by Pompeius Paulinus, the dedicatee of the entire treatise (Seneca's father-in-law, a former prefect of the grain supply in Rome). Origin uncertain, perhaps an affectionate diminutive related to 'paulus' (small, little), a common cognomen in Roman families.",
+        "es": "Nombre propio romano (cognomen de la gens Pompeia), llevado por Pompeyo Paulino, el destinatario de todo el tratado (suegro de Séneca, antiguo prefecto de la annona en Roma). Etimología incierta, quizá un diminutivo afectivo ligado a 'paulus' (pequeño)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nome proprio storico, nessun discendente."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nome proprio storico, nessun discendente."
+      },
+      "es": {
+        "voci": [],
+        "nota": "Nombre propio histórico, sin descendiente."
+      }
+    }
+  },
+  "perdo": {
+    "lemma_id": "perdo",
+    "lemma": "perdo, perdis, perdidi, perditum, perdere",
+    "paradigma": "perdo, perdis, perdidi, perditum, perdere",
+    "categoria": "verbo",
+    "frequenza": 190,
+    "significati_base": {
+      "it": [
+        "perdere",
+        "mandare in rovina",
+        "sprecare"
+      ],
+      "en": [
+        "to lose",
+        "to destroy",
+        "to waste"
+      ],
+      "es": [
+        "perder",
+        "arruinar",
+        "malgastar"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'perdere, mandare in rovina, sprecare', da per- (qui con valore intensivo/distruttivo) + do ('dare') — letteralmente 'dare via completamente, disperdere senza ritorno'.",
+        "en": "Verb 'to lose, ruin, waste', from per- (here with intensive/destructive force) + do ('to give') — literally 'to give away completely, to squander without return'.",
+        "es": "Verbo 'perder, arruinar, malgastar', de per- (aquí con valor intensivo/destructivo) + do ('dar') — literalmente 'dar completamente, dispersar sin retorno'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "perdere"
+        ],
+        "nota": "Con normale evoluzione fonetica."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente diretto autonomo."
+      },
+      "es": {
+        "voci": [
+          "perder"
+        ],
+        "nota": "Con normale evoluzione fonetica."
+      }
+    },
+    "coniugazione_declinazione": "3a coniugazione"
+  },
+  "plus": {
+    "lemma_id": "plus",
+    "lemma": "plus, pluris",
+    "paradigma": "plus, pluris",
+    "categoria": "aggettivo",
+    "frequenza": 300,
+    "significati_base": {
+      "it": [
+        "più",
+        "di più"
+      ],
+      "en": [
+        "more"
+      ],
+      "es": [
+        "más (etimologicamente non collegato)"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Comparativo irregolare di 'multus' (molto): 'più, di più' — un altro comparativo che non deriva dalla stessa radice del positivo (lo stesso fenomeno di suppletivismo di 'magnus'/'maior').",
+        "en": "Irregular comparative of 'multus' (much): 'more' — another comparative that does not derive from the same root as its positive form (the same suppletion seen in 'magnus'/'maior').",
+        "es": "Comparativo irregular de 'multus' (mucho): 'más' — otro comparativo que no deriva de la misma raíz que su positivo (el mismo fenómeno de supleción que 'magnus'/'maior')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "più"
+        ],
+        "nota": "Una delle parole più usate della lingua italiana."
+      },
+      "en": {
+        "voci": [
+          "plus",
+          "plural"
+        ],
+        "nota": "'Plus' è un prestito matematico/dotto recente in inglese, non un'evoluzione popolare."
+      },
+      "es": {
+        "voci": [
+          "plural"
+        ],
+        "nota": "Curiosamente lo spagnolo comune 'más' NON continua 'plus' ma il diverso avverbio latino 'magis': un caso in cui italiano e spagnolo hanno scelto due strade diverse per lo stesso concetto ('più' < plus, 'más' < magis)."
+      }
+    },
+    "coniugazione_declinazione": "comparativo irregolare"
+  },
+  "publicus": {
+    "lemma_id": "publicus",
+    "lemma": "publicus, -a, -um",
+    "paradigma": "publicus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 220,
+    "significati_base": {
+      "it": [
+        "pubblico"
+      ],
+      "en": [
+        "public"
+      ],
+      "es": [
+        "público"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'pubblico', da 'populus' (popolo) attraverso una forma intermedia 'poplicus' (con dissimilazione delle due labiali): ciò che è pubblico è, letteralmente, 'del popolo', cioè di tutti e non di un singolo.",
+        "en": "Adjective 'public', from 'populus' (people) through an intermediate form 'poplicus' (with dissimilation of the two labials): what is public is, literally, 'of the people', belonging to everyone and not to a single person.",
+        "es": "Adjetivo 'público', de 'populus' (pueblo) a través de una forma intermedia 'poplicus' (con disimilación de las dos labiales): lo público es, literalmente, 'del pueblo'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "pubblico",
+          "repubblica"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "public",
+          "republic"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "público",
+          "república"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "querella": {
+    "lemma_id": "querella",
+    "lemma": "querella, -ae",
+    "paradigma": "querella, -ae",
+    "categoria": "sostantivo",
+    "frequenza": 30,
+    "significati_base": {
+      "it": [
+        "lamentela",
+        "lagnanza",
+        "doglianza"
+      ],
+      "en": [
+        "complaint",
+        "grievance"
+      ],
+      "es": [
+        "queja",
+        "lamento"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'lamentela, lagnanza, doglianza', da 'queror' (lamentarsi) con il suffisso -ella, diminutivo-vezzeggiativo qui usato senza vera sfumatura di piccolezza.",
+        "en": "Noun 'complaint, grievance', from 'queror' (to complain) with the suffix -ella, a diminutive-affectionate suffix here used without a real sense of smallness.",
+        "es": "Sustantivo 'queja, lamento', de 'queror' (quejarse) con el sufijo -ella, diminutivo-afectivo aquí usado sin un verdadero matiz de pequeñez."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "querela"
+        ],
+        "nota": "Oggi termine tecnico giuridico per l’atto con cui ci si lamenta formalmente di un torto subito."
+      },
+      "en": {
+        "voci": [
+          "quarrel"
+        ],
+        "nota": "L'inglese 'quarrel' arriva per via francese e ha spostato il senso verso 'litigio, discussione'."
+      },
+      "es": {
+        "voci": [
+          "querella"
+        ],
+        "nota": "Oggi termine tecnico giuridico per l'atto con cui ci si lamenta formalmente di un torto subito, esattamente come in italiano."
+      }
+    },
+    "coniugazione_declinazione": "1a declinazione (femminile)"
+  },
+  "qui": {
+    "lemma_id": "qui",
+    "lemma": "qui, quae, quod",
+    "paradigma": "qui, quae, quod",
+    "categoria": "pronome",
+    "frequenza": 1400,
+    "significati_base": {
+      "it": [
+        "che",
+        "il quale",
+        "chi"
+      ],
+      "en": [
+        "who",
+        "which",
+        "that"
+      ],
+      "es": [
+        "que",
+        "el cual",
+        "quien"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Pronome relativo/interrogativo 'che, il quale; chi, quale', dalla stessa radice dell’interrogativo latino 'quis, quid', imparentata con gli interrogativi di molte lingue sorelle (l’inglese 'who'/'what', il tedesco 'wer'/'was' condividono la stessa origine remota).",
+        "en": "Relative/interrogative pronoun 'who, which, that', from the same root as the Latin interrogative 'quis, quid', related to the interrogatives of many sister languages (English 'who'/'what', German 'wer'/'was' share the same remote origin).",
+        "es": "Pronombre relativo/interrogativo 'que, el cual; quien, cuál', de la misma raíz que el interrogativo latino 'quis, quid', emparentada con los interrogativos de muchas lenguas hermanas."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "che",
+          "chi",
+          "cui"
+        ],
+        "nota": "Il relativo italiano 'che' continua piuttosto le forme neutre (quid/quod), 'chi' e 'cui' altre forme dello stesso tema."
+      },
+      "en": {
+        "voci": [
+          "who",
+          "what (cognati indoeuropei, non prestiti)"
+        ],
+        "nota": "L'inglese 'who'/'what' non discende dal latino 'qui': è un cognato indipendente della stessa remota radice indoeuropea."
+      },
+      "es": {
+        "voci": [
+          "que",
+          "quien",
+          "cual"
+        ],
+        "nota": ""
+      }
+    }
+  },
+  "quini": {
+    "lemma_id": "quini",
+    "lemma": "quini, -ae, -a",
+    "paradigma": "quini, -ae, -a",
+    "categoria": "numerale",
+    "frequenza": 10,
+    "significati_base": {
+      "it": [
+        "cinque ciascuno",
+        "a gruppi di cinque"
+      ],
+      "en": [
+        "five each",
+        "five at a time"
+      ],
+      "es": [
+        "de cinco en cinco"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Numerale distributivo 'cinque ciascuno, a gruppi di cinque', da 'quinque' (cinque) con lo stesso suffisso distributivo -ni di 'deni' ('dieci ciascuno').",
+        "en": "Distributive numeral 'five each, in groups of five', from 'quinque' (five) with the same distributive suffix -ni as 'deni' ('ten each').",
+        "es": "Numeral distributivo 'de cinco en cinco', de 'quinque' (cinco) con el mismo sufijo distributivo -ni de 'deni' ('de diez en diez')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente autonomo in italiano; 'cinque' continua semplicemente il cardinale 'quinque'."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [],
+        "nota": ""
+      }
+    }
+  },
+  "quoque": {
+    "lemma_id": "quoque",
+    "lemma": "quoque",
+    "paradigma": "quoque",
+    "categoria": "avverbio",
+    "frequenza": 220,
+    "significati_base": {
+      "it": [
+        "anche"
+      ],
+      "en": [
+        "also",
+        "too"
+      ],
+      "es": [
+        "también"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Avverbio 'anche', da 'quo' + l’enclitica -que ('e'): letteralmente 'e a quel punto', poi generalizzato al senso di 'anche'.",
+        "en": "Adverb 'also', from 'quo' + the enclitic -que ('and'): literally 'and at that point', later generalized to the sense of 'also'.",
+        "es": "Adverbio 'también', de 'quo' + la enclítica -que ('y'): literalmente 'y en ese punto', luego generalizado al sentido de 'también'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto in italiano."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [],
+        "nota": ""
+      }
+    }
+  },
+  "rapidus": {
+    "lemma_id": "rapidus",
+    "lemma": "rapidus, -a, -um",
+    "paradigma": "rapidus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 55,
+    "significati_base": {
+      "it": [
+        "rapido",
+        "impetuoso",
+        "che trascina via"
+      ],
+      "en": [
+        "swift",
+        "rushing",
+        "sweeping"
+      ],
+      "es": [
+        "rápido",
+        "impetuoso",
+        "arrebatador"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'rapido, impetuoso, che trascina via', da 'rapio' (afferrare, portare via con violenza): ciò che è 'rapidus' si muove con la stessa forza travolgente di chi 'rapisce' qualcosa, un’immagine molto concreta di velocità come 'forza che trascina'.",
+        "en": "Adjective 'swift, impetuous, sweeping away', from 'rapio' (to seize, carry off by force): what is 'rapidus' moves with the same overwhelming force as one who 'seizes' something — a very concrete image of speed as 'force that drags away'.",
+        "es": "Adjetivo 'rápido, impetuoso, que arrastra', de 'rapio' (arrebatar, llevarse por la fuerza): lo que es 'rapidus' se mueve con la misma fuerza arrolladora de quien 'arrebata' algo."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "rapido"
+        ],
+        "nota": "Lo stesso 'rapio' ha dato anche 'rapire' e 'rapina'."
+      },
+      "en": {
+        "voci": [
+          "rapid",
+          "rapture",
+          "rapacious"
+        ],
+        "nota": "Lo stesso 'rapio' ha dato anche 'rape' (nel senso giuridico antico di 'rapimento') e 'rapacious'."
+      },
+      "es": {
+        "voci": [
+          "rápido"
+        ],
+        "nota": "El mismo 'rapio' ha dado también 'rapiña' y, por vía culta, 'raptar'."
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "res": {
+    "lemma_id": "res",
+    "lemma": "res, rei",
+    "paradigma": "res, rei",
+    "categoria": "sostantivo",
+    "frequenza": 900,
+    "significati_base": {
+      "it": [
+        "cosa",
+        "faccenda",
+        "circostanza"
+      ],
+      "en": [
+        "thing",
+        "matter",
+        "affair"
+      ],
+      "es": [
+        "cosa",
+        "asunto"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'cosa, faccenda, circostanza'. Etimologia ultima incerta.",
+        "en": "Noun 'thing, matter, affair'. Ultimate origin uncertain.",
+        "es": "Sustantivo 'cosa, asunto, circunstancia'. Etimología última incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto comune; cfr. però 'reale' (da 'realis', derivato da 'res')."
+      },
+      "en": {
+        "voci": [
+          "real (matter-of-fact), republic (via \"res publica\")"
+        ],
+        "nota": "L'inglese 'real' (nel senso di 'reale, effettivo') discende da 'realis', derivato da 'res': non va confuso con l'omofono raro che indica 'regio'."
+      },
+      "es": {
+        "voci": [
+          "real (efectivo, no el \"real\" de rey)"
+        ],
+        "nota": "In spagnolo esistono due 'real' omofoni di origine diversa: uno da 'res' (reale, effettivo) e uno da 'rex/regalis' (reale, regio, come in 'Real Madrid') — un falso amico interno alla stessa lingua."
+      }
+    },
+    "coniugazione_declinazione": "5a declinazione (femminile)"
+  },
+  "saeculum": {
+    "lemma_id": "saeculum",
+    "lemma": "saeculum, -i",
+    "paradigma": "saeculum, -i",
+    "categoria": "sostantivo",
+    "frequenza": 60,
+    "significati_base": {
+      "it": [
+        "generazione",
+        "epoca",
+        "secolo"
+      ],
+      "en": [
+        "generation",
+        "age",
+        "century"
+      ],
+      "es": [
+        "generación",
+        "época",
+        "siglo"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'generazione, epoca, secolo' (in origine il tempo di vita di una generazione umana, non ancora il periodo fisso di cento anni che diventerà più tardi).",
+        "en": "Noun 'generation, age, century' (originally the span of a human generation's lifetime, not yet the fixed hundred-year period it would later become).",
+        "es": "Sustantivo 'generación, época, siglo' (en origen el tiempo de vida de una generación humana, no todavía el periodo fijo de cien años que llegaría a ser después)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "secolo"
+        ],
+        "nota": "L’italiano ha fissato il significato più tardo e preciso di 'cento anni'."
+      },
+      "en": {
+        "voci": [
+          "secular"
+        ],
+        "nota": "Prestito dotto tardo, con senso spostato verso 'non religioso'."
+      },
+      "es": {
+        "voci": [
+          "siglo"
+        ],
+        "nota": "Lo spagnolo ha fissato il significato più tardo e preciso di 'cento anni'."
+      }
+    },
+    "coniugazione_declinazione": "2a declinazione (neutro)"
+  },
+  "sapiens": {
+    "lemma_id": "sapiens",
+    "lemma": "sapiens, sapientis",
+    "paradigma": "sapiens, sapientis",
+    "categoria": "aggettivo",
+    "frequenza": 150,
+    "significati_base": {
+      "it": [
+        "saggio",
+        "sapiente"
+      ],
+      "en": [
+        "wise",
+        "sage"
+      ],
+      "es": [
+        "sabio"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo/sostantivo 'saggio, sapiente', participio presente di 'sapio' (avere sapore, e per estensione 'avere buon senso, capire' — lo stesso passaggio di significato di 'assaporare' qualcosa con la mente prima ancora che con la bocca).",
+        "en": "Adjective/noun 'wise, sage', present participle of 'sapio' (to have taste/flavour, and by extension 'to have good sense, to understand' — the same shift of meaning as 'to savour' something with the mind before the mouth).",
+        "es": "Adjetivo/sustantivo 'sabio, sapiente', participio presente de 'sapio' (tener sabor, y por extensión 'tener buen juicio, entender')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "sapiente",
+          "sapienza",
+          "sapere"
+        ],
+        "nota": "Tramite il sostantivo 'sapientia'."
+      },
+      "en": {
+        "voci": [
+          "sapient",
+          "sage"
+        ],
+        "nota": "Tramite il sostantivo 'sapientia'."
+      },
+      "es": {
+        "voci": [
+          "sabio",
+          "sabiduría",
+          "saber"
+        ],
+        "nota": "A través del sustantivo 'sapientia'."
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (participio sostantivato)"
+  },
+  "sed": {
+    "lemma_id": "sed",
+    "lemma": "sed",
+    "paradigma": "sed",
+    "categoria": "congiunzione",
+    "frequenza": 620,
+    "significati_base": {
+      "it": [
+        "ma",
+        "però",
+        "bensì"
+      ],
+      "en": [
+        "but"
+      ],
+      "es": [
+        "pero",
+        "sino"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Congiunzione avversativa 'ma, però, bensì', una delle congiunzioni più antiche e stabili del latino, usata per introdurre un contrasto netto rispetto a quanto detto prima.",
+        "en": "Adversative conjunction 'but, however', one of the oldest and most stable Latin conjunctions, used to introduce a sharp contrast with what came before.",
+        "es": "Conjunción adversativa 'pero, sin embargo', una de las conjunciones más antiguas y estables del latín."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto in italiano; per 'ma' l’italiano ha scelto un’altra via, dal latino 'magis' ('di più', poi 'piuttosto')."
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente diretto in inglese; l'inglese 'but' ha origine germanica indipendente."
+      },
+      "es": {
+        "voci": [],
+        "nota": "Ningún descendiente directo en español; para 'pero' el español eligió otra vía, del latín 'per hoc'."
+      }
+    }
+  },
+  "spatium": {
+    "lemma_id": "spatium",
+    "lemma": "spatium, -i",
+    "paradigma": "spatium, -i",
+    "categoria": "sostantivo",
+    "frequenza": 90,
+    "significati_base": {
+      "it": [
+        "spazio",
+        "intervallo"
+      ],
+      "en": [
+        "space",
+        "interval"
+      ],
+      "es": [
+        "espacio",
+        "intervalo"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'spazio, intervallo (di luogo o di tempo), pista (per le corse)'. Etimologia ultima incerta, forse imparentata con una radice indicante 'estensione, distensione'.",
+        "en": "Noun 'space, interval (of place or time), race-track'. Ultimate origin uncertain, perhaps related to a root meaning 'extension, stretching'.",
+        "es": "Sustantivo 'espacio, intervalo (de lugar o de tiempo), pista (de carreras)'. Etimología última incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "spazio"
+        ],
+        "nota": "Con normale evoluzione fonetica, arrivato a coprire sia il senso fisico sia quello temporale già presenti in latino."
+      },
+      "en": {
+        "voci": [
+          "space",
+          "spatial"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "espacio",
+          "espacial"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "2a declinazione (neutro)"
+  },
+  "sum": {
+    "lemma_id": "sum",
+    "lemma": "sum, es, fui, esse",
+    "paradigma": "sum, es, fui, esse",
+    "categoria": "verbo",
+    "frequenza": 3000,
+    "significati_base": {
+      "it": [
+        "essere"
+      ],
+      "en": [
+        "to be"
+      ],
+      "es": [
+        "ser",
+        "estar"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Verbo 'essere'. È un verbo suppletivo: le sue forme non vengono tutte dalla stessa radice, ma dalla fusione di più verbi antichissimi che in origine avevano significati vicini ma distinti (uno per l’idea di 'esistere', un altro per quella di 'diventare, essere per natura'). Per questo 'sum' non ha un unico tema regolare come gli altri verbi, ma alterna basi diverse a seconda del tempo: es-/s- al presente (sum, es, est), fu- al perfetto (fui).",
+        "en": "Verb 'to be'. A suppletive verb: its forms do not all come from the same root, but from the fusion of several very ancient verbs that originally had related but distinct meanings (one for the idea of 'to exist', another for 'to become, to be by nature'). This is why 'sum' has no single regular stem like other verbs, but alternates different bases depending on the tense: es-/s- in the present (sum, es, est), fu- in the perfect (fui).",
+        "es": "Verbo 'ser, estar'. Es un verbo supletivo: sus formas no proceden todas de la misma raíz, sino de la fusión de varios verbos antiquísimos que en origen tenían significados cercanos pero distintos. Por eso 'sum' no tiene un único tema regular, sino que alterna bases distintas según el tiempo: es-/s- en presente (sum, es, est), fu- en perfecto (fui)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "essere",
+          "è",
+          "sono",
+          "sia"
+        ],
+        "nota": "Verbo essere italiano, erede diretto (con numerose forme suppletive, come in latino)."
+      },
+      "en": {
+        "voci": [
+          "is",
+          "essence",
+          "entity"
+        ],
+        "nota": "L'inglese 'to be' non discende da 'sum' (è un verbo suppletivo germanico indipendente): i derivati inglesi di 'sum' arrivano solo per via dotta ('essence')."
+      },
+      "es": {
+        "voci": [
+          "ser",
+          "es",
+          "son"
+        ],
+        "nota": "Lo spagnolo 'ser' è anch'esso un verbo suppletivo, erede diretto (con numerose forme supplettive, come in latino)."
+      }
+    },
+    "coniugazione_declinazione": "irregolare (anomalo)"
+  },
+  "tam": {
+    "lemma_id": "tam",
+    "lemma": "tam",
+    "paradigma": "tam",
+    "categoria": "avverbio",
+    "frequenza": 260,
+    "significati_base": {
+      "it": [
+        "così",
+        "tanto"
+      ],
+      "en": [
+        "so",
+        "as (much)"
+      ],
+      "es": [
+        "tan"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Avverbio 'così, tanto', usato tipicamente in correlazione con 'quam' ('tam...quam', 'tanto...quanto') per costruire un paragone di uguaglianza. Etimologia probabilmente legata alla stessa radice pronominale di 'tantus' (così grande).",
+        "en": "Adverb 'so, so much', typically used in correlation with 'quam' ('tam...quam', 'as much...as') to build a comparison of equality. Probably related to the same pronominal root as 'tantus' (so great).",
+        "es": "Adverbio 'tan, tanto', usado típicamente en correlación con 'quam' ('tam...quam', 'tanto...como') para construir una comparación de igualdad."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto autonomo; il concetto è coperto in italiano da 'tanto' (vedi voce 'tantus'), di formazione diversa ma dalla stessa radice pronominale."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "tan"
+        ],
+        "nota": "A differenza dell'italiano 'tanto' (da 'tantus'), lo spagnolo 'tan' continua direttamente proprio questa forma breve 'tam'."
+      }
+    }
+  },
+  "tantum": {
+    "lemma_id": "tantum",
+    "lemma": "tantum",
+    "paradigma": "tantum",
+    "categoria": "avverbio",
+    "frequenza": 240,
+    "significati_base": {
+      "it": [
+        "soltanto",
+        "solamente"
+      ],
+      "en": [
+        "only",
+        "merely"
+      ],
+      "es": [
+        "solamente",
+        "tan solo"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Avverbio 'soltanto, solamente', forma avverbiale neutra di 'tantus' (così grande): letteralmente 'tanto (e non più)'.",
+        "en": "Adverb 'only, merely', the neuter adverbial form of 'tantus' (so great): literally 'so much (and no more)'.",
+        "es": "Adverbio 'solamente, tan solo', forma adverbial neutra de 'tantus' (tan grande): literalmente 'tanto (y no más)'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto autonomo; il concetto di 'solo' è coperto in italiano da altre parole."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [],
+        "nota": ""
+      }
+    }
+  },
+  "tantus": {
+    "lemma_id": "tantus",
+    "lemma": "tantus, -a, -um",
+    "paradigma": "tantus, -a, -um",
+    "categoria": "aggettivo",
+    "frequenza": 210,
+    "significati_base": {
+      "it": [
+        "così grande",
+        "tanto"
+      ],
+      "en": [
+        "so great",
+        "so much"
+      ],
+      "es": [
+        "tan grande",
+        "tanto"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo/pronome 'così grande, tanto', in correlazione con 'quantus' (quanto grande): una coppia costruita sullo stesso modello di 'tam...quam'.",
+        "en": "Adjective/pronoun 'so great, so much', in correlation with 'quantus' (how great): a pair built on the same model as 'tam...quam'.",
+        "es": "Adjetivo/pronombre 'tan grande, tanto', en correlación con 'quantus' (cuán grande): un par construido sobre el mismo modelo que 'tam...quam'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "tanto"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [],
+        "nota": "Nessun discendente diretto autonomo in inglese."
+      },
+      "es": {
+        "voci": [
+          "tanto"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a classe (1a-2a decl.)"
+  },
+  "tempus": {
+    "lemma_id": "tempus",
+    "lemma": "tempus, -oris",
+    "paradigma": "tempus, -oris",
+    "categoria": "sostantivo",
+    "frequenza": 700,
+    "significati_base": {
+      "it": [
+        "tempo",
+        "momento",
+        "circostanza"
+      ],
+      "en": [
+        "time",
+        "moment",
+        "occasion"
+      ],
+      "es": [
+        "tiempo",
+        "momento",
+        "ocasión"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'tempo, momento, circostanza'. Etimologia ultima incerta, forse imparentata con una radice indicante 'ciò che si estende, si stira' (il tempo come una durata che si dispiega).",
+        "en": "Noun 'time, moment, occasion'. Ultimate origin uncertain, perhaps related to a root meaning 'that which stretches, extends' (time as a duration that unfolds).",
+        "es": "Sustantivo 'tiempo, momento, circunstancia'. Etimología última incierta, quizá emparentada con una raíz que indica 'lo que se extiende'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "tempo",
+          "temporale",
+          "contemporaneo"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "temporary",
+          "temporal",
+          "contemporary"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "tiempo",
+          "temporal",
+          "contemporáneo"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione (neutro)"
+  },
+  "turba": {
+    "lemma_id": "turba",
+    "lemma": "turba, -ae",
+    "paradigma": "turba, -ae",
+    "categoria": "sostantivo",
+    "frequenza": 90,
+    "significati_base": {
+      "it": [
+        "folla",
+        "massa",
+        "moltitudine disordinata"
+      ],
+      "en": [
+        "crowd",
+        "mob",
+        "throng"
+      ],
+      "es": [
+        "muchedumbre",
+        "turba",
+        "multitud desordenada"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'folla, massa, moltitudine disordinata, tumulto', imparentato con il greco 'týrbē' (confusione, tumulto): un prestito o un parallelo che condivide l’idea di 'agitazione confusa di molte persone'.",
+        "en": "Noun 'crowd, mass, disorderly multitude, tumult', related to Greek 'týrbē' (confusion, tumult): a loan or a parallel sharing the idea of a 'confused agitation of many people'.",
+        "es": "Sustantivo 'muchedumbre, masa, multitud desordenada, tumulto', emparentado con el griego 'týrbē' (confusión, tumulto)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "turba",
+          "turbare"
+        ],
+        "nota": "'Turbare' conserva l’idea di 'mettere in disordine', come fa una folla agitata."
+      },
+      "en": {
+        "voci": [
+          "turbulent",
+          "disturb",
+          "turbid"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "turba",
+          "turbar"
+        ],
+        "nota": "'Turbar' conserva la idea de 'poner en desorden'."
+      }
+    },
+    "coniugazione_declinazione": "1a declinazione (femminile)"
+  },
+  "ut": {
+    "lemma_id": "ut",
+    "lemma": "ut",
+    "paradigma": "ut",
+    "categoria": "congiunzione",
+    "frequenza": 1100,
+    "significati_base": {
+      "it": [
+        "che",
+        "affinché",
+        "come"
+      ],
+      "en": [
+        "that",
+        "so that",
+        "as"
+      ],
+      "es": [
+        "que",
+        "para que",
+        "como"
+      ]
+    },
+    "etimologia": {
+      "mostrare": false,
+      "testo": {
+        "it": "Congiunzione 'che, affinché, come' (introduce proposizioni finali, completive, comparative). Etimologia incerta.",
+        "en": "Conjunction 'that, so that, as' (introduces final, completive, or comparative clauses). Origin uncertain.",
+        "es": "Conjunción 'que, para que, como' (introduce oraciones finales, completivas o comparativas). Etimología incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [],
+        "nota": "Nessun discendente diretto: l’italiano 'che' viene da un’altra fonte (qui/quid)."
+      },
+      "en": {
+        "voci": [],
+        "nota": ""
+      },
+      "es": {
+        "voci": [],
+        "nota": ""
+      }
+    }
+  },
+  "velox": {
+    "lemma_id": "velox",
+    "lemma": "velox, velocis",
+    "paradigma": "velox, velocis",
+    "categoria": "aggettivo",
+    "frequenza": 45,
+    "significati_base": {
+      "it": [
+        "veloce",
+        "rapido",
+        "agile"
+      ],
+      "en": [
+        "swift",
+        "fast",
+        "nimble"
+      ],
+      "es": [
+        "veloz",
+        "ágil"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Aggettivo 'veloce, rapido, agile'. Etimologia ultima incerta, forse imparentata con 'volare' (volo) nel senso di un movimento che sembra 'volare via'.",
+        "en": "Adjective 'swift, fast, nimble'. Ultimate origin uncertain, perhaps related to 'volare' (volo, to fly) in the sense of a movement that seems 'to fly away'.",
+        "es": "Adjetivo 'veloz, rápido, ágil'. Etimología última incierta, quizá emparentada con 'volare' (volo, volar)."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "veloce",
+          "velocemente",
+          "velocità"
+        ],
+        "nota": ""
+      },
+      "en": {
+        "voci": [
+          "velocity",
+          "velocipede"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "veloz",
+          "velocidad"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "3a declinazione"
+  },
+  "vir": {
+    "lemma_id": "vir",
+    "lemma": "vir, viri",
+    "paradigma": "vir, viri",
+    "categoria": "sostantivo",
+    "frequenza": 320,
+    "significati_base": {
+      "it": [
+        "uomo (maschio adulto)"
+      ],
+      "en": [
+        "man (male)"
+      ],
+      "es": [
+        "varón",
+        "hombre (macho adulto)"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'uomo' nel senso di maschio adulto, spesso con connotazione di valore e coraggio, non semplice essere umano come 'homo': un 'vir' è un uomo nel pieno delle sue qualità, da cui deriva 'virtus' ('qualità da vir', cioè 'valore, coraggio').",
+        "en": "Noun 'man' in the sense of an adult male, often with a connotation of worth and courage, not a mere human being like 'homo': a 'vir' is a man in the fullness of his qualities, whence 'virtus' ('the quality of a vir', i.e. 'valour, courage').",
+        "es": "Sustantivo 'hombre' en el sentido de varón adulto, a menudo con connotación de valor y coraje, no simple ser humano como 'homo': un 'vir' es un hombre en la plenitud de sus cualidades, de donde 'virtus' ('cualidad de vir', es decir 'valor, coraje')."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "virile"
+        ],
+        "nota": "Nessun discendente diretto autonomo comune in italiano."
+      },
+      "en": {
+        "voci": [
+          "virile",
+          "virtue",
+          "virtuous"
+        ],
+        "nota": "Tramite 'virtus'."
+      },
+      "es": {
+        "voci": [
+          "viril",
+          "varón"
+        ],
+        "nota": "A través de 'virtus' y de una forma paralela a 'vir'."
+      }
+    },
+    "coniugazione_declinazione": "2a declinazione (maschile)"
+  },
+  "vita": {
+    "lemma_id": "vita",
+    "lemma": "vita, -ae",
+    "paradigma": "vita, -ae",
+    "categoria": "sostantivo",
+    "frequenza": 380,
+    "significati_base": {
+      "it": [
+        "vita"
+      ],
+      "en": [
+        "life"
+      ],
+      "es": [
+        "vida"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'vita', da 'vivo' (vivere) con il suffisso astratto -ta: propriamente 'l’atto/lo stato del vivere'.",
+        "en": "Noun 'life', from 'vivo' (to live) with the abstract suffix -ta: properly 'the act/state of living'.",
+        "es": "Sustantivo 'vida', de 'vivo' (vivir) con el sufijo abstracto -ta: propiamente 'el acto/estado de vivir'."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "vita",
+          "longevità"
+        ],
+        "nota": "Con normale evoluzione fonetica — una delle parole latine più stabili in tutta la storia della lingua."
+      },
+      "en": {
+        "voci": [
+          "vital",
+          "vitamin"
+        ],
+        "nota": ""
+      },
+      "es": {
+        "voci": [
+          "vida",
+          "vital"
+        ],
+        "nota": ""
+      }
+    },
+    "coniugazione_declinazione": "1a declinazione (femminile)"
+  },
+  "vulgus": {
+    "lemma_id": "vulgus",
+    "lemma": "vulgus, -i",
+    "paradigma": "vulgus, -i",
+    "categoria": "sostantivo",
+    "frequenza": 60,
+    "significati_base": {
+      "it": [
+        "il volgo",
+        "la gente comune"
+      ],
+      "en": [
+        "the common people",
+        "the masses"
+      ],
+      "es": [
+        "el vulgo",
+        "la gente común"
+      ]
+    },
+    "etimologia": {
+      "mostrare": true,
+      "testo": {
+        "it": "Sostantivo 'il volgo, la gente comune, la massa'. Etimologia ultima incerta.",
+        "en": "Noun 'the common people, the crowd, the masses'. Ultimate origin uncertain.",
+        "es": "Sustantivo 'el vulgo, la gente común, la masa'. Etimología última incierta."
+      },
+      "radice_indoeuropea": null
+    },
+    "discendenti": {
+      "it": {
+        "voci": [
+          "volgo",
+          "volgare"
+        ],
+        "nota": "Da qui anche 'lingua volgare', la lingua parlata dal popolo (da cui, nei secoli, sono nate le lingue romanze)."
+      },
+      "en": {
+        "voci": [
+          "vulgar"
+        ],
+        "nota": "'Vulgar' in inglese ha assunto una sfumatura negativa più marcata che in italiano."
+      },
+      "es": {
+        "voci": [
+          "vulgo",
+          "vulgar"
+        ],
+        "nota": "Da qui anche 'lengua vulgar', la lingua parlata dal popolo, da cui sono nate le lingue romanze."
+      }
+    },
+    "coniugazione_declinazione": "2a declinazione (neutro/masch.)"
+  }
+}

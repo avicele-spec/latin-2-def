@@ -1,0 +1,1036 @@
+{
+  "maior_maior": {
+    "forma_id": "maior_maior",
+    "forma": "Maior",
+    "lemma_id": "maior",
+    "analisi_morfologica": {
+      "it": "agg. comparativo, nom. sing. f.",
+      "en": "comparative adj., nom. sing. f.",
+      "es": "adj. comparativo, nom. sing. f."
+    },
+    "ambigua": false
+  },
+  "pars_pars": {
+    "forma_id": "pars_pars",
+    "forma": "pars",
+    "lemma_id": "pars",
+    "analisi_morfologica": {
+      "it": "sost., nom. sing. f.",
+      "en": "noun, nom. sing. f.",
+      "es": "sust., nom. sing. f."
+    },
+    "ambigua": false
+  },
+  "mortalis_mortalium": {
+    "forma_id": "mortalis_mortalium",
+    "forma": "mortalium",
+    "lemma_id": "mortalis",
+    "analisi_morfologica": {
+      "it": "sost. sostantivato, gen. plur. m.",
+      "en": "substantivized adj., gen. plur. m.",
+      "es": "adj. sustantivado, gen. plur. m."
+    },
+    "ambigua": false
+  },
+  "paulinus_pauline": {
+    "forma_id": "paulinus_pauline",
+    "forma": "Pauline",
+    "lemma_id": "paulinus",
+    "analisi_morfologica": {
+      "it": "sost. proprio, vocativo sing.",
+      "en": "proper noun, vocative sing.",
+      "es": "sust. propio, vocativo sing."
+    },
+    "ambigua": false
+  },
+  "de_de": {
+    "forma_id": "de_de",
+    "forma": "de",
+    "lemma_id": "de",
+    "analisi_morfologica": {
+      "it": "prep. + abl.",
+      "en": "prep. + abl.",
+      "es": "prep. + abl."
+    },
+    "ambigua": false
+  },
+  "natura_naturae": {
+    "forma_id": "natura_naturae",
+    "forma": "naturae",
+    "lemma_id": "natura",
+    "analisi_morfologica": {
+      "it": "sost., gen. sing. f.",
+      "en": "noun, gen. sing. f.",
+      "es": "sust., gen. sing. f."
+    },
+    "ambigua": false
+  },
+  "malignitas_malignitate": {
+    "forma_id": "malignitas_malignitate",
+    "forma": "malignitate",
+    "lemma_id": "malignitas",
+    "analisi_morfologica": {
+      "it": "sost., abl. sing. f.",
+      "en": "noun, abl. sing. f.",
+      "es": "sust., abl. sing. f."
+    },
+    "ambigua": false
+  },
+  "conqueror_conqueritur": {
+    "forma_id": "conqueror_conqueritur",
+    "forma": "conqueritur",
+    "lemma_id": "conqueror",
+    "analisi_morfologica": {
+      "it": "verbo deponente, 3ª pers. sing. pres. indic.",
+      "en": "deponent verb, 3rd sing. pres. indic.",
+      "es": "verbo deponente, 3ª pers. sing. pres. indic."
+    },
+    "ambigua": false
+  },
+  "qui_quod": {
+    "forma_id": "qui_quod",
+    "forma": "quod",
+    "lemma_id": "qui",
+    "analisi_morfologica": {
+      "it": "congiunzione dichiarativa",
+      "en": "declarative conjunction",
+      "es": "conjunción declarativa"
+    },
+    "ambigua": false
+  },
+  "in_in": {
+    "forma_id": "in_in",
+    "forma": "in",
+    "lemma_id": "in",
+    "analisi_morfologica": {
+      "it": "prep. + acc.",
+      "en": "prep. + acc.",
+      "es": "prep. + acc."
+    },
+    "ambigua": false
+  },
+  "exiguus_exiguum": {
+    "forma_id": "exiguus_exiguum",
+    "forma": "exiguum",
+    "lemma_id": "exiguus",
+    "analisi_morfologica": {
+      "it": "agg. sostantivato, acc. sing. n.",
+      "en": "substantivized adj., acc. sing. n.",
+      "es": "adj. sustantivado, acc. sing. n."
+    },
+    "ambigua": false
+  },
+  "aevum_aevi": {
+    "forma_id": "aevum_aevi",
+    "forma": "aevi",
+    "lemma_id": "aevum",
+    "analisi_morfologica": {
+      "it": "sost., gen. sing. n.",
+      "en": "noun, gen. sing. n.",
+      "es": "sust., gen. sing. n."
+    },
+    "ambigua": false
+  },
+  "gigno_gignimur": {
+    "forma_id": "gigno_gignimur",
+    "forma": "gignimur",
+    "lemma_id": "gigno",
+    "analisi_morfologica": {
+      "it": "verbo, 1ª pers. plur. pres. indic. passivo",
+      "en": "verb, 1st plur. pres. indic. passive",
+      "es": "verbo, 1ª pers. plur. pres. indic. pasivo"
+    },
+    "ambigua": false
+  },
+  "hic_haec": {
+    "forma_id": "hic_haec",
+    "forma": "haec",
+    "lemma_id": "hic",
+    "analisi_morfologica": {
+      "it": "pron. dimostrativo, nom. plur. n.",
+      "en": "demonstrative pron., nom. plur. n.",
+      "es": "pron. demostrativo, nom. plur. n."
+    },
+    "ambigua": false
+  },
+  "tam_tam": {
+    "forma_id": "tam_tam",
+    "forma": "tam",
+    "lemma_id": "tam",
+    "analisi_morfologica": {
+      "it": "avverbio",
+      "en": "adverb",
+      "es": "adverbio"
+    },
+    "ambigua": false
+  },
+  "velox_velociter": {
+    "forma_id": "velox_velociter",
+    "forma": "velociter",
+    "lemma_id": "velox",
+    "analisi_morfologica": {
+      "it": "avverbio",
+      "en": "adverb",
+      "es": "adverbio"
+    },
+    "ambigua": false
+  },
+  "rapidus_rapide": {
+    "forma_id": "rapidus_rapide",
+    "forma": "rapide",
+    "lemma_id": "rapidus",
+    "analisi_morfologica": {
+      "it": "avverbio",
+      "en": "adverb",
+      "es": "adverbio"
+    },
+    "ambigua": false
+  },
+  "do_dati": {
+    "forma_id": "do_dati",
+    "forma": "dati",
+    "lemma_id": "do",
+    "analisi_morfologica": {
+      "it": "participio perfetto, nom. plur. n.",
+      "en": "perfect participle, nom. plur. n.",
+      "es": "participio perfecto, nom. plur. n."
+    },
+    "ambigua": false
+  },
+  "nos_nobis": {
+    "forma_id": "nos_nobis",
+    "forma": "nobis",
+    "lemma_id": "nos",
+    "analisi_morfologica": {
+      "it": "pron., dat. plur.",
+      "en": "pronoun, dat. plur.",
+      "es": "pron., dat. plur."
+    },
+    "ambigua": false
+  },
+  "tempus_temporis": {
+    "forma_id": "tempus_temporis",
+    "forma": "temporis",
+    "lemma_id": "tempus",
+    "analisi_morfologica": {
+      "it": "sost., gen. sing. n.",
+      "en": "noun, gen. sing. n.",
+      "es": "sust., gen. sing. n."
+    },
+    "ambigua": false
+  },
+  "spatium_spatia": {
+    "forma_id": "spatium_spatia",
+    "forma": "spatia",
+    "lemma_id": "spatium",
+    "analisi_morfologica": {
+      "it": "sost., nom. plur. n.",
+      "en": "noun, nom. plur. n.",
+      "es": "sust., nom. plur. n."
+    },
+    "ambigua": false
+  },
+  "decurro_decurrant": {
+    "forma_id": "decurro_decurrant",
+    "forma": "decurrant",
+    "lemma_id": "decurro",
+    "analisi_morfologica": {
+      "it": "verbo, 3ª pers. plur. pres. congiunt.",
+      "en": "verb, 3rd plur. pres. subj.",
+      "es": "verbo, 3ª pers. plur. pres. subj."
+    },
+    "ambigua": false
+  },
+  "adeo_adeo": {
+    "forma_id": "adeo_adeo",
+    "forma": "adeo",
+    "lemma_id": "adeo",
+    "analisi_morfologica": {
+      "it": "avverbio",
+      "en": "adverb",
+      "es": "adverbio"
+    },
+    "ambigua": false
+  },
+  "ut_ut": {
+    "forma_id": "ut_ut",
+    "forma": "ut",
+    "lemma_id": "ut",
+    "analisi_morfologica": {
+      "it": "congiunzione consecutiva + congiuntivo",
+      "en": "result conjunction + subjunctive",
+      "es": "conjunción consecutiva + subjuntivo"
+    },
+    "ambigua": false
+  },
+  "excipio_exceptis": {
+    "forma_id": "excipio_exceptis",
+    "forma": "exceptis",
+    "lemma_id": "excipio",
+    "analisi_morfologica": {
+      "it": "participio perfetto, abl. plur. m. (ablativo assoluto)",
+      "en": "perfect participle, abl. plur. m. (ablative absolute)",
+      "es": "participio perfecto, abl. plur. m. (ablativo absoluto)"
+    },
+    "ambigua": false
+  },
+  "admodum_admodum": {
+    "forma_id": "admodum_admodum",
+    "forma": "admodum",
+    "lemma_id": "admodum",
+    "analisi_morfologica": {
+      "it": "avverbio",
+      "en": "adverb",
+      "es": "adverbio"
+    },
+    "ambigua": false
+  },
+  "paucus_paucis": {
+    "forma_id": "paucus_paucis",
+    "forma": "paucis",
+    "lemma_id": "paucus",
+    "analisi_morfologica": {
+      "it": "agg., abl. plur. m.",
+      "en": "adj., abl. plur. m.",
+      "es": "adj., abl. plur. m."
+    },
+    "ambigua": false
+  },
+  "ceteri_ceteros": {
+    "forma_id": "ceteri_ceteros",
+    "forma": "ceteros",
+    "lemma_id": "ceteri",
+    "analisi_morfologica": {
+      "it": "agg./pron., acc. plur. m.",
+      "en": "adj./pron., acc. plur. m.",
+      "es": "adj./pron., acc. plur. m."
+    },
+    "ambigua": false
+  },
+  "ipse_ipso": {
+    "forma_id": "ipse_ipso",
+    "forma": "ipso",
+    "lemma_id": "ipse",
+    "analisi_morfologica": {
+      "it": "agg. intensivo, abl. sing. n.",
+      "en": "intensive adj., abl. sing. n.",
+      "es": "adj. intensivo, abl. sing. n."
+    },
+    "ambigua": false
+  },
+  "vita_vitae": {
+    "forma_id": "vita_vitae",
+    "forma": "vitae",
+    "lemma_id": "vita",
+    "analisi_morfologica": {
+      "it": "sost., gen. sing. f.",
+      "en": "noun, gen. sing. f.",
+      "es": "sust., gen. sing. f."
+    },
+    "ambigua": false
+  },
+  "apparatus_apparatu": {
+    "forma_id": "apparatus_apparatu",
+    "forma": "apparatu",
+    "lemma_id": "apparatus",
+    "analisi_morfologica": {
+      "it": "sost., abl. sing. m.",
+      "en": "noun, abl. sing. m.",
+      "es": "sust., abl. sing. m."
+    },
+    "ambigua": false
+  },
+  "vita_vita": {
+    "forma_id": "vita_vita",
+    "forma": "vita",
+    "lemma_id": "vita",
+    "analisi_morfologica": {
+      "it": "sost., nom. sing. f.",
+      "en": "noun, nom. sing. f.",
+      "es": "sust., nom. sing. f."
+    },
+    "ambigua": false
+  },
+  "destituo_destituat": {
+    "forma_id": "destituo_destituat",
+    "forma": "destituat",
+    "lemma_id": "destituo",
+    "analisi_morfologica": {
+      "it": "verbo, 3ª pers. sing. pres. congiunt.",
+      "en": "verb, 3rd sing. pres. subj.",
+      "es": "verbo, 3ª pers. sing. pres. subj."
+    },
+    "ambigua": false
+  },
+  "nec_nec": {
+    "forma_id": "nec_nec",
+    "forma": "Nec",
+    "lemma_id": "nec",
+    "analisi_morfologica": {
+      "it": "congiunzione",
+      "en": "conjunction",
+      "es": "conjunción"
+    },
+    "ambigua": false
+  },
+  "hic_huic": {
+    "forma_id": "hic_huic",
+    "forma": "huic",
+    "lemma_id": "hic",
+    "analisi_morfologica": {
+      "it": "pron. dimostrativo, dat. sing. n.",
+      "en": "demonstrative pron., dat. sing. n.",
+      "es": "pron. demostrativo, dat. sing. n."
+    },
+    "ambigua": false
+  },
+  "publicus_publico": {
+    "forma_id": "publicus_publico",
+    "forma": "publico",
+    "lemma_id": "publicus",
+    "analisi_morfologica": {
+      "it": "agg., dat. sing. n.",
+      "en": "adj., dat. sing. n.",
+      "es": "adj., dat. sing. n."
+    },
+    "ambigua": false
+  },
+  "opinor_opinantur": {
+    "forma_id": "opinor_opinantur",
+    "forma": "opinantur",
+    "lemma_id": "opinor",
+    "analisi_morfologica": {
+      "it": "verbo deponente, 3ª pers. plur. pres. indic.",
+      "en": "deponent verb, 3rd plur. pres. indic.",
+      "es": "verbo deponente, 3ª pers. plur. pres. indic."
+    },
+    "ambigua": false
+  },
+  "malum_malo": {
+    "forma_id": "malum_malo",
+    "forma": "malo",
+    "lemma_id": "malum",
+    "analisi_morfologica": {
+      "it": "sost., dat. sing. n.",
+      "en": "noun, dat. sing. n.",
+      "es": "sust., dat. sing. n."
+    },
+    "ambigua": false
+  },
+  "turba_turba": {
+    "forma_id": "turba_turba",
+    "forma": "turba",
+    "lemma_id": "turba",
+    "analisi_morfologica": {
+      "it": "sost., nom. sing. f.",
+      "en": "noun, nom. sing. f.",
+      "es": "sust., nom. sing. f."
+    },
+    "ambigua": false
+  },
+  "tantum_tantum": {
+    "forma_id": "tantum_tantum",
+    "forma": "tantum",
+    "lemma_id": "tantum",
+    "analisi_morfologica": {
+      "it": "avverbio",
+      "en": "adverb",
+      "es": "adverbio"
+    },
+    "ambigua": false
+  },
+  "et_et": {
+    "forma_id": "et_et",
+    "forma": "et",
+    "lemma_id": "et",
+    "analisi_morfologica": {
+      "it": "congiunzione",
+      "en": "conjunction",
+      "es": "conjunción"
+    },
+    "ambigua": false
+  },
+  "imprudens_imprudens": {
+    "forma_id": "imprudens_imprudens",
+    "forma": "imprudens",
+    "lemma_id": "imprudens",
+    "analisi_morfologica": {
+      "it": "agg., nom. sing. n.",
+      "en": "adj., nom. sing. n.",
+      "es": "adj., nom. sing. n."
+    },
+    "ambigua": false
+  },
+  "vulgus_vulgus": {
+    "forma_id": "vulgus_vulgus",
+    "forma": "vulgus",
+    "lemma_id": "vulgus",
+    "analisi_morfologica": {
+      "it": "sost., nom. sing. n.",
+      "en": "noun, nom. sing. n.",
+      "es": "sust., nom. sing. n."
+    },
+    "ambigua": false
+  },
+  "ingemo_ingemuit": {
+    "forma_id": "ingemo_ingemuit",
+    "forma": "ingemuit",
+    "lemma_id": "ingemo",
+    "analisi_morfologica": {
+      "it": "verbo, 3ª pers. sing. perf. indic.",
+      "en": "verb, 3rd sing. perf. indic.",
+      "es": "verbo, 3ª pers. sing. perf. indic."
+    },
+    "ambigua": false
+  },
+  "clarus_clarorum": {
+    "forma_id": "clarus_clarorum",
+    "forma": "clarorum",
+    "lemma_id": "clarus",
+    "analisi_morfologica": {
+      "it": "agg., gen. plur. m.",
+      "en": "adj., gen. plur. m.",
+      "es": "adj., gen. plur. m."
+    },
+    "ambigua": false
+  },
+  "quoque_quoque": {
+    "forma_id": "quoque_quoque",
+    "forma": "quoque",
+    "lemma_id": "quoque",
+    "analisi_morfologica": {
+      "it": "avverbio",
+      "en": "adverb",
+      "es": "adverbio"
+    },
+    "ambigua": false
+  },
+  "vir_virorum": {
+    "forma_id": "vir_virorum",
+    "forma": "virorum",
+    "lemma_id": "vir",
+    "analisi_morfologica": {
+      "it": "sost., gen. plur. m.",
+      "en": "noun, gen. plur. m.",
+      "es": "sust., gen. plur. m."
+    },
+    "ambigua": false
+  },
+  "hic_hic": {
+    "forma_id": "hic_hic",
+    "forma": "hic",
+    "lemma_id": "hic",
+    "analisi_morfologica": {
+      "it": "pron. dimostrativo, nom. sing. m.",
+      "en": "demonstrative pron., nom. sing. m.",
+      "es": "pron. demostrativo, nom. sing. m."
+    },
+    "ambigua": false
+  },
+  "affectus_affectus": {
+    "forma_id": "affectus_affectus",
+    "forma": "affectus",
+    "lemma_id": "affectus",
+    "analisi_morfologica": {
+      "it": "sost., nom. sing. m.",
+      "en": "noun, nom. sing. m.",
+      "es": "sust., nom. sing. m."
+    },
+    "ambigua": false
+  },
+  "querella_querellas": {
+    "forma_id": "querella_querellas",
+    "forma": "querellas",
+    "lemma_id": "querella",
+    "analisi_morfologica": {
+      "it": "sost., acc. plur. f.",
+      "en": "noun, acc. plur. f.",
+      "es": "sust., acc. plur. f."
+    },
+    "ambigua": false
+  },
+  "evoco_evocavit": {
+    "forma_id": "evoco_evocavit",
+    "forma": "evocavit",
+    "lemma_id": "evoco",
+    "analisi_morfologica": {
+      "it": "verbo, 3ª pers. sing. perf. indic.",
+      "en": "verb, 3rd sing. perf. indic.",
+      "es": "verbo, 3ª pers. sing. perf. indic."
+    },
+    "ambigua": false
+  },
+  "inde_inde": {
+    "forma_id": "inde_inde",
+    "forma": "Inde",
+    "lemma_id": "inde",
+    "analisi_morfologica": {
+      "it": "avverbio",
+      "en": "adverb",
+      "es": "adverbio"
+    },
+    "ambigua": false
+  },
+  "sum_est": {
+    "forma_id": "sum_est",
+    "forma": "est",
+    "lemma_id": "sum",
+    "analisi_morfologica": {
+      "it": "verbo, 3ª pers. sing. pres. indic.",
+      "en": "verb, 3rd sing. pres. indic.",
+      "es": "verbo, 3ª pers. sing. pres. indic."
+    },
+    "ambigua": false
+  },
+  "magnus_maximi": {
+    "forma_id": "magnus_maximi",
+    "forma": "maximi",
+    "lemma_id": "magnus",
+    "analisi_morfologica": {
+      "it": "agg. superlativo, gen. sing. m.",
+      "en": "superlative adj., gen. sing. m.",
+      "es": "adj. superlativo, gen. sing. m."
+    },
+    "ambigua": false
+  },
+  "medicus_medicorum": {
+    "forma_id": "medicus_medicorum",
+    "forma": "medicorum",
+    "lemma_id": "medicus",
+    "analisi_morfologica": {
+      "it": "sost., gen. plur. m.",
+      "en": "noun, gen. plur. m.",
+      "es": "sust., gen. plur. m."
+    },
+    "ambigua": false
+  },
+  "ille_illa": {
+    "forma_id": "ille_illa",
+    "forma": "illa",
+    "lemma_id": "ille",
+    "analisi_morfologica": {
+      "it": "agg. dimostrativo, nom. sing. f.",
+      "en": "demonstrative adj., nom. sing. f.",
+      "es": "adj. demostrativo, nom. sing. f."
+    },
+    "ambigua": false
+  },
+  "exclamatio_exclamatio": {
+    "forma_id": "exclamatio_exclamatio",
+    "forma": "exclamatio",
+    "lemma_id": "exclamatio",
+    "analisi_morfologica": {
+      "it": "sost., nom. sing. f.",
+      "en": "noun, nom. sing. f.",
+      "es": "sust., nom. sing. f."
+    },
+    "ambigua": false
+  },
+  "vita_vitam": {
+    "forma_id": "vita_vitam",
+    "forma": "vitam",
+    "lemma_id": "vita",
+    "analisi_morfologica": {
+      "it": "sost., acc. sing. f.",
+      "en": "noun, acc. sing. f.",
+      "es": "sust., acc. sing. f."
+    },
+    "ambigua": false
+  },
+  "brevis_brevem": {
+    "forma_id": "brevis_brevem",
+    "forma": "brevem",
+    "lemma_id": "brevis",
+    "analisi_morfologica": {
+      "it": "agg., acc. sing. f.",
+      "en": "adj., acc. sing. f.",
+      "es": "adj., acc. sing. f."
+    },
+    "ambigua": false
+  },
+  "sum_esse": {
+    "forma_id": "sum_esse",
+    "forma": "esse",
+    "lemma_id": "sum",
+    "analisi_morfologica": {
+      "it": "verbo, infinito presente",
+      "en": "verb, present infinitive",
+      "es": "verbo, infinitivo presente"
+    },
+    "ambigua": false
+  },
+  "longus_longam": {
+    "forma_id": "longus_longam",
+    "forma": "longam",
+    "lemma_id": "longus",
+    "analisi_morfologica": {
+      "it": "agg., acc. sing. f.",
+      "en": "adj., acc. sing. f.",
+      "es": "adj., acc. sing. f."
+    },
+    "ambigua": false
+  },
+  "ars_artem": {
+    "forma_id": "ars_artem",
+    "forma": "artem",
+    "lemma_id": "ars",
+    "analisi_morfologica": {
+      "it": "sost., acc. sing. f.",
+      "en": "noun, acc. sing. f.",
+      "es": "sust., acc. sing. f."
+    },
+    "ambigua": false
+  },
+  "aristoteles_aristotelis": {
+    "forma_id": "aristoteles_aristotelis",
+    "forma": "Aristotelis",
+    "lemma_id": "aristoteles",
+    "analisi_morfologica": {
+      "it": "sost. proprio, gen. sing.",
+      "en": "proper noun, gen. sing.",
+      "es": "sust. propio, gen. sing."
+    },
+    "ambigua": false
+  },
+  "cum_cum": {
+    "forma_id": "cum_cum",
+    "forma": "cum",
+    "lemma_id": "cum",
+    "analisi_morfologica": {
+      "it": "prep. + abl.",
+      "en": "prep. + abl.",
+      "es": "prep. + abl."
+    },
+    "ambigua": false
+  },
+  "res_rerum": {
+    "forma_id": "res_rerum",
+    "forma": "rerum",
+    "lemma_id": "res",
+    "analisi_morfologica": {
+      "it": "sost., gen. plur. f.",
+      "en": "noun, gen. plur. f.",
+      "es": "sust., gen. plur. f."
+    },
+    "ambigua": false
+  },
+  "natura_natura": {
+    "forma_id": "natura_natura",
+    "forma": "natura",
+    "lemma_id": "natura",
+    "analisi_morfologica": {
+      "it": "sost., abl. sing. f.",
+      "en": "noun, abl. sing. f.",
+      "es": "sust., abl. sing. f."
+    },
+    "ambigua": false
+  },
+  "exigens_exigentissima": {
+    "forma_id": "exigens_exigentissima",
+    "forma": "exigentissima",
+    "lemma_id": "exigens",
+    "analisi_morfologica": {
+      "it": "agg. superlativo, nom. sing. f.",
+      "en": "superlative adj., nom. sing. f.",
+      "es": "adj. superlativo, nom. sing. f."
+    },
+    "ambigua": false
+  },
+  "lis_lis": {
+    "forma_id": "lis_lis",
+    "forma": "lis",
+    "lemma_id": "lis",
+    "analisi_morfologica": {
+      "it": "sost., nom. sing. f.",
+      "en": "noun, nom. sing. f.",
+      "es": "sust., nom. sing. f."
+    },
+    "ambigua": false
+  },
+  "indignus_indignissima": {
+    "forma_id": "indignus_indignissima",
+    "forma": "indignissima",
+    "lemma_id": "indignus",
+    "analisi_morfologica": {
+      "it": "agg. superlativo, nom. sing. f.",
+      "en": "superlative adj., nom. sing. f.",
+      "es": "adj. superlativo, nom. sing. f."
+    },
+    "ambigua": false
+  },
+  "sapiens_sapienti": {
+    "forma_id": "sapiens_sapienti",
+    "forma": "sapienti",
+    "lemma_id": "sapiens",
+    "analisi_morfologica": {
+      "it": "agg. sostantivato, dat. sing. m.",
+      "en": "substantivized adj., dat. sing. m.",
+      "es": "adj. sustantivado, dat. sing. m."
+    },
+    "ambigua": false
+  },
+  "vir_viro": {
+    "forma_id": "vir_viro",
+    "forma": "viro",
+    "lemma_id": "vir",
+    "analisi_morfologica": {
+      "it": "sost., dat. sing. m.",
+      "en": "noun, dat. sing. m.",
+      "es": "sust., dat. sing. m."
+    },
+    "ambigua": false
+  },
+  "nego_negat": {
+    "forma_id": "nego_negat",
+    "forma": "negat",
+    "lemma_id": "nego",
+    "analisi_morfologica": {
+      "it": "verbo, 3ª pers. sing. pres. indic.",
+      "en": "verb, 3rd sing. pres. indic.",
+      "es": "verbo, 3ª pers. sing. pres. indic."
+    },
+    "ambigua": false
+  },
+  "aequus_aequum": {
+    "forma_id": "aequus_aequum",
+    "forma": "aequum",
+    "lemma_id": "aequus",
+    "analisi_morfologica": {
+      "it": "agg., acc. sing. n.",
+      "en": "adj., acc. sing. n.",
+      "es": "adj., acc. sing. n."
+    },
+    "ambigua": false
+  },
+  "animal_animalibus": {
+    "forma_id": "animal_animalibus",
+    "forma": "animalibus",
+    "lemma_id": "animal",
+    "analisi_morfologica": {
+      "it": "sost., dat. plur. n.",
+      "en": "noun, dat. plur. n.",
+      "es": "sust., dat. plur. n."
+    },
+    "ambigua": false
+  },
+  "longus_longa": {
+    "forma_id": "longus_longa",
+    "forma": "longa",
+    "lemma_id": "longus",
+    "analisi_morfologica": {
+      "it": "agg., acc. plur. n.",
+      "en": "adj., acc. plur. n.",
+      "es": "adj., acc. plur. n."
+    },
+    "ambigua": false
+  },
+  "aevum_aevum": {
+    "forma_id": "aevum_aevum",
+    "forma": "aevum",
+    "lemma_id": "aevum",
+    "analisi_morfologica": {
+      "it": "sost., acc. sing. n.",
+      "en": "noun, acc. sing. n.",
+      "es": "sust., acc. sing. n."
+    },
+    "ambigua": false
+  },
+  "concedo_concesserit": {
+    "forma_id": "concedo_concesserit",
+    "forma": "concesserit",
+    "lemma_id": "concedo",
+    "analisi_morfologica": {
+      "it": "verbo, 3ª pers. sing. perf. congiunt.",
+      "en": "verb, 3rd sing. perf. subj.",
+      "es": "verbo, 3ª pers. sing. perf. subj."
+    },
+    "ambigua": false
+  },
+  "quini_quina": {
+    "forma_id": "quini_quina",
+    "forma": "quina",
+    "lemma_id": "quini",
+    "analisi_morfologica": {
+      "it": "numerale distributivo, acc. plur. n.",
+      "en": "distributive numeral, acc. plur. n.",
+      "es": "numeral distributivo, acc. plur. n."
+    },
+    "ambigua": false
+  },
+  "aut_aut": {
+    "forma_id": "aut_aut",
+    "forma": "aut",
+    "lemma_id": "aut",
+    "analisi_morfologica": {
+      "it": "congiunzione",
+      "en": "conjunction",
+      "es": "conjunción"
+    },
+    "ambigua": false
+  },
+  "deni_dena": {
+    "forma_id": "deni_dena",
+    "forma": "dena",
+    "lemma_id": "deni",
+    "analisi_morfologica": {
+      "it": "numerale distributivo, acc. plur. n.",
+      "en": "distributive numeral, acc. plur. n.",
+      "es": "numeral distributivo, acc. plur. n."
+    },
+    "ambigua": false
+  },
+  "saeculum_saecula": {
+    "forma_id": "saeculum_saecula",
+    "forma": "saecula",
+    "lemma_id": "saeculum",
+    "analisi_morfologica": {
+      "it": "sost., acc. plur. n.",
+      "en": "noun, acc. plur. n.",
+      "es": "sust., acc. plur. n."
+    },
+    "ambigua": false
+  },
+  "educo_educerent": {
+    "forma_id": "educo_educerent",
+    "forma": "educerent",
+    "lemma_id": "educo",
+    "analisi_morfologica": {
+      "it": "verbo, 3ª pers. plur. imperf. congiunt.",
+      "en": "verb, 3rd plur. imperf. subj.",
+      "es": "verbo, 3ª pers. plur. imperf. subj."
+    },
+    "ambigua": false
+  },
+  "homo_homini": {
+    "forma_id": "homo_homini",
+    "forma": "homini",
+    "lemma_id": "homo",
+    "analisi_morfologica": {
+      "it": "sost., dat. sing. m.",
+      "en": "noun, dat. sing. m.",
+      "es": "sust., dat. sing. m."
+    },
+    "ambigua": false
+  },
+  "tantus_tanto": {
+    "forma_id": "tantus_tanto",
+    "forma": "tanto",
+    "lemma_id": "tantus",
+    "analisi_morfologica": {
+      "it": "abl. sing. n. (ablativo di misura)",
+      "en": "abl. sing. n. (ablative of measure)",
+      "es": "abl. sing. n. (ablativo de medida)"
+    },
+    "ambigua": false
+  },
+  "plus_plura": {
+    "forma_id": "plus_plura",
+    "forma": "plura",
+    "lemma_id": "plus",
+    "analisi_morfologica": {
+      "it": "agg. comparativo sostantivato, acc. plur. n.",
+      "en": "substantivized comparative, acc. plur. n.",
+      "es": "comparativo sustantivado, acc. plur. n."
+    },
+    "ambigua": false
+  },
+  "genero_generanti": {
+    "forma_id": "genero_generanti",
+    "forma": "generanti",
+    "lemma_id": "genero",
+    "analisi_morfologica": {
+      "it": "participio presente, dat. sing. m.",
+      "en": "present participle, dat. sing. m.",
+      "es": "participio presente, dat. sing. m."
+    },
+    "ambigua": false
+  },
+  "brevis_breves": {
+    "forma_id": "brevis_breves",
+    "forma": "breves",
+    "lemma_id": "brevis",
+    "analisi_morfologica": {
+      "it": "agg., acc. plur. m.",
+      "en": "adj., acc. plur. m.",
+      "es": "adj., acc. plur. m."
+    },
+    "ambigua": false
+  },
+  "finis_fines": {
+    "forma_id": "finis_fines",
+    "forma": "fines",
+    "lemma_id": "finis",
+    "analisi_morfologica": {
+      "it": "sost., acc. plur. m.",
+      "en": "noun, acc. plur. m.",
+      "es": "sust., acc. plur. m."
+    },
+    "ambigua": false
+  },
+  "figo_figeret": {
+    "forma_id": "figo_figeret",
+    "forma": "figeret",
+    "lemma_id": "figo",
+    "analisi_morfologica": {
+      "it": "verbo, 3ª pers. sing. imperf. congiunt.",
+      "en": "verb, 3rd sing. imperf. subj.",
+      "es": "verbo, 3ª pers. sing. imperf. subj."
+    },
+    "ambigua": false
+  },
+  "non_non": {
+    "forma_id": "non_non",
+    "forma": "Non",
+    "lemma_id": "non",
+    "analisi_morfologica": {
+      "it": "avverbio negativo",
+      "en": "negative adverb",
+      "es": "adverbio negativo"
+    },
+    "ambigua": false
+  },
+  "habeo_habemus": {
+    "forma_id": "habeo_habemus",
+    "forma": "habemus",
+    "lemma_id": "habeo",
+    "analisi_morfologica": {
+      "it": "verbo, 1ª pers. plur. pres. indic.",
+      "en": "verb, 1st plur. pres. indic.",
+      "es": "verbo, 1ª pers. plur. pres. indic."
+    },
+    "ambigua": false
+  },
+  "sed_sed": {
+    "forma_id": "sed_sed",
+    "forma": "sed",
+    "lemma_id": "sed",
+    "analisi_morfologica": {
+      "it": "congiunzione avversativa",
+      "en": "adversative conjunction",
+      "es": "conjunción adversativa"
+    },
+    "ambigua": false
+  },
+  "multus_multum": {
+    "forma_id": "multus_multum",
+    "forma": "multum",
+    "lemma_id": "multus",
+    "analisi_morfologica": {
+      "it": "agg. sostantivato, acc. sing. n.",
+      "en": "substantivized adj., acc. sing. n.",
+      "es": "adj. sustantivado, acc. sing. n."
+    },
+    "ambigua": false
+  },
+  "perdo_perdidimus": {
+    "forma_id": "perdo_perdidimus",
+    "forma": "perdidimus",
+    "lemma_id": "perdo",
+    "analisi_morfologica": {
+      "it": "verbo, 1ª pers. plur. perf. indic.",
+      "en": "verb, 1st plur. perf. indic.",
+      "es": "verbo, 1ª pers. plur. perf. indic."
+    },
+    "ambigua": false
+  }
+}

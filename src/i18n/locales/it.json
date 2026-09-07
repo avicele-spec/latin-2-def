@@ -1,0 +1,47 @@
+{
+  "libreria": {
+    "titolo": "Lector",
+    "sottotitolo": "Testi latini con supporto interattivo alla lettura",
+    "capitoli_uno": "{{count}} capitolo",
+    "capitoli_altri": "{{count}} capitoli",
+    "continua": "Continua",
+    "inizia": "Inizia a leggere"
+  },
+  "capitoli": {
+    "capitolo": "Capitolo {{numero}}",
+    "paragrafi_uno": "{{count}} paragrafo",
+    "paragrafi_altri": "{{count}} paragrafi"
+  },
+  "lettura": {
+    "riferimento": "Libro {{libro}} · Cap. {{capitolo}} · § {{paragrafo}}",
+    "paragrafo_precedente": "Paragrafo precedente",
+    "paragrafo_successivo": "Paragrafo successivo"
+  },
+  "popup": {
+    "categoria_sostantivo": "Sostantivo",
+    "categoria_aggettivo": "Aggettivo",
+    "categoria_verbo": "Verbo",
+    "categoria_verbo_deponente": "Verbo deponente",
+    "categoria_verbo_difettivo": "Verbo difettivo",
+    "categoria_avverbio": "Avverbio",
+    "categoria_preposizione": "Preposizione",
+    "categoria_congiunzione": "Congiunzione",
+    "categoria_pronome": "Pronome",
+    "categoria_numerale": "Numerale",
+    "categoria_interiezione": "Interiezione",
+    "categoria_nome_proprio": "Nome proprio",
+    "paradigma": "Paradigma",
+    "analisi_morfologica": "Analisi morfologica",
+    "traduzione": "Traduzione",
+    "nota_sintattica": "Nota sintattica",
+    "etimologia": "Etimologia",
+    "discendenti": "Discendenti italiani",
+    "imparentate": "Parole imparentate in {{lingua}}",
+    "salva_vocabolario": "Salva nel vocabolario",
+    "salvata": "Salvata",
+    "chiudi": "Chiudi"
+  },
+  "comune": {
+    "carica_errore": "Non è stato possibile caricare il contenuto."
+  }
+}

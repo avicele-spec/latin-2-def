@@ -1,0 +1,47 @@
+{
+  "libreria": {
+    "titolo": "Lector",
+    "sottotitolo": "Latin texts with interactive reading support",
+    "capitoli_uno": "{{count}} chapter",
+    "capitoli_altri": "{{count}} chapters",
+    "continua": "Continue",
+    "inizia": "Start reading"
+  },
+  "capitoli": {
+    "capitolo": "Chapter {{numero}}",
+    "paragrafi_uno": "{{count}} paragraph",
+    "paragrafi_altri": "{{count}} paragraphs"
+  },
+  "lettura": {
+    "riferimento": "Book {{libro}} · Ch. {{capitolo}} · §{{paragrafo}}",
+    "paragrafo_precedente": "Previous paragraph",
+    "paragrafo_successivo": "Next paragraph"
+  },
+  "popup": {
+    "categoria_sostantivo": "Noun",
+    "categoria_aggettivo": "Adjective",
+    "categoria_verbo": "Verb",
+    "categoria_verbo_deponente": "Deponent verb",
+    "categoria_verbo_difettivo": "Defective verb",
+    "categoria_avverbio": "Adverb",
+    "categoria_preposizione": "Preposition",
+    "categoria_congiunzione": "Conjunction",
+    "categoria_pronome": "Pronoun",
+    "categoria_numerale": "Numeral",
+    "categoria_interiezione": "Interjection",
+    "categoria_nome_proprio": "Proper noun",
+    "paradigma": "Principal parts",
+    "analisi_morfologica": "Morphological analysis",
+    "traduzione": "Translation",
+    "nota_sintattica": "Syntax note",
+    "etimologia": "Etymology",
+    "discendenti": "Descendants",
+    "imparentate": "Related words in {{lingua}}",
+    "salva_vocabolario": "Save to vocabulary",
+    "salvata": "Saved",
+    "chiudi": "Close"
+  },
+  "comune": {
+    "carica_errore": "The content could not be loaded."
+  }
+}
