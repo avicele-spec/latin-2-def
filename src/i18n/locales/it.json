@@ -17,7 +17,8 @@
     "riferimento": "Libro {{libro}} · Cap. {{capitolo}} · § {{paragrafo}}",
     "paragrafo_precedente": "Paragrafo precedente",
     "paragrafo_successivo": "Paragrafo successivo",
-    "traduzione_bottone": "Traduzione"
+    "traduzione_bottone": "Traduzione",
+    "parola_suggerimento": "Apre lemma, analisi ed etimologia per questa parola"
   },
   "traduzione": {
     "titolo": "Traduzione",
@@ -32,6 +33,10 @@
     "piccolo": "Piccolo",
     "medio": "Medio",
     "grande": "Grande",
+    "tema": "Tema",
+    "chiaro": "Chiaro",
+    "scuro": "Scuro",
+    "seppia": "Seppia",
     "mostra_parole_consultate": "Segna le parole già consultate",
     "mostra_parole_consultate_nota": "Un piccolo punto discreto accanto alle parole già toccate.",
     "personalizzazioni": "Personalizzazioni"
@@ -70,6 +75,8 @@
     "etimologia": "Etimologia",
     "discendenti": "Discendenti italiani",
     "imparentate": "Parole imparentate in {{lingua}}",
+    "discendenti_elenco": "Elenco (separato da virgole)",
+    "discendenti_nota_etichetta": "Nota",
     "salva_vocabolario": "Salva nel vocabolario",
     "salvata": "Salvata",
     "chiudi": "Chiudi",
@@ -80,5 +87,16 @@
   },
   "comune": {
     "carica_errore": "Non è stato possibile caricare il contenuto."
+  },
+  "onboarding": {
+    "titolo1": "Tocca una parola",
+    "testo1": "Ogni parola del testo latino è toccabile: si apre subito lemma, analisi grammaticale, traduzione contestuale ed etimologia.",
+    "titolo2": "Leggi la traduzione integrale",
+    "testo2": "Quando vuoi il quadro d’insieme, apri la traduzione completa — a fronte o da sola — sempre a partire dal punto in cui stavi leggendo.",
+    "titolo3": "Scegli la tua lingua",
+    "testo3": "Interfaccia e contenuti dei popup parlano la lingua che preferisci, cambiabile in ogni momento dalle impostazioni.",
+    "salta": "Salta",
+    "avanti": "Avanti",
+    "inizia": "Inizia a leggere"
   }
 }

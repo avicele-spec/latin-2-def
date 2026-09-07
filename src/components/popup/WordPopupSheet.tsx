@@ -10,11 +10,11 @@ import { useSettingsStore } from '../../store/useSettingsStore';
 import { etichettaDiscendenti, configurazioneLingua, conFallback } from '../../i18n/lingue';
 import { aggiungiAlVocabolario, eLemmaNelVocabolario } from '../../data/db/vocabolario';
 import { leggiOverride, salvaCampoOverride, ripristinaCampo } from '../../data/db/overrides';
-import { TEMI, FONT, SPAZIATURA, RAGGIO } from '../../theme/tokens';
+import { useTema } from '../../theme/useTema';
+import { Tema, FONT, SPAZIATURA, RAGGIO } from '../../theme/tokens';
 import PopupSection from './PopupSection';
 import CampoModificabile from './CampoModificabile';
-
-const tema = TEMI.chiaro;
+import TestoConCitazioni from './TestoConCitazioni';
 
 export const ALTEZZA_MASSIMA_POPUP = Math.round(Dimensions.get('window').height * 0.62);
 
@@ -30,6 +30,8 @@ interface Props {
 const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSheet({ onDismiss }, ref) {
   const { t } = useTranslation();
   const lingua = useSettingsStore((s) => s.lingua);
+  const tema = useTema();
+  const styles = useMemo(() => creaStili(tema), [tema]);
   const modalRef = useRef<BottomSheetModal>(null);
   const [occorrenza, setOccorrenza] = useState<Occorrenza | null>(null);
   const [salvata, setSalvata] = useState(false);
@@ -104,6 +106,14 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
   const etimologiaOverride = overrideLemma?.campi_modificati['etimologia'];
   const etimologiaMostrata = etimologiaOverride ?? etimologiaBase;
 
+  const discendentiVociBase = dettagli?.discendenti?.voci.join(', ') ?? '';
+  const discendentiVociOverride = overrideLemma?.campi_modificati['discendenti_voci'];
+  const discendentiVociMostrati = discendentiVociOverride ?? discendentiVociBase;
+
+  const discendentiNotaBase = dettagli?.discendenti?.nota ?? '';
+  const discendentiNotaOverride = overrideLemma?.campi_modificati['discendenti_nota'];
+  const discendentiNotaMostrata = discendentiNotaOverride ?? discendentiNotaBase;
+
   return (
     <BottomSheetModal
       ref={modalRef}
@@ -119,7 +129,13 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
               <View style={styles.intestazioneRiga}>
                 <Text style={styles.formaOriginale}>{dettagli.forma.forma}</Text>
                 <View style={styles.pulsantiIntestazione}>
-                  <Pressable onPress={() => setInModifica((v) => !v)} hitSlop={12} style={styles.pulsanteModifica}>
+                  <Pressable
+                    onPress={() => setInModifica((v) => !v)}
+                    hitSlop={12}
+                    accessibilityRole="button"
+                    accessibilityLabel={inModifica ? t('popup.fine_modifica') : t('popup.modifica')}
+                    style={styles.pulsanteModifica}
+                  >
                     <Text style={styles.pulsanteModificaTesto}>
                       {inModifica ? t('popup.fine_modifica') : t('popup.modifica')}
                     </Text>
@@ -127,6 +143,7 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
                   <Pressable
                     onPress={() => modalRef.current?.dismiss()}
                     hitSlop={12}
+                    accessibilityRole="button"
                     accessibilityLabel={t('popup.chiudi')}
                     style={styles.pulsanteChiudi}
                   >
@@ -182,6 +199,7 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
                 valore={etimologiaMostrata}
                 modificato={etimologiaOverride !== undefined}
                 inModifica={inModifica}
+                conCitazioni
                 onSalva={async (nuovoValore) => {
                   await salvaCampoOverride('lemma', parola!.lemma.lemma_id, lingua, 'etimologia', nuovoValore);
                   await ricaricaOverride();
@@ -193,7 +211,8 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
               />
             ) : null}
 
-            {dettagli.discendenti && (dettagli.discendenti.voci.length > 0 || dettagli.discendenti.nota) ? (
+            {(dettagli.discendenti && (dettagli.discendenti.voci.length > 0 || dettagli.discendenti.nota)) ||
+            inModifica ? (
               <PopupSection
                 etichetta={
                   dettagli.etichettaDisc === 'imparentate'
@@ -201,14 +220,47 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
                     : t('popup.discendenti')
                 }
               >
-                <View>
-                  {dettagli.discendenti.voci.length > 0 ? (
-                    <Text style={styles.discendentiVoci}>{dettagli.discendenti.voci.join(', ')}</Text>
-                  ) : null}
-                  {dettagli.discendenti.nota ? (
-                    <Text style={styles.discendentiNota}>{dettagli.discendenti.nota}</Text>
-                  ) : null}
-                </View>
+                {inModifica ? (
+                  <View>
+                    <CampoModificabile
+                      etichetta={t('popup.discendenti_elenco')}
+                      valore={discendentiVociMostrati}
+                      modificato={discendentiVociOverride !== undefined}
+                      inModifica={inModifica}
+                      onSalva={async (nuovoValore) => {
+                        await salvaCampoOverride('lemma', parola!.lemma.lemma_id, lingua, 'discendenti_voci', nuovoValore);
+                        await ricaricaOverride();
+                      }}
+                      onRipristina={async () => {
+                        await ripristinaCampo('lemma', parola!.lemma.lemma_id, lingua, 'discendenti_voci');
+                        await ricaricaOverride();
+                      }}
+                    />
+                    <CampoModificabile
+                      etichetta={t('popup.discendenti_nota_etichetta')}
+                      valore={discendentiNotaMostrata}
+                      modificato={discendentiNotaOverride !== undefined}
+                      inModifica={inModifica}
+                      onSalva={async (nuovoValore) => {
+                        await salvaCampoOverride('lemma', parola!.lemma.lemma_id, lingua, 'discendenti_nota', nuovoValore);
+                        await ricaricaOverride();
+                      }}
+                      onRipristina={async () => {
+                        await ripristinaCampo('lemma', parola!.lemma.lemma_id, lingua, 'discendenti_nota');
+                        await ricaricaOverride();
+                      }}
+                    />
+                  </View>
+                ) : (
+                  <View>
+                    {discendentiVociMostrati ? (
+                      <Text style={styles.discendentiVoci}>{discendentiVociMostrati}</Text>
+                    ) : null}
+                    {discendentiNotaMostrata ? (
+                      <TestoConCitazioni testo={discendentiNotaMostrata} style={styles.discendentiNota} />
+                    ) : null}
+                  </View>
+                )}
               </PopupSection>
             ) : null}
 
@@ -216,6 +268,9 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
               <Pressable
                 onPress={alSalvare}
                 disabled={salvata}
+                accessibilityRole="button"
+                accessibilityState={{ disabled: salvata }}
+                accessibilityLabel={salvata ? t('popup.salvata') : t('popup.salva_vocabolario')}
                 style={[styles.pulsanteSalva, salvata && styles.pulsanteSalvaFatto]}
               >
                 <Text style={[styles.pulsanteSalvaTesto, salvata && styles.pulsanteSalvaTestoFatto]}>
@@ -255,37 +310,50 @@ function costruisciDettagli(
 
 export default WordPopupSheet;
 
-const styles = StyleSheet.create({
-  sfondoFoglio: { backgroundColor: tema.carta, borderTopLeftRadius: 20, borderTopRightRadius: 20 },
-  maniglia: { backgroundColor: tema.bordo, width: 36 },
-  contenuto: { paddingHorizontal: SPAZIATURA.lg, paddingTop: SPAZIATURA.sm, paddingBottom: SPAZIATURA.xl },
-  intestazione: { marginBottom: SPAZIATURA.md, borderBottomWidth: 1, borderBottomColor: tema.bordo, paddingBottom: SPAZIATURA.md },
-  intestazioneRiga: { flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between' },
-  pulsantiIntestazione: { flexDirection: 'row', alignItems: 'center', gap: SPAZIATURA.sm },
-  pulsanteModifica: {
-    paddingVertical: 4,
-    paddingHorizontal: SPAZIATURA.sm,
-    borderRadius: RAGGIO.pillola,
-    borderWidth: 1,
-    borderColor: tema.bordo,
-  },
-  pulsanteModificaTesto: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue },
-  pulsanteChiudi: { padding: 2 },
-  pulsanteChiudiTesto: { fontFamily: FONT.sans, fontSize: 22, lineHeight: 24, color: tema.testoTenue },
-  formaOriginale: { fontFamily: FONT.serifSemiBold, fontSize: 26, color: tema.testo },
-  paradigma: { fontFamily: FONT.serif, fontSize: 14, color: tema.testoTenue, marginTop: 4 },
-  paradigmaGrassetto: { fontFamily: FONT.serifSemiBold, color: tema.accento },
-  formaGrammaticale: { fontFamily: FONT.sans, fontSize: 13, color: tema.testoTenue, fontStyle: 'italic', marginTop: 4 },
-  discendentiVoci: { fontFamily: FONT.serif, fontStyle: 'italic', fontSize: 15, color: tema.testo, lineHeight: 22 },
-  discendentiNota: { fontFamily: FONT.sans, fontSize: 14, color: tema.testoTenue, lineHeight: 20, marginTop: 4 },
-  azioni: { marginTop: SPAZIATURA.sm, flexDirection: 'row' },
-  pulsanteSalva: {
-    backgroundColor: tema.accento,
-    borderRadius: RAGGIO.pillola,
-    paddingVertical: 10,
-    paddingHorizontal: SPAZIATURA.lg,
-  },
-  pulsanteSalvaFatto: { backgroundColor: tema.carta, borderWidth: 1, borderColor: tema.bordo },
-  pulsanteSalvaTesto: { fontFamily: FONT.sansMedium, fontSize: 14, color: tema.accentoTestoSu },
-  pulsanteSalvaTestoFatto: { color: tema.testoTenue },
-});
+function creaStili(tema: Tema) {
+  return StyleSheet.create({
+    sfondoFoglio: { backgroundColor: tema.carta, borderTopLeftRadius: 20, borderTopRightRadius: 20 },
+    maniglia: { backgroundColor: tema.bordo, width: 36 },
+    contenuto: { paddingHorizontal: SPAZIATURA.lg, paddingTop: SPAZIATURA.sm, paddingBottom: SPAZIATURA.xl },
+    intestazione: {
+      marginBottom: SPAZIATURA.md,
+      borderBottomWidth: 1,
+      borderBottomColor: tema.bordo,
+      paddingBottom: SPAZIATURA.md,
+    },
+    intestazioneRiga: { flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between' },
+    pulsantiIntestazione: { flexDirection: 'row', alignItems: 'center', gap: SPAZIATURA.sm },
+    pulsanteModifica: {
+      paddingVertical: 4,
+      paddingHorizontal: SPAZIATURA.sm,
+      borderRadius: RAGGIO.pillola,
+      borderWidth: 1,
+      borderColor: tema.bordo,
+    },
+    pulsanteModificaTesto: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue },
+    pulsanteChiudi: { padding: 2 },
+    pulsanteChiudiTesto: { fontFamily: FONT.sans, fontSize: 22, lineHeight: 24, color: tema.testoTenue },
+    formaOriginale: { fontFamily: FONT.serifSemiBold, fontSize: 26, color: tema.testo },
+    paradigma: { fontFamily: FONT.serif, fontSize: 14, color: tema.testoTenue, marginTop: 4 },
+    paradigmaGrassetto: { fontFamily: FONT.serifSemiBold, color: tema.accento },
+    formaGrammaticale: {
+      fontFamily: FONT.sans,
+      fontSize: 13,
+      color: tema.testoTenue,
+      fontStyle: 'italic',
+      marginTop: 4,
+    },
+    discendentiVoci: { fontFamily: FONT.serif, fontStyle: 'italic', fontSize: 15, color: tema.testo, lineHeight: 22 },
+    discendentiNota: { fontFamily: FONT.sans, fontSize: 14, color: tema.testoTenue, lineHeight: 20, marginTop: 4 },
+    azioni: { marginTop: SPAZIATURA.sm, flexDirection: 'row' },
+    pulsanteSalva: {
+      backgroundColor: tema.accento,
+      borderRadius: RAGGIO.pillola,
+      paddingVertical: 10,
+      paddingHorizontal: SPAZIATURA.lg,
+    },
+    pulsanteSalvaFatto: { backgroundColor: tema.carta, borderWidth: 1, borderColor: tema.bordo },
+    pulsanteSalvaTesto: { fontFamily: FONT.sansMedium, fontSize: 14, color: tema.accentoTestoSu },
+    pulsanteSalvaTestoFatto: { color: tema.testoTenue },
+  });
+}

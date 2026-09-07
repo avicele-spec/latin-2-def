@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { Alert, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
@@ -8,9 +8,9 @@ import * as Sharing from 'expo-sharing';
 import { elencaOverrides, ripristinaOriginale, salvaOverride } from '../data/db/overrides';
 import { leggiLemma, leggiOccorrenza, leggiForma } from '../data/loadContent';
 import { Override } from '../types/db';
-import { TEMI, FONT, SPAZIATURA, RAGGIO } from '../theme/tokens';
+import { useTema } from '../theme/useTema';
+import { Tema, FONT, SPAZIATURA, RAGGIO } from '../theme/tokens';
 
-const tema = TEMI.chiaro;
 const FILE_ESPORTAZIONE = 'personalizzazioni-lector.json';
 
 function etichettaTarget(o: Override): string {
@@ -25,6 +25,8 @@ function etichettaTarget(o: Override): string {
 
 export default function CustomizationsScreen() {
   const { t } = useTranslation();
+  const tema = useTema();
+  const styles = useMemo(() => creaStili(tema), [tema]);
   const [overrides, setOverrides] = useState<Override[]>([]);
   const [caricato, setCaricato] = useState(false);
 
@@ -82,10 +84,20 @@ export default function CustomizationsScreen() {
   return (
     <View style={styles.contenitore}>
       <View style={styles.barraAzioni}>
-        <Pressable onPress={alEsportare} style={styles.pulsanteAzione}>
+        <Pressable
+          onPress={alEsportare}
+          accessibilityRole="button"
+          accessibilityLabel={t('personalizzazioni.esporta')}
+          style={styles.pulsanteAzione}
+        >
           <Text style={styles.pulsanteAzioneTesto}>{t('personalizzazioni.esporta')}</Text>
         </Pressable>
-        <Pressable onPress={alImportare} style={styles.pulsanteAzione}>
+        <Pressable
+          onPress={alImportare}
+          accessibilityRole="button"
+          accessibilityLabel={t('personalizzazioni.importa')}
+          style={styles.pulsanteAzione}
+        >
           <Text style={styles.pulsanteAzioneTesto}>{t('personalizzazioni.importa')}</Text>
         </Pressable>
       </View>
@@ -118,7 +130,12 @@ export default function CustomizationsScreen() {
                   </Text>
                 </View>
               ))}
-              <Pressable onPress={() => alRipristinare(item)} style={styles.pulsanteRipristina}>
+              <Pressable
+                onPress={() => alRipristinare(item)}
+                accessibilityRole="button"
+                accessibilityLabel={t('personalizzazioni.ripristina_tutto')}
+                style={styles.pulsanteRipristina}
+              >
                 <Text style={styles.pulsanteRipristinaTesto}>{t('personalizzazioni.ripristina_tutto')}</Text>
               </Pressable>
             </View>
@@ -129,62 +146,70 @@ export default function CustomizationsScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  contenitore: { flex: 1, backgroundColor: tema.sfondo },
-  barraAzioni: {
-    flexDirection: 'row',
-    gap: SPAZIATURA.sm,
-    paddingHorizontal: SPAZIATURA.lg,
-    paddingVertical: SPAZIATURA.md,
-    borderBottomWidth: 1,
-    borderBottomColor: tema.bordo,
-  },
-  pulsanteAzione: {
-    paddingVertical: 6,
-    paddingHorizontal: SPAZIATURA.md,
-    borderRadius: RAGGIO.pillola,
-    borderWidth: 1,
-    borderColor: tema.bordo,
-    backgroundColor: tema.carta,
-  },
-  pulsanteAzioneTesto: { fontFamily: FONT.sansMedium, fontSize: 13, color: tema.accento },
-  vuoto: {
-    fontFamily: FONT.sans,
-    fontSize: 14,
-    color: tema.testoTenue,
-    padding: SPAZIATURA.lg,
-    textAlign: 'center',
-    marginTop: SPAZIATURA.xl,
-  },
-  lista: { padding: SPAZIATURA.lg, gap: SPAZIATURA.md },
-  carta: {
-    backgroundColor: tema.carta,
-    borderRadius: RAGGIO.md,
-    borderWidth: 1,
-    borderColor: tema.bordo,
-    padding: SPAZIATURA.md,
-  },
-  cartaIntestazione: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  nomeTarget: { fontFamily: FONT.serifSemiBold, fontSize: 17, color: tema.testo },
-  badge: {
-    backgroundColor: tema.sfondo,
-    borderRadius: RAGGIO.pillola,
-    paddingVertical: 2,
-    paddingHorizontal: SPAZIATURA.sm,
-    borderWidth: 1,
-    borderColor: tema.bordo,
-  },
-  badgeTesto: { fontFamily: FONT.sansMedium, fontSize: 11, color: tema.testoTenue, textTransform: 'uppercase' },
-  ambito: { fontFamily: FONT.sans, fontSize: 12, color: tema.testoTenue, marginTop: 2, marginBottom: SPAZIATURA.sm },
-  campo: { marginBottom: SPAZIATURA.sm },
-  campoNome: {
-    fontFamily: FONT.sansMedium,
-    fontSize: 10,
-    textTransform: 'uppercase',
-    letterSpacing: 0.5,
-    color: tema.testoTenue,
-  },
-  campoValore: { fontFamily: FONT.sans, fontSize: 14, color: tema.testo, marginTop: 2 },
-  pulsanteRipristina: { marginTop: SPAZIATURA.sm, alignSelf: 'flex-start' },
-  pulsanteRipristinaTesto: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue },
-});
+function creaStili(tema: Tema) {
+  return StyleSheet.create({
+    contenitore: { flex: 1, backgroundColor: tema.sfondo },
+    barraAzioni: {
+      flexDirection: 'row',
+      gap: SPAZIATURA.sm,
+      paddingHorizontal: SPAZIATURA.lg,
+      paddingVertical: SPAZIATURA.md,
+      borderBottomWidth: 1,
+      borderBottomColor: tema.bordo,
+    },
+    pulsanteAzione: {
+      paddingVertical: 6,
+      paddingHorizontal: SPAZIATURA.md,
+      borderRadius: RAGGIO.pillola,
+      borderWidth: 1,
+      borderColor: tema.bordo,
+      backgroundColor: tema.carta,
+    },
+    pulsanteAzioneTesto: { fontFamily: FONT.sansMedium, fontSize: 13, color: tema.accento },
+    vuoto: {
+      fontFamily: FONT.sans,
+      fontSize: 14,
+      color: tema.testoTenue,
+      padding: SPAZIATURA.lg,
+      textAlign: 'center',
+      marginTop: SPAZIATURA.xl,
+    },
+    lista: { padding: SPAZIATURA.lg, gap: SPAZIATURA.md },
+    carta: {
+      backgroundColor: tema.carta,
+      borderRadius: RAGGIO.md,
+      borderWidth: 1,
+      borderColor: tema.bordo,
+      padding: SPAZIATURA.md,
+    },
+    cartaIntestazione: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+    nomeTarget: { fontFamily: FONT.serifSemiBold, fontSize: 17, color: tema.testo },
+    badge: {
+      backgroundColor: tema.sfondo,
+      borderRadius: RAGGIO.pillola,
+      paddingVertical: 2,
+      paddingHorizontal: SPAZIATURA.sm,
+      borderWidth: 1,
+      borderColor: tema.bordo,
+    },
+    badgeTesto: { fontFamily: FONT.sansMedium, fontSize: 11, color: tema.testoTenue, textTransform: 'uppercase' },
+    ambito: {
+      fontFamily: FONT.sans,
+      fontSize: 12,
+      color: tema.testoTenue,
+      marginTop: 2,
+      marginBottom: SPAZIATURA.sm,
+    },
+    campo: { marginBottom: SPAZIATURA.sm },
+    campoNome: {
+      fontFamily: FONT.sansMedium,
+      fontSize: 10,
+      textTransform: 'uppercase',
+      letterSpacing: 0.5,
+      color: tema.testoTenue,
+    },
+    campoValore: { fontFamily: FONT.sans, fontSize: 14, color: tema.testo, marginTop: 2 },
+    pulsanteRipristina: { marginTop: SPAZIATURA.sm, alignSelf: 'flex-start' },
+    pulsanteRipristinaTesto: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue },
+  });
+}

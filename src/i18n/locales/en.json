@@ -17,7 +17,8 @@
     "riferimento": "Book {{libro}} · Ch. {{capitolo}} · §{{paragrafo}}",
     "paragrafo_precedente": "Previous paragraph",
     "paragrafo_successivo": "Next paragraph",
-    "traduzione_bottone": "Translation"
+    "traduzione_bottone": "Translation",
+    "parola_suggerimento": "Opens the lemma, analysis and etymology for this word"
   },
   "traduzione": {
     "titolo": "Translation",
@@ -32,6 +33,10 @@
     "piccolo": "Small",
     "medio": "Medium",
     "grande": "Large",
+    "tema": "Theme",
+    "chiaro": "Light",
+    "scuro": "Dark",
+    "seppia": "Sepia",
     "mostra_parole_consultate": "Mark already-checked words",
     "mostra_parole_consultate_nota": "A small discreet dot next to words you've already tapped.",
     "personalizzazioni": "Customizations"
@@ -70,6 +75,8 @@
     "etimologia": "Etymology",
     "discendenti": "Descendants",
     "imparentate": "Related words in {{lingua}}",
+    "discendenti_elenco": "List (comma-separated)",
+    "discendenti_nota_etichetta": "Note",
     "salva_vocabolario": "Save to vocabulary",
     "salvata": "Saved",
     "chiudi": "Close",
@@ -80,5 +87,16 @@
   },
   "comune": {
     "carica_errore": "The content could not be loaded."
+  },
+  "onboarding": {
+    "titolo1": "Tap a word",
+    "testo1": "Every word of the Latin text is tappable: it instantly opens the lemma, grammatical analysis, contextual translation and etymology.",
+    "titolo2": "Read the full translation",
+    "testo2": "When you want the full picture, open the complete translation — side by side or on its own — always starting from where you were reading.",
+    "titolo3": "Choose your language",
+    "testo3": "The interface and the popup content speak whichever language you prefer, changeable anytime from settings.",
+    "salta": "Skip",
+    "avanti": "Next",
+    "inizia": "Start reading"
   }
 }

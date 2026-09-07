@@ -35,38 +35,46 @@ Costruito finora:
   nulla sarebbe stato peggio che non aggiungerlo.
 - **Fase 4** (personalizzazioni). Nel popup, icona "Modifica" (Fine/×
   quando attiva) rende editabili in linea traduzione contestuale, nota
-  sintattica ed etimologia (`CampoModificabile`), ciascuna con salvataggio
-  e ripristino per singolo campo e un punto discreto quando il valore
-  mostrato è un override. Gli override su lemma (etimologia) si applicano
-  a tutte le occorrenze; quelli su occorrenza (traduzione, nota) solo a
-  quel punto — la nuova `CustomizationsScreen` (da Impostazioni →
-  Personalizzazioni) lo mostra esplicitamente per ogni riga, con
-  esportazione/importazione JSON (`expo-file-system` + `expo-sharing`).
-  **Non incluso in questo checkpoint**: editor per i discendenti (voci +
-  nota) — struttura a lista, non testo semplice, richiede un editor
-  diverso da `CampoModificabile`; e override sulle forme (paradigma/
-  analisi morfologica) — il documento li prevede ma non sono ancora
-  modificabili da UI. Verificato in questo sandbox solo a livello di
-  interfaccia (apertura editor, campi, indicatore, elenco, pulsanti
-  esporta/importa senza crash): la scrittura reale in SQLite, qui sempre
-  assente sul target web, va riprovata su device.
+  sintattica, etimologia e — da Fase 6e — anche i discendenti/cognati
+  (elenco separato da virgole + nota separata) tramite `CampoModificabile`,
+  ciascun campo con salvataggio e ripristino indipendenti e un punto
+  discreto quando il valore mostrato è un override. Gli override su lemma
+  (etimologia, discendenti) si applicano a tutte le occorrenze; quelli su
+  occorrenza (traduzione, nota sintattica) solo a quel punto — la
+  `CustomizationsScreen` (da Impostazioni → Personalizzazioni) lo mostra
+  esplicitamente per ogni riga, con esportazione/importazione JSON
+  (`expo-file-system` + `expo-sharing`). **Non incluso**: override sulle
+  forme (paradigma/analisi morfologica) — il documento li prevede ma non
+  sono ancora modificabili da UI, restano per una fase futura.
+- **Fase 6** (rifinitura). Tema reattivo (`useTema()` al posto di
+  `TEMI.chiaro` importato come costante — tutte le schermate e i
+  componenti, ~13 file) con selettore chiaro/scuro/seppia funzionante in
+  `SettingsScreen`, verificato nei tre temi su ogni schermata inclusa la
+  status bar. Auto-corsivo delle citazioni tra apici (`TestoConCitazioni`)
+  applicato a etimologia e nota dei discendenti. Onboarding di 3 schermate
+  al primo avvio (tocco parola, traduzione integrale, scelta lingua),
+  saltabile, con flag di completamento persistito in SQLite. Passata di
+  accessibilità: `accessibilityRole`/`accessibilityLabel`/
+  `accessibilityState` sui controlli interattivi (parole tappabili, card
+  libreria/capitoli, pulsanti del popup e delle impostazioni, selettori a
+  pillole trattati come `radio`), illustrazioni puramente decorative
+  escluse dallo screen reader. Editor dei discendenti (vedi Fase 4 sopra).
+  **Non fatto**: icona/splash artwork dedicati (restano il placeholder di
+  Expo, solo i colori sono personalizzati — nessuno strumento di
+  illustrazione disponibile in questa sessione); prestazioni su capitoli
+  lunghi (il corpus attuale, 5 paragrafi, non permette di misurare nulla
+  di significativo — da rivedere quando il corpus crescerà, Fase 5); i
+  tocchi sulle singole parole restano piccoli per natura — `Text` di React
+  Native non supporta `hitSlop`, quindi ingrandire l'area di tocco
+  richiederebbe di avvolgere ogni parola in un `Pressable`/`View` invece
+  del `Text` annidato attuale, un cambiamento più invasivo rimandato.
 
-Non ancora costruito (fasi successive, da riprendere una alla volta):
+Non ancora costruito:
 - **Fase 5** — script di generazione reale: `scripts/genera-contenuti/`
   contiene solo lo scheletro (CLI, controllo incrementale, modalità
-  aggiungi-lingua, batch/ripresa), tutto stubbato.
-- **Fase 6** — rifinitura: onboarding, accessibilità, performance su
-  capitoli lunghi, **auto-corsivo delle citazioni tra apici** nel testo di
-  etimologia/discendenti (vedi sezione apposita più sotto), icona app e
-  splash artwork dedicati (per ora solo i colori sono personalizzati, le
-  immagini sono ancora il placeholder di default di Expo), editor per
-  discendenti e override sulle forme (vedi Fase 4 sopra), e il
-  **refactor a tema reattivo** (`useTema()` al posto di `TEMI.chiaro`
-  importato come costante in ogni schermata/componente — tocca circa 10
-  file: tutte le schermate, `ParagraphNav`, `WordToken`, `ParagraphLine`,
-  `WordPopupSheet`, `CampoModificabile`, `PopupSection`, `RootNavigator`)
-  — nessun selettore di tema esiste ancora in `SettingsScreen`, va
-  aggiunto insieme a questo refactor, non prima.
+  aggiungi-lingua, batch/ripresa), tutto stubbato. Per renderlo funzionante
+  serve una decisione dell'utente su quale provider/modello usare e come
+  gestire la chiave API — non è stata ancora presa.
 
 ## Decisioni tecniche prese (e perché)
 
@@ -108,10 +116,13 @@ Non ancora costruito (fasi successive, da riprendere una alla volta):
 5. **Font**: niente font di sistema (Iowan/Palatino non garantiti su
    Android). Testo latino in **Source Serif 4**, interfaccia in **Inter**
    (`@expo-google-fonts/*`, caricati in `App.tsx`).
-6. **Tema**: solo il tema chiaro (pergamena, `TEMI.chiaro` in
-   `src/theme/tokens.ts`) è collegato all'interfaccia. Scuro e seppia sono
-   già definiti nello stesso file, pronti per essere agganciati quando si
-   costruirà la schermata Impostazioni (Fase 3).
+6. **Tema**: tutti e tre i temi (chiaro/scuro/seppia, `src/theme/tokens.ts`)
+   sono collegati e selezionabili da Impostazioni, tramite l'hook
+   `useTema()` (`src/theme/useTema.ts`) che ogni schermata/componente
+   chiama per ottenere il tema corrente invece di importare una costante.
+   Gli stili che dipendono dal tema sono funzioni `creaStili(tema)`
+   richiamate con `useMemo` dentro al componente, non più
+   `StyleSheet.create` a livello di modulo.
 7. **Branch**: si lavora su `claude/app-generazione-estetica` (repository
    `avicele-spec/latin-2-def`, nato vuoto). Nessuna pull request finché non
    richiesta esplicitamente.
@@ -144,6 +155,21 @@ Non ancora costruito (fasi successive, da riprendere una alla volta):
    `await` diretto su una scrittura DB prima di un effetto che l'utente
    deve vedere subito. Vedi `salvaSenzaBloccare` in
    `src/store/useSettingsStore.ts`.
+10. **Avanzamento pagina nell'onboarding: stato ottimistico, non l'evento
+    di scroll.** `OnboardingScreen` avanza pagina sia con lo swipe sia con
+    il pulsante "Avanti". Il pulsante aggiornava `pagina` solo tramite
+    `onMomentumScrollEnd` dopo lo `scrollTo` programmatico — sul target
+    web di verifica quell'evento non sempre parte, lasciando i puntini
+    (e il calcolo della pagina successiva) indietro di un tocco. Ora il
+    pulsante aggiorna `pagina` subito e poi chiama `scrollTo`;
+    `onMomentumScrollEnd` resta solo per sincronizzare lo swipe manuale.
+11. **`Text` di React Native non supporta `hitSlop`.** Le parole tappabili
+    (`WordToken`) restano quindi piccole quanto il testo stesso — non è
+    stato possibile allargarne l'area di tocco con `hitSlop` come per i
+    `Pressable`. Se in futuro serve un'area di tocco più grande, l'unica
+    strada è avvolgere ogni parola in un `Pressable`/`View` invece del
+    `Text` annidato attuale (cambia il modo in cui il testo va a capo,
+    va verificato con attenzione).
 
 ## Modello dati
 
@@ -213,12 +239,11 @@ corretta da qui in avanti in `src/data/content/dizionario.json`,
   da dire resta con `nota` assente o breve — mai riempitiva.
 - **Apostrofi e citazioni**: nei testi di `etimologia` e nelle `nota` dei
   discendenti, i termini citati vanno tra apici dritti singoli (`'gallico'`)
-  per restare pronti a un componente di auto-corsivo (come nell'app web
-  precedente) che non è ancora stato costruito in questa app (è nella lista
-  Fase 6). Le elisioni italiane/spagnole (`l'aggettivo`, `un'idea`) vanno
-  scritte con l'apostrofo tipografico `'` (U+2019), mai con l'apice dritto,
-  altrimenti quando il componente verrà costruito romperà l'accoppiamento
-  delle citazioni.
+  perché `TestoConCitazioni` (`src/components/popup/TestoConCitazioni.tsx`)
+  li mette in corsivo automaticamente individuando le coppie di apici. Le
+  elisioni italiane/spagnole (`l'aggettivo`, `un'idea`) vanno scritte con
+  l'apostrofo tipografico `'` (U+2019), mai con l'apice dritto, altrimenti
+  spezzano l'accoppiamento delle citazioni.
 
 ## Struttura cartelle
 
@@ -226,18 +251,21 @@ corretta da qui in avanti in `src/data/content/dizionario.json`,
 src/
   navigation/     RootNavigator (native-stack) + tipi delle route
   screens/        LibraryScreen, ChaptersScreen, ReadingScreen,
-                  TranslationScreen, SettingsScreen, CustomizationsScreen
+                  TranslationScreen, SettingsScreen, CustomizationsScreen,
+                  OnboardingScreen
   components/
     reading/      WordToken, ParagraphLine, ParagraphNav
     popup/        WordPopupSheet (bottom sheet), PopupSection,
-                  CampoModificabile (campo editabile con override)
+                  CampoModificabile (campo editabile con override),
+                  TestoConCitazioni (auto-corsivo delle citazioni)
   store/          useSettingsStore, useReadingStore (zustand)
   data/
     content/      JSON statici (dizionario, forme, opere/*)
     loadContent.ts
     db/           schema SQLite + helper di lettura/scrittura
   i18n/           config i18next, locales/{it,en,es}.json, lingue.ts
-  theme/          tokens.ts (colori, tipografia, spaziature)
+  theme/          tokens.ts (colori, tipografia, spaziature, conAlpha),
+                  useTema.ts (hook per il tema attivo)
   types/          content.ts, db.ts
 scripts/genera-contenuti/   scheletro Fase 5 (non implementato)
 ```
@@ -270,3 +298,14 @@ diverse. Aggiungi una riga breve ad ogni richiesta importante, con la data.
   (editor delle personalizzazioni nel popup + CustomizationsScreen con
   esporta/importa), scope volutamente ridotto ai campi di testo semplice
   (traduzione, nota, etimologia) — discendenti e forme restano per Fase 6.
+  Scelto di continuare con la sola Fase 6 (non la 5, che richiede una
+  decisione dell'utente su provider/chiave API del modello linguistico):
+  tema reattivo con selettore chiaro/scuro/seppia, auto-corsivo delle
+  citazioni, onboarding di 3 schermate, passata di accessibilità, ed
+  editor dei discendenti (completando così anche lo scope lasciato aperto
+  in Fase 4). Icona/splash artwork dedicati non fatti (nessuno strumento
+  di illustrazione disponibile in sessione). Trovati e corretti altri due
+  bug reali in verifica: i puntini dell'onboarding restavano indietro di
+  un tocco sul pulsante "Avanti" (vedi decisione tecnica 10), e l'header
+  della Libreria tagliava il testo del pulsante Impostazioni sul bordo
+  destro dello schermo.

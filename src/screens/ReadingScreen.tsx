@@ -14,17 +14,19 @@ import { MisuraParola } from '../components/reading/WordToken';
 import ParagraphNav from '../components/reading/ParagraphNav';
 import WordPopupSheet, { WordPopupSheetRef, ALTEZZA_MASSIMA_POPUP } from '../components/popup/WordPopupSheet';
 import { Occorrenza } from '../types/content';
-import { TEMI, FONT, SCALA_TESTO, SPAZIATURA, RAGGIO } from '../theme/tokens';
+import { useTema } from '../theme/useTema';
+import { Tema, FONT, SCALA_TESTO, SPAZIATURA, RAGGIO } from '../theme/tokens';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Lettura'>;
 
-const tema = TEMI.chiaro;
 const ALTEZZA_FINESTRA = Dimensions.get('window').height;
 
 export default function ReadingScreen({ route, navigation }: Props) {
   const { t } = useTranslation();
   const { operaSlug, libro, capitolo, paragrafo } = route.params;
   const insets = useSafeAreaInsets();
+  const tema = useTema();
+  const styles = useMemo(() => creaStili(tema), [tema]);
   const opera = useMemo(() => leggiOpera(operaSlug), [operaSlug]);
   const capitoloCorrente = useMemo(() => {
     const l = opera?.libri.find((b) => b.numero === libro);
@@ -153,27 +155,38 @@ export default function ReadingScreen({ route, navigation }: Props) {
   );
 }
 
-const styles = StyleSheet.create({
-  contenitore: { flex: 1, backgroundColor: tema.sfondo },
-  intestazione: {
-    paddingHorizontal: SPAZIATURA.lg,
-    paddingBottom: SPAZIATURA.sm,
-    borderBottomWidth: 1,
-    borderBottomColor: tema.bordo,
-    backgroundColor: tema.sfondo,
-  },
-  intestazioneRiga: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 6 },
-  pulsanteIndietro: { flexShrink: 1, marginRight: SPAZIATURA.sm },
-  testoIndietro: { fontFamily: FONT.sans, fontSize: 14, color: tema.accento },
-  pulsanteTraduzione: {
-    paddingVertical: 4,
-    paddingHorizontal: SPAZIATURA.sm,
-    borderRadius: RAGGIO.pillola,
-    borderWidth: 1,
-    borderColor: tema.bordo,
-  },
-  testoTraduzione: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue },
-  riferimento: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue, letterSpacing: 0.4 },
-  corpo: { flex: 1 },
-  corpoContenuto: { paddingHorizontal: SPAZIATURA.lg, paddingVertical: SPAZIATURA.lg, paddingBottom: SPAZIATURA.xxl },
-});
+function creaStili(tema: Tema) {
+  return StyleSheet.create({
+    contenitore: { flex: 1, backgroundColor: tema.sfondo },
+    intestazione: {
+      paddingHorizontal: SPAZIATURA.lg,
+      paddingBottom: SPAZIATURA.sm,
+      borderBottomWidth: 1,
+      borderBottomColor: tema.bordo,
+      backgroundColor: tema.sfondo,
+    },
+    intestazioneRiga: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      marginBottom: 6,
+    },
+    pulsanteIndietro: { flexShrink: 1, marginRight: SPAZIATURA.sm },
+    testoIndietro: { fontFamily: FONT.sans, fontSize: 14, color: tema.accento },
+    pulsanteTraduzione: {
+      paddingVertical: 4,
+      paddingHorizontal: SPAZIATURA.sm,
+      borderRadius: RAGGIO.pillola,
+      borderWidth: 1,
+      borderColor: tema.bordo,
+    },
+    testoTraduzione: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue },
+    riferimento: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue, letterSpacing: 0.4 },
+    corpo: { flex: 1 },
+    corpoContenuto: {
+      paddingHorizontal: SPAZIATURA.lg,
+      paddingVertical: SPAZIATURA.lg,
+      paddingBottom: SPAZIATURA.xxl,
+    },
+  });
+}

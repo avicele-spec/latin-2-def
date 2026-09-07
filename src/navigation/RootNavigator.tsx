@@ -9,13 +9,14 @@ import ReadingScreen from '../screens/ReadingScreen';
 import TranslationScreen from '../screens/TranslationScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import CustomizationsScreen from '../screens/CustomizationsScreen';
-import { TEMI, FONT } from '../theme/tokens';
+import { useTema } from '../theme/useTema';
+import { FONT } from '../theme/tokens';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export default function RootNavigator() {
   const { t } = useTranslation();
-  const tema = TEMI.chiaro;
+  const tema = useTema();
 
   return (
     <Stack.Navigator
@@ -34,7 +35,7 @@ export default function RootNavigator() {
         options={({ navigation }) => ({
           title: t('libreria.titolo'),
           headerRight: () => (
-            <Pressable onPress={() => navigation.navigate('Impostazioni')} hitSlop={10}>
+            <Pressable onPress={() => navigation.navigate('Impostazioni')} hitSlop={10} style={{ paddingRight: 4 }}>
               <Text style={{ fontFamily: FONT.sansMedium, fontSize: 14, color: tema.accento }}>
                 {t('libreria.impostazioni')}
               </Text>

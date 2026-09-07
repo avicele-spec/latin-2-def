@@ -38,3 +38,22 @@ export async function scriviImpostazione<K extends keyof Impostazioni>(
     [chiave, valoreSerializzato]
   );
 }
+
+const CHIAVE_ONBOARDING = 'onboarding_completato';
+
+/** Non fa parte di `Impostazioni` (non è una preferenza dell'utente): stessa tabella, chiave a parte. */
+export async function leggiOnboardingCompletato(): Promise<boolean> {
+  const db = await getDb();
+  const riga = await db.getFirstAsync<{ valore: string }>('SELECT valore FROM impostazioni WHERE chiave = ?', [
+    CHIAVE_ONBOARDING,
+  ]);
+  return riga?.valore === '1';
+}
+
+export async function segnaOnboardingCompletato(): Promise<void> {
+  const db = await getDb();
+  await db.runAsync(
+    'INSERT INTO impostazioni (chiave, valore) VALUES (?, ?) ON CONFLICT(chiave) DO UPDATE SET valore = excluded.valore',
+    [CHIAVE_ONBOARDING, '1']
+  );
+}

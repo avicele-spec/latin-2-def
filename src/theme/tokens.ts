@@ -92,3 +92,15 @@ export const RAGGIO = {
   lg: 20,
   pillola: 999,
 };
+
+/**
+ * Aggiunge trasparenza a un colore esadecimale `#RRGGBB` del tema (per
+ * evidenziazioni/sfondi leggeri che devono restare coerenti col tema attivo
+ * invece di un rgba fisso pensato solo per il tema chiaro).
+ */
+export function conAlpha(colore: string, alpha: number): string {
+  const suffisso = Math.round(Math.min(1, Math.max(0, alpha)) * 255)
+    .toString(16)
+    .padStart(2, '0');
+  return `${colore}${suffisso}`;
+}

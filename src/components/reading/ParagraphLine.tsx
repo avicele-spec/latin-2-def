@@ -2,10 +2,9 @@ import { StyleSheet, Text } from 'react-native';
 
 import { Paragrafo, Occorrenza } from '../../types/content';
 import WordToken, { MisuraParola } from './WordToken';
-import { TEMI, FONT } from '../../theme/tokens';
+import { useTema } from '../../theme/useTema';
+import { FONT } from '../../theme/tokens';
 import { leggiForma } from '../../data/loadContent';
-
-const tema = TEMI.chiaro;
 
 interface Props {
   paragrafo: Paragrafo;
@@ -26,12 +25,17 @@ export default function ParagraphLine({
   interlinea,
   onTocco,
 }: Props) {
+  const tema = useTema();
+
   return (
     <Text style={[styles.paragrafo, { lineHeight: interlinea }]}>
       {paragrafo.testo.map((elemento, indice) => {
         if (elemento.tipo === 'separatore') {
           return (
-            <Text key={`sep_${indice}`} style={{ fontFamily: FONT.serif, fontSize: dimensioneCorpo, color: tema.testo }}>
+            <Text
+              key={`sep_${indice}`}
+              style={{ fontFamily: FONT.serif, fontSize: dimensioneCorpo, color: tema.testo }}
+            >
               {elemento.testo}
             </Text>
           );

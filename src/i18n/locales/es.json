@@ -17,7 +17,8 @@
     "riferimento": "Libro {{libro}} · Cap. {{capitolo}} · § {{paragrafo}}",
     "paragrafo_precedente": "Párrafo anterior",
     "paragrafo_successivo": "Párrafo siguiente",
-    "traduzione_bottone": "Traducción"
+    "traduzione_bottone": "Traducción",
+    "parola_suggerimento": "Abre el lema, el análisis y la etimología de esta palabra"
   },
   "traduzione": {
     "titolo": "Traducción",
@@ -32,6 +33,10 @@
     "piccolo": "Pequeño",
     "medio": "Mediano",
     "grande": "Grande",
+    "tema": "Tema",
+    "chiaro": "Claro",
+    "scuro": "Oscuro",
+    "seppia": "Sepia",
     "mostra_parole_consultate": "Marcar las palabras ya consultadas",
     "mostra_parole_consultate_nota": "Un pequeño punto discreto junto a las palabras que ya has tocado.",
     "personalizzazioni": "Personalizaciones"
@@ -70,6 +75,8 @@
     "etimologia": "Etimología",
     "discendenti": "Descendientes españoles",
     "imparentate": "Palabras emparentadas en {{lingua}}",
+    "discendenti_elenco": "Lista (separada por comas)",
+    "discendenti_nota_etichetta": "Nota",
     "salva_vocabolario": "Guardar en el vocabulario",
     "salvata": "Guardada",
     "chiudi": "Cerrar",
@@ -80,5 +87,16 @@
   },
   "comune": {
     "carica_errore": "No se pudo cargar el contenido."
+  },
+  "onboarding": {
+    "titolo1": "Toca una palabra",
+    "testo1": "Cada palabra del texto latino se puede tocar: se abre al instante el lema, el análisis gramatical, la traducción contextual y la etimología.",
+    "titolo2": "Lee la traducción completa",
+    "testo2": "Cuando quieras el panorama completo, abre la traducción íntegra — en paralelo o sola — siempre desde el punto donde estabas leyendo.",
+    "titolo3": "Elige tu idioma",
+    "testo3": "La interfaz y el contenido de los popups hablan el idioma que prefieras, cambiable en cualquier momento desde los ajustes.",
+    "salta": "Saltar",
+    "avanti": "Siguiente",
+    "inizia": "Empezar a leer"
   }
 }

@@ -7,11 +7,10 @@ import { RootStackParamList } from '../navigation/types';
 import { leggiForma, leggiOpera, testoConFallback } from '../data/loadContent';
 import { useSettingsStore } from '../store/useSettingsStore';
 import { ElementoTesto, Paragrafo } from '../types/content';
-import { TEMI, FONT, SPAZIATURA, RAGGIO } from '../theme/tokens';
+import { useTema } from '../theme/useTema';
+import { Tema, FONT, SPAZIATURA, RAGGIO } from '../theme/tokens';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Traduzione'>;
-
-const tema = TEMI.chiaro;
 
 type Modalita = 'fronte' | 'sola';
 
@@ -27,6 +26,8 @@ export default function TranslationScreen({ route, navigation }: Props) {
   const { t } = useTranslation();
   const { operaSlug, libro, capitolo, paragrafoIniziale } = route.params;
   const lingua = useSettingsStore((s) => s.lingua);
+  const tema = useTema();
+  const styles = useMemo(() => creaStili(tema), [tema]);
   const [modalita, setModalita] = useState<Modalita>('fronte');
   const scrollRef = useRef<ScrollView>(null);
   const posizioniY = useRef<Map<number, number>>(new Map());
@@ -59,6 +60,9 @@ export default function TranslationScreen({ route, navigation }: Props) {
       <View style={styles.selettore}>
         <Pressable
           onPress={() => setModalita('fronte')}
+          accessibilityRole="radio"
+          accessibilityState={{ selected: modalita === 'fronte' }}
+          accessibilityLabel={t('traduzione.a_fronte')}
           style={[styles.opzione, modalita === 'fronte' && styles.opzioneAttiva]}
         >
           <Text style={[styles.opzioneTesto, modalita === 'fronte' && styles.opzioneTestoAttivo]}>
@@ -67,6 +71,9 @@ export default function TranslationScreen({ route, navigation }: Props) {
         </Pressable>
         <Pressable
           onPress={() => setModalita('sola')}
+          accessibilityRole="radio"
+          accessibilityState={{ selected: modalita === 'sola' }}
+          accessibilityLabel={t('traduzione.solo_traduzione')}
           style={[styles.opzione, modalita === 'sola' && styles.opzioneAttiva]}
         >
           <Text style={[styles.opzioneTesto, modalita === 'sola' && styles.opzioneTestoAttivo]}>
@@ -84,6 +91,8 @@ export default function TranslationScreen({ route, navigation }: Props) {
               if (paragrafo.numero === paragrafi[paragrafi.length - 1].numero) setPronta(true);
             }}
             onPress={() => tornaAlParagrafo(paragrafo.numero)}
+            accessibilityRole="button"
+            accessibilityLabel={t('traduzione.paragrafo', { numero: paragrafo.numero })}
             style={({ pressed }) => [styles.blocco, pressed && styles.bloccoPremuto]}
           >
             <Text style={styles.numeroParagrafo}>{t('traduzione.paragrafo', { numero: paragrafo.numero })}</Text>
@@ -96,49 +105,51 @@ export default function TranslationScreen({ route, navigation }: Props) {
   );
 }
 
-const styles = StyleSheet.create({
-  contenitore: { flex: 1, backgroundColor: tema.sfondo },
-  selettore: {
-    flexDirection: 'row',
-    gap: SPAZIATURA.sm,
-    paddingHorizontal: SPAZIATURA.lg,
-    paddingVertical: SPAZIATURA.md,
-    borderBottomWidth: 1,
-    borderBottomColor: tema.bordo,
-  },
-  opzione: {
-    paddingVertical: 6,
-    paddingHorizontal: SPAZIATURA.md,
-    borderRadius: RAGGIO.pillola,
-    borderWidth: 1,
-    borderColor: tema.bordo,
-    backgroundColor: tema.carta,
-  },
-  opzioneAttiva: { backgroundColor: tema.accento, borderColor: tema.accento },
-  opzioneTesto: { fontFamily: FONT.sansMedium, fontSize: 13, color: tema.testoTenue },
-  opzioneTestoAttivo: { color: tema.accentoTestoSu },
-  corpo: { padding: SPAZIATURA.lg, gap: SPAZIATURA.md, paddingBottom: SPAZIATURA.xxl },
-  blocco: {
-    backgroundColor: tema.carta,
-    borderRadius: RAGGIO.md,
-    borderWidth: 1,
-    borderColor: tema.bordo,
-    padding: SPAZIATURA.md,
-  },
-  bloccoPremuto: { opacity: 0.85 },
-  numeroParagrafo: {
-    fontFamily: FONT.sansMedium,
-    fontSize: 11,
-    color: tema.testoTenue,
-    marginBottom: SPAZIATURA.sm,
-  },
-  testoLatino: {
-    fontFamily: FONT.serif,
-    fontStyle: 'italic',
-    fontSize: 15,
-    lineHeight: 24,
-    color: tema.testoTenue,
-    marginBottom: SPAZIATURA.sm,
-  },
-  testoTraduzione: { fontFamily: FONT.serif, fontSize: 17, lineHeight: 27, color: tema.testo },
-});
+function creaStili(tema: Tema) {
+  return StyleSheet.create({
+    contenitore: { flex: 1, backgroundColor: tema.sfondo },
+    selettore: {
+      flexDirection: 'row',
+      gap: SPAZIATURA.sm,
+      paddingHorizontal: SPAZIATURA.lg,
+      paddingVertical: SPAZIATURA.md,
+      borderBottomWidth: 1,
+      borderBottomColor: tema.bordo,
+    },
+    opzione: {
+      paddingVertical: 6,
+      paddingHorizontal: SPAZIATURA.md,
+      borderRadius: RAGGIO.pillola,
+      borderWidth: 1,
+      borderColor: tema.bordo,
+      backgroundColor: tema.carta,
+    },
+    opzioneAttiva: { backgroundColor: tema.accento, borderColor: tema.accento },
+    opzioneTesto: { fontFamily: FONT.sansMedium, fontSize: 13, color: tema.testoTenue },
+    opzioneTestoAttivo: { color: tema.accentoTestoSu },
+    corpo: { padding: SPAZIATURA.lg, gap: SPAZIATURA.md, paddingBottom: SPAZIATURA.xxl },
+    blocco: {
+      backgroundColor: tema.carta,
+      borderRadius: RAGGIO.md,
+      borderWidth: 1,
+      borderColor: tema.bordo,
+      padding: SPAZIATURA.md,
+    },
+    bloccoPremuto: { opacity: 0.85 },
+    numeroParagrafo: {
+      fontFamily: FONT.sansMedium,
+      fontSize: 11,
+      color: tema.testoTenue,
+      marginBottom: SPAZIATURA.sm,
+    },
+    testoLatino: {
+      fontFamily: FONT.serif,
+      fontStyle: 'italic',
+      fontSize: 15,
+      lineHeight: 24,
+      color: tema.testoTenue,
+      marginBottom: SPAZIATURA.sm,
+    },
+    testoTraduzione: { fontFamily: FONT.serif, fontSize: 17, lineHeight: 27, color: tema.testo },
+  });
+}

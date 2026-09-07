@@ -15,8 +15,10 @@ import { Inter_400Regular, Inter_500Medium, Inter_600SemiBold } from '@expo-goog
 
 import './src/i18n/config';
 import RootNavigator from './src/navigation/RootNavigator';
+import OnboardingScreen from './src/screens/OnboardingScreen';
 import { useSettingsStore } from './src/store/useSettingsStore';
 import { useReadingStore } from './src/store/useReadingStore';
+import { leggiOnboardingCompletato, segnaOnboardingCompletato } from './src/data/db/impostazioni';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
@@ -30,14 +32,24 @@ export default function App() {
     Inter_600SemiBold,
   });
   const [datiCaricati, setDatiCaricati] = useState(false);
+  const [onboardingCompletato, setOnboardingCompletato] = useState(false);
   const carica = useSettingsStore((s) => s.carica);
   const caricaOccorrenzeConsultate = useReadingStore((s) => s.caricaOccorrenzeConsultate);
+  const nomeTema = useSettingsStore((s) => s.tema);
 
   useEffect(() => {
-    Promise.all([carica(), caricaOccorrenzeConsultate()])
+    Promise.all([carica(), caricaOccorrenzeConsultate(), leggiOnboardingCompletato()])
+      .then(([, , completato]) => setOnboardingCompletato(completato))
       .catch((errore) => console.warn('Errore in avvio:', errore))
       .finally(() => setDatiCaricati(true));
   }, [carica, caricaOccorrenzeConsultate]);
+
+  const alTerminareOnboarding = () => {
+    setOnboardingCompletato(true);
+    void segnaOnboardingCompletato().catch((errore) =>
+      console.warn('Impossibile salvare il completamento onboarding:', errore)
+    );
+  };
 
   const pronto = fontsCaricati && datiCaricati;
 
@@ -51,10 +63,14 @@ export default function App() {
     <GestureHandlerRootView style={{ flex: 1 }} onLayout={alLayoutRadice}>
       <SafeAreaProvider>
         <BottomSheetModalProvider>
-          <NavigationContainer>
-            <StatusBar style="dark" />
-            <RootNavigator />
-          </NavigationContainer>
+          <StatusBar style={nomeTema === 'scuro' ? 'light' : 'dark'} />
+          {onboardingCompletato ? (
+            <NavigationContainer>
+              <RootNavigator />
+            </NavigationContainer>
+          ) : (
+            <OnboardingScreen onFine={alTerminareOnboarding} />
+          )}
         </BottomSheetModalProvider>
       </SafeAreaProvider>
     </GestureHandlerRootView>
