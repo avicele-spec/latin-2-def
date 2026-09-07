@@ -4,12 +4,15 @@ import { useTranslation } from 'react-i18next';
 import { BottomSheetModal, BottomSheetScrollView } from '@gorhom/bottom-sheet';
 
 import { Occorrenza } from '../../types/content';
+import { Override } from '../../types/db';
 import { componiParola, testoConFallback } from '../../data/loadContent';
 import { useSettingsStore } from '../../store/useSettingsStore';
 import { etichettaDiscendenti, configurazioneLingua, conFallback } from '../../i18n/lingue';
 import { aggiungiAlVocabolario, eLemmaNelVocabolario } from '../../data/db/vocabolario';
+import { leggiOverride, salvaCampoOverride, ripristinaCampo } from '../../data/db/overrides';
 import { TEMI, FONT, SPAZIATURA, RAGGIO } from '../../theme/tokens';
 import PopupSection from './PopupSection';
+import CampoModificabile from './CampoModificabile';
 
 const tema = TEMI.chiaro;
 
@@ -30,10 +33,14 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
   const modalRef = useRef<BottomSheetModal>(null);
   const [occorrenza, setOccorrenza] = useState<Occorrenza | null>(null);
   const [salvata, setSalvata] = useState(false);
+  const [inModifica, setInModifica] = useState(false);
+  const [overrideLemma, setOverrideLemma] = useState<Override | null>(null);
+  const [overrideOccorrenza, setOverrideOccorrenza] = useState<Override | null>(null);
 
   useImperativeHandle(ref, () => ({
     mostra: (nuovaOccorrenza) => {
       setOccorrenza(nuovaOccorrenza);
+      setInModifica(false);
       modalRef.current?.present();
     },
     nascondi: () => modalRef.current?.dismiss(),
@@ -52,6 +59,27 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
     };
   }, [parola]);
 
+  const ricaricaOverride = async () => {
+    if (!parola || !occorrenza) return;
+    try {
+      const [ol, oo] = await Promise.all([
+        leggiOverride('lemma', parola.lemma.lemma_id, lingua),
+        leggiOverride('occorrenza', occorrenza.occorrenza_id, lingua),
+      ]);
+      setOverrideLemma(ol);
+      setOverrideOccorrenza(oo);
+    } catch (errore) {
+      // expo-sqlite assente (target web di verifica): nessuna personalizzazione da mostrare.
+      setOverrideLemma(null);
+      setOverrideOccorrenza(null);
+    }
+  };
+
+  useEffect(() => {
+    void ricaricaOverride();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [parola, occorrenza, lingua]);
+
   const alSalvare = async () => {
     if (!parola || salvata) return;
     try {
@@ -63,6 +91,18 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
   };
 
   const dettagli = parola && occorrenza ? costruisciDettagli(parola, occorrenza, lingua) : null;
+
+  const traduzioneBase = dettagli ? testoConFallback(dettagli.occorrenza.traduzione_contestuale, lingua) : '';
+  const traduzioneOverride = overrideOccorrenza?.campi_modificati['traduzione_contestuale'];
+  const traduzioneMostrata = traduzioneOverride ?? traduzioneBase;
+
+  const notaBase = dettagli?.notaSintattica ?? null;
+  const notaOverride = overrideOccorrenza?.campi_modificati['nota_sintattica'];
+  const notaMostrata = notaOverride ?? notaBase;
+
+  const etimologiaBase = dettagli ? testoConFallback(dettagli.lemma.etimologia.testo, lingua) : '';
+  const etimologiaOverride = overrideLemma?.campi_modificati['etimologia'];
+  const etimologiaMostrata = etimologiaOverride ?? etimologiaBase;
 
   return (
     <BottomSheetModal
@@ -78,14 +118,21 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
             <View style={styles.intestazione}>
               <View style={styles.intestazioneRiga}>
                 <Text style={styles.formaOriginale}>{dettagli.forma.forma}</Text>
-                <Pressable
-                  onPress={() => modalRef.current?.dismiss()}
-                  hitSlop={12}
-                  accessibilityLabel={t('popup.chiudi')}
-                  style={styles.pulsanteChiudi}
-                >
-                  <Text style={styles.pulsanteChiudiTesto}>×</Text>
-                </Pressable>
+                <View style={styles.pulsantiIntestazione}>
+                  <Pressable onPress={() => setInModifica((v) => !v)} hitSlop={12} style={styles.pulsanteModifica}>
+                    <Text style={styles.pulsanteModificaTesto}>
+                      {inModifica ? t('popup.fine_modifica') : t('popup.modifica')}
+                    </Text>
+                  </Pressable>
+                  <Pressable
+                    onPress={() => modalRef.current?.dismiss()}
+                    hitSlop={12}
+                    accessibilityLabel={t('popup.chiudi')}
+                    style={styles.pulsanteChiudi}
+                  >
+                    <Text style={styles.pulsanteChiudiTesto}>×</Text>
+                  </Pressable>
+                </View>
               </View>
               <Text style={styles.paradigma}>
                 <Text style={styles.paradigmaGrassetto}>{dettagli.lemma.paradigma}</Text>
@@ -97,18 +144,53 @@ const WordPopupSheet = forwardRef<WordPopupSheetRef, Props>(function WordPopupSh
               <Text style={styles.formaGrammaticale}>{testoConFallback(dettagli.analisi, lingua)}</Text>
             </View>
 
-            <PopupSection etichetta={t('popup.traduzione')}>
-              {testoConFallback(dettagli.occorrenza.traduzione_contestuale, lingua)}
-            </PopupSection>
+            <CampoModificabile
+              etichetta={t('popup.traduzione')}
+              valore={traduzioneMostrata}
+              modificato={traduzioneOverride !== undefined}
+              inModifica={inModifica}
+              onSalva={async (nuovoValore) => {
+                await salvaCampoOverride('occorrenza', occorrenza!.occorrenza_id, lingua, 'traduzione_contestuale', nuovoValore);
+                await ricaricaOverride();
+              }}
+              onRipristina={async () => {
+                await ripristinaCampo('occorrenza', occorrenza!.occorrenza_id, lingua, 'traduzione_contestuale');
+                await ricaricaOverride();
+              }}
+            />
 
-            {dettagli.notaSintattica ? (
-              <PopupSection etichetta={t('popup.nota_sintattica')}>{dettagli.notaSintattica}</PopupSection>
+            {notaMostrata || inModifica ? (
+              <CampoModificabile
+                etichetta={t('popup.nota_sintattica')}
+                valore={notaMostrata ?? ''}
+                modificato={notaOverride !== undefined}
+                inModifica={inModifica}
+                onSalva={async (nuovoValore) => {
+                  await salvaCampoOverride('occorrenza', occorrenza!.occorrenza_id, lingua, 'nota_sintattica', nuovoValore);
+                  await ricaricaOverride();
+                }}
+                onRipristina={async () => {
+                  await ripristinaCampo('occorrenza', occorrenza!.occorrenza_id, lingua, 'nota_sintattica');
+                  await ricaricaOverride();
+                }}
+              />
             ) : null}
 
-            {dettagli.lemma.etimologia.mostrare ? (
-              <PopupSection etichetta={t('popup.etimologia')}>
-                {testoConFallback(dettagli.lemma.etimologia.testo, lingua)}
-              </PopupSection>
+            {dettagli.lemma.etimologia.mostrare || inModifica ? (
+              <CampoModificabile
+                etichetta={t('popup.etimologia')}
+                valore={etimologiaMostrata}
+                modificato={etimologiaOverride !== undefined}
+                inModifica={inModifica}
+                onSalva={async (nuovoValore) => {
+                  await salvaCampoOverride('lemma', parola!.lemma.lemma_id, lingua, 'etimologia', nuovoValore);
+                  await ricaricaOverride();
+                }}
+                onRipristina={async () => {
+                  await ripristinaCampo('lemma', parola!.lemma.lemma_id, lingua, 'etimologia');
+                  await ricaricaOverride();
+                }}
+              />
             ) : null}
 
             {dettagli.discendenti && (dettagli.discendenti.voci.length > 0 || dettagli.discendenti.nota) ? (
@@ -179,7 +261,16 @@ const styles = StyleSheet.create({
   contenuto: { paddingHorizontal: SPAZIATURA.lg, paddingTop: SPAZIATURA.sm, paddingBottom: SPAZIATURA.xl },
   intestazione: { marginBottom: SPAZIATURA.md, borderBottomWidth: 1, borderBottomColor: tema.bordo, paddingBottom: SPAZIATURA.md },
   intestazioneRiga: { flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between' },
-  pulsanteChiudi: { padding: 2, marginLeft: SPAZIATURA.sm },
+  pulsantiIntestazione: { flexDirection: 'row', alignItems: 'center', gap: SPAZIATURA.sm },
+  pulsanteModifica: {
+    paddingVertical: 4,
+    paddingHorizontal: SPAZIATURA.sm,
+    borderRadius: RAGGIO.pillola,
+    borderWidth: 1,
+    borderColor: tema.bordo,
+  },
+  pulsanteModificaTesto: { fontFamily: FONT.sansMedium, fontSize: 12, color: tema.testoTenue },
+  pulsanteChiudi: { padding: 2 },
   pulsanteChiudiTesto: { fontFamily: FONT.sans, fontSize: 22, lineHeight: 24, color: tema.testoTenue },
   formaOriginale: { fontFamily: FONT.serifSemiBold, fontSize: 26, color: tema.testo },
   paradigma: { fontFamily: FONT.serif, fontSize: 14, color: tema.testoTenue, marginTop: 4 },

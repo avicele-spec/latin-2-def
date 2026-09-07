@@ -1,6 +1,8 @@
 import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useTranslation } from 'react-i18next';
 
+import { RootStackParamList } from '../navigation/types';
 import { useSettingsStore } from '../store/useSettingsStore';
 import { lingueAttive } from '../i18n/lingue';
 import { DimensioneTesto, TEMI, FONT, SPAZIATURA, RAGGIO } from '../theme/tokens';
@@ -8,7 +10,9 @@ import { DimensioneTesto, TEMI, FONT, SPAZIATURA, RAGGIO } from '../theme/tokens
 const tema = TEMI.chiaro;
 const DIMENSIONI: DimensioneTesto[] = ['piccolo', 'medio', 'grande'];
 
-export default function SettingsScreen() {
+type Props = NativeStackScreenProps<RootStackParamList, 'Impostazioni'>;
+
+export default function SettingsScreen({ navigation }: Props) {
   const { t } = useTranslation();
   const lingua = useSettingsStore((s) => s.lingua);
   const dimensioneTesto = useSettingsStore((s) => s.dimensione_testo);
@@ -64,6 +68,13 @@ export default function SettingsScreen() {
             trackColor={{ true: tema.accento, false: tema.bordo }}
           />
         </View>
+      </View>
+
+      <View style={styles.sezione}>
+        <Pressable style={[styles.carta, styles.riga]} onPress={() => navigation.navigate('Personalizzazioni')}>
+          <Text style={styles.rigaTesto}>{t('impostazioni.personalizzazioni')}</Text>
+          <Text style={styles.segnoSelezione}>›</Text>
+        </Pressable>
       </View>
     </ScrollView>
   );

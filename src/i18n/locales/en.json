@@ -33,7 +33,22 @@
     "medio": "Medium",
     "grande": "Large",
     "mostra_parole_consultate": "Mark already-checked words",
-    "mostra_parole_consultate_nota": "A small discreet dot next to words you've already tapped."
+    "mostra_parole_consultate_nota": "A small discreet dot next to words you've already tapped.",
+    "personalizzazioni": "Customizations"
+  },
+  "personalizzazioni": {
+    "titolo": "Customizations",
+    "vuoto": "No customizations yet. Tap \"Edit\" in a word popup to correct a field.",
+    "scope_lemma": "Applies to every occurrence of this word in the corpus",
+    "scope_occorrenza": "Applies only to this point in the text",
+    "esporta": "Export",
+    "importa": "Import",
+    "ripristina_tutto": "Restore all fields",
+    "esportato_titolo": "File saved to",
+    "errore_esportazione": "Export failed",
+    "errore_importazione": "Import failed",
+    "importati_one": "{{count}} customization imported",
+    "importati_other": "{{count}} customizations imported"
   },
   "popup": {
     "categoria_sostantivo": "Noun",
@@ -57,7 +72,11 @@
     "imparentate": "Related words in {{lingua}}",
     "salva_vocabolario": "Save to vocabulary",
     "salvata": "Saved",
-    "chiudi": "Close"
+    "chiudi": "Close",
+    "modifica": "Edit",
+    "fine_modifica": "Done",
+    "salva_campo": "Save",
+    "ripristina": "Restore original"
   },
   "comune": {
     "carica_errore": "The content could not be loaded."

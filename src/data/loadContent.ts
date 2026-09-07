@@ -1,7 +1,7 @@
 import dizionarioRaw from './content/dizionario.json';
 import formeRaw from './content/forme.json';
 import deBrevitateVitae from './content/opere/de-brevitate-vitae.json';
-import { Lemma, Forma, Opera, OperaSommario, TestoLingua } from '../types/content';
+import { Lemma, Forma, Occorrenza, Opera, OperaSommario, TestoLingua } from '../types/content';
 import { conFallback } from '../i18n/lingue';
 
 const DIZIONARIO = dizionarioRaw as Record<string, Lemma>;
@@ -9,6 +9,19 @@ const FORME = formeRaw as Record<string, Forma>;
 const OPERE: Opera[] = [deBrevitateVitae as Opera];
 
 const OPERE_PER_SLUG = new Map(OPERE.map((o) => [o.slug, o]));
+
+const OCCORRENZE_PER_ID = new Map<string, Occorrenza>();
+for (const opera of OPERE) {
+  for (const libro of opera.libri) {
+    for (const capitolo of libro.capitoli) {
+      for (const paragrafo of capitolo.paragrafi) {
+        for (const elemento of paragrafo.testo) {
+          if (elemento.tipo === 'parola') OCCORRENZE_PER_ID.set(elemento.occorrenza_id, elemento);
+        }
+      }
+    }
+  }
+}
 
 export function elencoOpere(): OperaSommario[] {
   return OPERE.map((o) => ({
@@ -29,6 +42,10 @@ export function leggiLemma(lemmaId: string): Lemma | undefined {
 
 export function leggiForma(formaId: string): Forma | undefined {
   return FORME[formaId];
+}
+
+export function leggiOccorrenza(occorrenzaId: string): Occorrenza | undefined {
+  return OCCORRENZE_PER_ID.get(occorrenzaId);
 }
 
 /** Composizione completa dei tre livelli per il popup di una parola. */

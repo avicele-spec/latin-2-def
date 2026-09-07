@@ -4,4 +4,5 @@ export type RootStackParamList = {
   Lettura: { operaSlug: string; libro: number; capitolo: number; paragrafo?: number };
   Traduzione: { operaSlug: string; libro: number; capitolo: number; paragrafoIniziale: number };
   Impostazioni: undefined;
+  Personalizzazioni: undefined;
 };

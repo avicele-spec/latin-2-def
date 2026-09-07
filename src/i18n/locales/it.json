@@ -33,7 +33,22 @@
     "medio": "Medio",
     "grande": "Grande",
     "mostra_parole_consultate": "Segna le parole già consultate",
-    "mostra_parole_consultate_nota": "Un piccolo punto discreto accanto alle parole già toccate."
+    "mostra_parole_consultate_nota": "Un piccolo punto discreto accanto alle parole già toccate.",
+    "personalizzazioni": "Personalizzazioni"
+  },
+  "personalizzazioni": {
+    "titolo": "Personalizzazioni",
+    "vuoto": "Nessuna personalizzazione ancora. Tocca «Modifica» in un popup di parola per correggere un campo.",
+    "scope_lemma": "Vale per tutte le occorrenze di questa parola nel corpus",
+    "scope_occorrenza": "Vale solo per questo punto del testo",
+    "esporta": "Esporta",
+    "importa": "Importa",
+    "ripristina_tutto": "Ripristina tutti i campi",
+    "esportato_titolo": "File salvato in",
+    "errore_esportazione": "Esportazione non riuscita",
+    "errore_importazione": "Importazione non riuscita",
+    "importati_one": "{{count}} personalizzazione importata",
+    "importati_other": "{{count}} personalizzazioni importate"
   },
   "popup": {
     "categoria_sostantivo": "Sostantivo",
@@ -57,7 +72,11 @@
     "imparentate": "Parole imparentate in {{lingua}}",
     "salva_vocabolario": "Salva nel vocabolario",
     "salvata": "Salvata",
-    "chiudi": "Chiudi"
+    "chiudi": "Chiudi",
+    "modifica": "Modifica",
+    "fine_modifica": "Fine",
+    "salva_campo": "Salva",
+    "ripristina": "Ripristina originale"
   },
   "comune": {
     "carica_errore": "Non è stato possibile caricare il contenuto."

@@ -33,7 +33,22 @@
     "medio": "Mediano",
     "grande": "Grande",
     "mostra_parole_consultate": "Marcar las palabras ya consultadas",
-    "mostra_parole_consultate_nota": "Un pequeño punto discreto junto a las palabras que ya has tocado."
+    "mostra_parole_consultate_nota": "Un pequeño punto discreto junto a las palabras que ya has tocado.",
+    "personalizzazioni": "Personalizaciones"
+  },
+  "personalizzazioni": {
+    "titolo": "Personalizaciones",
+    "vuoto": "Todavía no hay personalizaciones. Toca «Editar» en el popup de una palabra para corregir un campo.",
+    "scope_lemma": "Se aplica a todas las apariciones de esta palabra en el corpus",
+    "scope_occorrenza": "Se aplica solo a este punto del texto",
+    "esporta": "Exportar",
+    "importa": "Importar",
+    "ripristina_tutto": "Restaurar todos los campos",
+    "esportato_titolo": "Archivo guardado en",
+    "errore_esportazione": "No se pudo exportar",
+    "errore_importazione": "No se pudo importar",
+    "importati_one": "{{count}} personalización importada",
+    "importati_other": "{{count}} personalizaciones importadas"
   },
   "popup": {
     "categoria_sostantivo": "Sustantivo",
@@ -57,7 +72,11 @@
     "imparentate": "Palabras emparentadas en {{lingua}}",
     "salva_vocabolario": "Guardar en el vocabulario",
     "salvata": "Guardada",
-    "chiudi": "Cerrar"
+    "chiudi": "Cerrar",
+    "modifica": "Editar",
+    "fine_modifica": "Listo",
+    "salva_campo": "Guardar",
+    "ripristina": "Restaurar original"
   },
   "comune": {
     "carica_errore": "No se pudo cargar el contenido."

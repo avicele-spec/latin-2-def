@@ -54,6 +54,43 @@ export async function salvaOverride(
   );
 }
 
+/**
+ * Salva/aggiorna un solo campo, preservando gli altri eventualmente già
+ * personalizzati sullo stesso target+lingua (la riga in `overrides`
+ * contiene tutti i campi modificati in un unico JSON).
+ */
+export async function salvaCampoOverride(
+  targetTipo: TargetTipo,
+  targetId: string,
+  lingua: string,
+  campo: string,
+  valore: string
+): Promise<void> {
+  const esistente = await leggiOverride(targetTipo, targetId, lingua);
+  const campiModificati = { ...(esistente?.campi_modificati ?? {}), [campo]: valore };
+  await salvaOverride(targetTipo, targetId, lingua, campiModificati, esistente?.nota_personale ?? null);
+}
+
+/**
+ * Ripristina un solo campo all'originale. Se dopo la rimozione non restano
+ * altri campi personalizzati per quel target+lingua, elimina la riga.
+ */
+export async function ripristinaCampo(
+  targetTipo: TargetTipo,
+  targetId: string,
+  lingua: string,
+  campo: string
+): Promise<void> {
+  const esistente = await leggiOverride(targetTipo, targetId, lingua);
+  if (!esistente) return;
+  const { [campo]: _rimosso, ...restanti } = esistente.campi_modificati;
+  if (Object.keys(restanti).length === 0) {
+    await ripristinaOriginale(targetTipo, targetId, lingua);
+  } else {
+    await salvaOverride(targetTipo, targetId, lingua, restanti, esistente.nota_personale);
+  }
+}
+
 export async function ripristinaOriginale(
   targetTipo: TargetTipo,
   targetId: string,

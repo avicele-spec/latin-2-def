@@ -33,12 +33,25 @@ Costruito finora:
   renderlo davvero cambiabile serve prima il refactor a tema reattivo
   descritto sotto "Prossimi passi". Aggiungere un selettore che non cambia
   nulla sarebbe stato peggio che non aggiungerlo.
+- **Fase 4** (personalizzazioni). Nel popup, icona "Modifica" (Fine/×
+  quando attiva) rende editabili in linea traduzione contestuale, nota
+  sintattica ed etimologia (`CampoModificabile`), ciascuna con salvataggio
+  e ripristino per singolo campo e un punto discreto quando il valore
+  mostrato è un override. Gli override su lemma (etimologia) si applicano
+  a tutte le occorrenze; quelli su occorrenza (traduzione, nota) solo a
+  quel punto — la nuova `CustomizationsScreen` (da Impostazioni →
+  Personalizzazioni) lo mostra esplicitamente per ogni riga, con
+  esportazione/importazione JSON (`expo-file-system` + `expo-sharing`).
+  **Non incluso in questo checkpoint**: editor per i discendenti (voci +
+  nota) — struttura a lista, non testo semplice, richiede un editor
+  diverso da `CampoModificabile`; e override sulle forme (paradigma/
+  analisi morfologica) — il documento li prevede ma non sono ancora
+  modificabili da UI. Verificato in questo sandbox solo a livello di
+  interfaccia (apertura editor, campi, indicatore, elenco, pulsanti
+  esporta/importa senza crash): la scrittura reale in SQLite, qui sempre
+  assente sul target web, va riprovata su device.
 
 Non ancora costruito (fasi successive, da riprendere una alla volta):
-- **Fase 4** — editor delle personalizzazioni (override su lemma/forma/
-  occorrenza), indicatori "modificato", ripristino, import/export JSON. Le
-  tabelle SQLite (`overrides`) e le funzioni di lettura/scrittura
-  (`src/data/db/overrides.ts`) esistono già; manca solo l'interfaccia.
 - **Fase 5** — script di generazione reale: `scripts/genera-contenuti/`
   contiene solo lo scheletro (CLI, controllo incrementale, modalità
   aggiungi-lingua, batch/ripresa), tutto stubbato.
@@ -46,12 +59,14 @@ Non ancora costruito (fasi successive, da riprendere una alla volta):
   capitoli lunghi, **auto-corsivo delle citazioni tra apici** nel testo di
   etimologia/discendenti (vedi sezione apposita più sotto), icona app e
   splash artwork dedicati (per ora solo i colori sono personalizzati, le
-  immagini sono ancora il placeholder di default di Expo), e il
+  immagini sono ancora il placeholder di default di Expo), editor per
+  discendenti e override sulle forme (vedi Fase 4 sopra), e il
   **refactor a tema reattivo** (`useTema()` al posto di `TEMI.chiaro`
-  importato come costante in ogni schermata/componente — tocca circa 9
+  importato come costante in ogni schermata/componente — tocca circa 10
   file: tutte le schermate, `ParagraphNav`, `WordToken`, `ParagraphLine`,
-  `WordPopupSheet`, `PopupSection`, `RootNavigator`) prima di poter
-  collegare il selettore scuro/seppia già presente in `SettingsScreen`.
+  `WordPopupSheet`, `CampoModificabile`, `PopupSection`, `RootNavigator`)
+  — nessun selettore di tema esiste ancora in `SettingsScreen`, va
+  aggiunto insieme a questo refactor, non prima.
 
 ## Decisioni tecniche prese (e perché)
 
@@ -211,10 +226,11 @@ corretta da qui in avanti in `src/data/content/dizionario.json`,
 src/
   navigation/     RootNavigator (native-stack) + tipi delle route
   screens/        LibraryScreen, ChaptersScreen, ReadingScreen,
-                  TranslationScreen, SettingsScreen
+                  TranslationScreen, SettingsScreen, CustomizationsScreen
   components/
     reading/      WordToken, ParagraphLine, ParagraphNav
-    popup/        WordPopupSheet (bottom sheet), PopupSection
+    popup/        WordPopupSheet (bottom sheet), PopupSection,
+                  CampoModificabile (campo editabile con override)
   store/          useSettingsStore, useReadingStore (zustand)
   data/
     content/      JSON statici (dizionario, forme, opere/*)
@@ -250,4 +266,7 @@ diverse. Aggiungi una riga breve ad ogni richiesta importante, con la data.
   (traduzione integrale + impostazioni con lingua e dimensione testo
   funzionanti). Tema scuro/seppia rimandato a Fase 6 per il motivo spiegato
   sopra. Trovato e corretto un bug reale (scrittura SQLite che bloccava un
-  cambio lingua) — vedi decisione tecnica 9.
+  cambio lingua) — vedi decisione tecnica 9. Proseguito poi con la Fase 4
+  (editor delle personalizzazioni nel popup + CustomizationsScreen con
+  esporta/importa), scope volutamente ridotto ai campi di testo semplice
+  (traduzione, nota, etimologia) — discendenti e forme restano per Fase 6.

@@ -8,6 +8,7 @@ import ChaptersScreen from '../screens/ChaptersScreen';
 import ReadingScreen from '../screens/ReadingScreen';
 import TranslationScreen from '../screens/TranslationScreen';
 import SettingsScreen from '../screens/SettingsScreen';
+import CustomizationsScreen from '../screens/CustomizationsScreen';
 import { TEMI, FONT } from '../theme/tokens';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -52,6 +53,11 @@ export default function RootNavigator() {
         name="Impostazioni"
         component={SettingsScreen}
         options={{ title: t('impostazioni.titolo') }}
+      />
+      <Stack.Screen
+        name="Personalizzazioni"
+        component={CustomizationsScreen}
+        options={{ title: t('personalizzazioni.titolo') }}
       />
     </Stack.Navigator>
   );
